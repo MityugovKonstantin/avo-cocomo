@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCOMOCalculator", "COCOMOCalculator\COCOMOCalculator.csproj", "{658C4568-9DBF-4266-8817-32C312FACA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCOMOCalculator.BL", "COCOMOCalculator.BL\COCOMOCalculator.BL.csproj", "{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658C4568-9DBF-4266-8817-32C312FACA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658C4568-9DBF-4266-8817-32C312FACA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658C4568-9DBF-4266-8817-32C312FACA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658C4568-9DBF-4266-8817-32C312FACA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E86863CD-8A2A-4BEA-B704-37677091068F}
+	EndGlobalSection
+EndGlobal
