@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Windows.Forms;
+using COCOMOCalculator.BL.Models;
 
 namespace COCOMOCalculator
 {
     public interface ICOCOMOCalculator
     {
-        string ProjectScore { get; }
-        string ProjectType { get; }
-        string PM { set; }
-        string TM { set; }
+        int ProjectScore { get; }
+
+        ProjectType ProjectType { get; }
+
+        void ShowResult(float pm, float tm);
+
         event EventHandler CalculateClick;
     }
 
@@ -21,33 +24,39 @@ namespace COCOMOCalculator
             butBCCalculate.Click += ButBCCalculate_Click;
         }
 
+        public event EventHandler CalculateClick;
+
+        public int ProjectScore => int.Parse(txtBCProgramScope.Text);
+
+        public ProjectType ProjectType => MapProjectType(cmbBCProjectType.Text);
+
+        public void ShowResult(float pm, float tm)
+        {
+            lblPM.Text = $@"People * month : {pm}";
+            lblTM.Text = $@"Time * month : {tm}";
+        }
 
         private void ButBCCalculate_Click(object sender, EventArgs e)
         {
             if (CalculateClick != null) CalculateClick(sender, EventArgs.Empty);
         }
 
-        public string ProjectScore
+        private static ProjectType MapProjectType(string type)
         {
-            get { return txtBCProgramScope.Text; }
+            switch (type)
+            {
+                case "Common":
+                    return ProjectType.Common;
+
+                case "Semi-independent":
+                    return ProjectType.SemiIndependent;
+
+                case "Built-in":
+                    return ProjectType.BuiltIn;
+
+                default:
+                    return ProjectType.Undefined;
+            }
         }
-
-        public string ProjectType
-        {
-            get { return cmbBCProjectType.Text; }
-        }
-
-        public string PM
-        {
-            set { lblPM.Text = "People * month : " + value; }
-        }
-
-        public string TM
-        {
-            set { lblTM.Text = "Time * month : " + value; }
-        }
-
-         public event EventHandler CalculateClick;
-
     }
 }

@@ -1,5 +1,5 @@
-﻿using COCOMOCalculator.BL;
-using System;
+﻿using System;
+using COCOMOCalculator.BL.Interfaces;
 
 namespace COCOMOCalculator
 {
@@ -19,15 +19,16 @@ namespace COCOMOCalculator
             _view.CalculateClick += _view_CalculateClick;
         }
 
-        void _view_CalculateClick(object sender, System.EventArgs e)
+        private void _view_CalculateClick(object sender, EventArgs e)
         {
             try
             {
-                int size = int.Parse(_view.ProjectScore);
-                string type = _view.ProjectType;
+                var size = _view.ProjectScore;
+                var type = _view.ProjectType;
 
-                _view.PM = _manager.Calculate(size, type).GetPM().ToString();
-                _view.TM = _manager.Calculate(size, type).GetTM().ToString();
+                var result = _manager.Calculate(size, type);
+
+                _view.ShowResult(result.Pm, result.Tm);
             }
             catch (Exception ex)
             {

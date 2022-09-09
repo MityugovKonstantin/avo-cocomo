@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainManager.cs" />
+    <Compile Include="Interfaces\IMainManager.cs" />
+    <Compile Include="Services\MainManager.cs" />
+    <Compile Include="Models\CalculationResult.cs" />
+    <Compile Include="Models\ProjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
