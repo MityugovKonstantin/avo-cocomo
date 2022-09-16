@@ -9,9 +9,9 @@ namespace COCOMOCalculator.BL.Services
     {
         private readonly Dictionary<ProjectType, Coefficients> _coefficients = new Dictionary<ProjectType, Coefficients>
         {
-            { ProjectType.Common,          new Coefficients { A = 2.4f, B = 1.05f, C = 2.5f, D = 0.38f } },
-            { ProjectType.SemiIndependent, new Coefficients { A = 3.0f, B = 1.05f, C = 2.5f, D = 0.35f } },
-            { ProjectType.BuiltIn,         new Coefficients { A = 3.6f, B = 1.20f, C = 2.5f, D = 0.32f } },
+            { ProjectType.Common,           new Coefficients { A = 2.4f, B = 1.05f, C = 2.5f, D = 0.38f } },
+            { ProjectType.SemiIndependent,  new Coefficients { A = 3.0f, B = 1.05f, C = 2.5f, D = 0.35f } },
+            { ProjectType.BuiltIn,          new Coefficients { A = 3.6f, B = 1.20f, C = 2.5f, D = 0.32f } },
         };
 
         public CalculationResult Calculate(int size, ProjectType type)
