@@ -18,9 +18,14 @@ namespace COCOMOCalculator
 
             COCOMOCalculator form = new COCOMOCalculator();
             MessageService service = new MessageService();
-            MainManager manager = new MainManager();
+            
+            // добавил ссылку на новый manager
+            BasicManager basicManager = new BasicManager();
+            InterManager interManager = new InterManager();
 
-            MainPresenter mainPresenter = new MainPresenter(form, service, manager);
+            // добавил ещё один объект presenter
+            MainPresenter basicPresenter = new MainPresenter(form, service, basicManager);
+            MainPresenter interPresenter = new MainPresenter(form, service, interManager);
 
             Application.Run(form);
         }

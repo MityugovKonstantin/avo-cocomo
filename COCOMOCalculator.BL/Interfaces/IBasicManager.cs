@@ -2,7 +2,7 @@
 
 namespace COCOMOCalculator.BL.Interfaces
 {
-    public interface IMainManager
+    public interface IBasicManager
     {
         CalculationResult Calculate(int size, ProjectType type);
 

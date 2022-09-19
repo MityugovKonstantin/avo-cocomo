@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 using COCOMOCalculator.BL.Models;
 
@@ -6,13 +7,16 @@ namespace COCOMOCalculator
 {
     public interface ICOCOMOCalculator
     {
-        int ProjectScore { get; }
+        int BCSize { get; }
+        int ICSize { get; }
 
-        ProjectType ProjectType { get; }
+        ProjectType BCProjectType { get; }
+        ProjectType ICProjectType { get; }
 
         void ShowResult(float pm, float tm);
 
-        event EventHandler CalculateClick;
+        event EventHandler BasicCalculateClick;
+        event EventHandler InterCalculateClick;
     }
 
     public partial class COCOMOCalculator : Form, ICOCOMOCalculator
@@ -21,14 +25,19 @@ namespace COCOMOCalculator
         public COCOMOCalculator()
         {
             InitializeComponent();
+
             butBCCalculate.Click += ButBCCalculate_Click;
+            butICCalculate.Click += ButICCalculate_Click;
         }
 
-        public event EventHandler CalculateClick;
+        public event EventHandler BasicCalculateClick;
+        public event EventHandler InterCalculateClick;
 
-        public int ProjectScore => int.Parse(txtBCProgramScope.Text);
+        public int BCSize => int.Parse(txtBCSize.Text);
+        public int ICSize => int.Parse(txtICSize.Text);
 
-        public ProjectType ProjectType => MapProjectType(cmbBCProjectType.Text);
+        public ProjectType BCProjectType => MapProjectType(cmbBCProjectType.Text);
+        public ProjectType ICProjectType => MapProjectType(cmbICProjectType.Text);
 
         public void ShowResult(float pm, float tm)
         {
@@ -38,7 +47,13 @@ namespace COCOMOCalculator
 
         private void ButBCCalculate_Click(object sender, EventArgs e)
         {
-            if (CalculateClick != null) CalculateClick(sender, EventArgs.Empty);
+            if (BasicCalculateClick != null) BasicCalculateClick(sender, EventArgs.Empty);
+        }
+
+
+        private void ButICCalculate_Click(object sender, EventArgs e)
+        {
+            if (InterCalculateClick != null) InterCalculateClick(sender, EventArgs.Empty);
         }
 
         private static ProjectType MapProjectType(string type)
@@ -58,5 +73,27 @@ namespace COCOMOCalculator
                     return ProjectType.Undefined;
             }
         }
+
+        /*private AttributesType MapCoefs(string type)
+        {
+            switch (type)
+            {
+                case "Very low":
+                    return AttributesType.VeryLow;
+                case "Low":
+                    return AttributesType.Low;
+                case "Normal":
+                    return AttributesType.Normal;
+                case "High":
+                    return AttributesType.High;
+                case "Very high":
+                    return AttributesType.VeryHigh;
+                case "Critical":
+                    return AttributesType.Critical;
+                default:
+                    throw new Exception("Неверно указан тип атрибуита");
+            }
+        }*/
+
     }
 }

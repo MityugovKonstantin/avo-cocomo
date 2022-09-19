@@ -41,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IMainManager.cs" />
-    <Compile Include="Services\MainManager.cs" />
+    <Compile Include="Interfaces\IBasicManager.cs" />
+    <Compile Include="Interfaces\IInterManager.cs" />
+    <Compile Include="Models\AttributesType.cs" />
+    <Compile Include="Models\Coefs.cs" />
+    <Compile Include="Services\BasicManager.cs" />
     <Compile Include="Models\CalculationResult.cs" />
     <Compile Include="Models\ProjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\InterManager.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
