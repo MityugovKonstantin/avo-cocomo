@@ -1,6 +1,6 @@
 ﻿namespace COCOMOCalculator.BL.Models
 {
-    public enum AttributesType
+    public enum RatingType
     {
         VeryLow = 0,
         Low = 1,

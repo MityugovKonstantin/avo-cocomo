@@ -41,15 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IBasicManager.cs" />
-    <Compile Include="Interfaces\IInterManager.cs" />
-    <Compile Include="Models\AttributesType.cs" />
-    <Compile Include="Models\Coefs.cs" />
-    <Compile Include="Services\BasicManager.cs" />
+    <Compile Include="Interfaces\ICocomoCalculator.cs" />
+    <Compile Include="Models\Attributes\BasicAttributes.cs" />
+    <Compile Include="Models\Attributes\HardwareAttributes.cs" />
+    <Compile Include="Models\Attributes\PersonalAttributes.cs" />
+    <Compile Include="Models\Attributes\ProductAttributes.cs" />
+    <Compile Include="Models\Attributes\ProjectAttributes.cs" />
+    <Compile Include="Enums\RatingType.cs" />
+    <Compile Include="Models\BaseCalculationArgs.cs" />
+    <Compile Include="Models\BasicCalculationArgs.cs" />
+    <Compile Include="Models\IntermediateCalculationArgs.cs" />
+    <Compile Include="Services\CocomoCalculator.cs" />
     <Compile Include="Models\CalculationResult.cs" />
-    <Compile Include="Models\ProjectType.cs" />
+    <Compile Include="Enums\ProjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\InterManager.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="MainPresenter.cs" />
     <Compile Include="MessageService.cs" />
+    <Compile Include="Interfaces\ICocomoUi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainViewer.resx">
@@ -87,5 +88,6 @@
       <Name>COCOMOCalculator.BL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

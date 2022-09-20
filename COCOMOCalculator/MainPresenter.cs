@@ -1,57 +1,45 @@
 ﻿using System;
-using System.Windows.Forms;
 using COCOMOCalculator.BL.Interfaces;
+using COCOMOCalculator.BL.Models;
+using COCOMOCalculator.Interfaces;
 
 namespace COCOMOCalculator
 {
     internal class MainPresenter
     {
-
-        private readonly ICOCOMOCalculator _view;
+        private readonly ICocomoUi _view;
         private readonly IMessageService _messageService;
-        private readonly IBasicManager _basicManager;
-        private readonly IInterManager _interManager;
+        private readonly ICocomoCalculator _calculator;
 
-        public MainPresenter(ICOCOMOCalculator view, IMessageService messageService, IBasicManager manager)
+        public MainPresenter(ICocomoUi view, IMessageService messageService, ICocomoCalculator calculator)
         {
             _view = view;
             _messageService = messageService;
-            _basicManager = manager;
+            _calculator = calculator;
 
-            _view.BasicCalculateClick += _view_BasicCalculateClick;
+            _view.OnCalculate += _view_OnCalculate;
         }
 
-        public MainPresenter(ICOCOMOCalculator view, IMessageService messageService, IInterManager manager)
-        {
-            _view = view;
-            _messageService = messageService;
-            _interManager = manager;
-
-            _view.InterCalculateClick += _view_InterCalculateClick;
-        }
-
-        private void _view_InterCalculateClick(object sender, EventArgs e)
-        {
-            var size = _view.ICSize;
-            var type = _view.ICProjectType;
-        }
-
-        private void _view_BasicCalculateClick(object sender, EventArgs e)
+        private void _view_OnCalculate(object sender, BaseCalculationArgs args)
         {
             try
             {
-                var size = _view.BCSize;
-                var type = _view.BCProjectType;
-
-                var result = _basicManager.Calculate(size, type);
-
-                _view.ShowResult(result.Pm, result.Tm);
+                CalculationResult result;
+                switch (args)
+                {
+                    case BasicCalculationArgs bca:
+                        result = _calculator.Calculate(bca);
+                        break;
+                    
+                    case IntermediateCalculationArgs ica:
+                        result = _calculator.Calculate(ica);
+                        break;
+                }
             }
             catch (Exception ex)
             {
                 _messageService.ShowError(ex.Message);
             }
-
         }
     }
 }

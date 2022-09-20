@@ -1,27 +1,13 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 using COCOMOCalculator.BL.Models;
+using COCOMOCalculator.BL.Models.Attributes;
+using COCOMOCalculator.Interfaces;
 
 namespace COCOMOCalculator
 {
-    public interface ICOCOMOCalculator
+    public partial class COCOMOCalculator : Form, ICocomoUi
     {
-        int BCSize { get; }
-        int ICSize { get; }
-
-        ProjectType BCProjectType { get; }
-        ProjectType ICProjectType { get; }
-
-        void ShowResult(float pm, float tm);
-
-        event EventHandler BasicCalculateClick;
-        event EventHandler InterCalculateClick;
-    }
-
-    public partial class COCOMOCalculator : Form, ICOCOMOCalculator
-    {
-
         public COCOMOCalculator()
         {
             InitializeComponent();
@@ -30,30 +16,36 @@ namespace COCOMOCalculator
             butICCalculate.Click += ButICCalculate_Click;
         }
 
-        public event EventHandler BasicCalculateClick;
-        public event EventHandler InterCalculateClick;
+        public event EventHandler<BaseCalculationArgs> OnCalculate;
 
-        public int BCSize => int.Parse(txtBCSize.Text);
-        public int ICSize => int.Parse(txtICSize.Text);
-
-        public ProjectType BCProjectType => MapProjectType(cmbBCProjectType.Text);
-        public ProjectType ICProjectType => MapProjectType(cmbICProjectType.Text);
-
-        public void ShowResult(float pm, float tm)
+        public void ShowResult(CalculationResult result)
         {
-            lblPM.Text = $@"People * month : {pm}";
-            lblTM.Text = $@"Time * month : {tm}";
+            lblPM.Text = $@"People * month : {result.PeopleMonth}";
+            lblTM.Text = $@"Time * month : {result.TimeMonth}";
         }
 
         private void ButBCCalculate_Click(object sender, EventArgs e)
         {
-            if (BasicCalculateClick != null) BasicCalculateClick(sender, EventArgs.Empty);
-        }
+            var args = new BasicCalculationArgs
+            {
+                BasicAttributes = new BasicAttributes
+                {
+                    ProjectType = MapProjectType(cmbBCProjectType.Text),
+                    Size = int.Parse(txtBCSize.Text)
+                }
+            };
 
+            OnCalculate?.Invoke(sender, args);
+        }
 
         private void ButICCalculate_Click(object sender, EventArgs e)
         {
-            if (InterCalculateClick != null) InterCalculateClick(sender, EventArgs.Empty);
+            var args = new IntermediateCalculationArgs
+            {
+                // ...
+            };
+
+            OnCalculate?.Invoke(sender, args);
         }
 
         private static ProjectType MapProjectType(string type)
@@ -70,7 +62,7 @@ namespace COCOMOCalculator
                     return ProjectType.BuiltIn;
 
                 default:
-                    return ProjectType.Undefined;
+                    return default;
             }
         }
 

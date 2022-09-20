@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using COCOMOCalculator.BL;
 using COCOMOCalculator.BL.Services;
 
 namespace COCOMOCalculator
@@ -20,12 +19,10 @@ namespace COCOMOCalculator
             MessageService service = new MessageService();
             
             // добавил ссылку на новый manager
-            BasicManager basicManager = new BasicManager();
-            InterManager interManager = new InterManager();
+            CocomoCalculator basicManager = new CocomoCalculator();
 
             // добавил ещё один объект presenter
-            MainPresenter basicPresenter = new MainPresenter(form, service, basicManager);
-            MainPresenter interPresenter = new MainPresenter(form, service, interManager);
+            _ = new MainPresenter(form, service, basicManager);
 
             Application.Run(form);
         }

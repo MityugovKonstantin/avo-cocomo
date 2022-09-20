@@ -2,8 +2,8 @@
 {
     public class CalculationResult
     {
-        public float Pm { get; set; }
+        public float PeopleMonth { get; set; }
 
-        public float Tm { get; set; }
+        public float TimeMonth { get; set; }
     }
 }
