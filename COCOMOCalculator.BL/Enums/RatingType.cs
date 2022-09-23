@@ -2,11 +2,12 @@
 {
     public enum RatingType
     {
-        VeryLow = 0,
-        Low = 1,
-        Normal = 2,
-        High = 3,
-        VeryHigh = 4,
-        Critical = 5
+        Undefined = 0,
+        VeryLow = 1,
+        Low = 2,
+        Normal = 3,
+        High = 4,
+        VeryHigh = 5,
+        Critical = 6
     }
 }

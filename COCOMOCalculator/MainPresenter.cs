@@ -30,11 +30,16 @@ namespace COCOMOCalculator
                     case BasicCalculationArgs bca:
                         result = _calculator.Calculate(bca);
                         break;
-                    
+
                     case IntermediateCalculationArgs ica:
                         result = _calculator.Calculate(ica);
                         break;
+
+                    default:
+                        throw new ArgumentException();
                 }
+
+                _view.ShowResult(result);
             }
             catch (Exception ex)
             {

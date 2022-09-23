@@ -24,6 +24,9 @@ namespace COCOMOCalculator
             lblTM.Text = $@"Time * month : {result.TimeMonth}";
         }
 
+        // Проблема: Программа падает, когда входные данные не сообветствуют тому типу
+        // данных, который принимает ф-ция т.е. когда входные данные null (незаполненны)
+
         private void ButBCCalculate_Click(object sender, EventArgs e)
         {
             var args = new BasicCalculationArgs
@@ -74,9 +77,7 @@ namespace COCOMOCalculator
                     ApplicationSDMethods = MapAttributes(ASDMComboBox.Text),
                     DevelopmentScheduleRequirements = MapAttributes(DSRComboBox.Text)
                 }
-                
             };
-
             OnCalculate?.Invoke(sender, args);
         }
 
@@ -94,7 +95,7 @@ namespace COCOMOCalculator
                     return ProjectType.BuiltIn;
 
                 default:
-                    return default;
+                    return ProjectType.Undefined;
             }
         }
 
@@ -115,7 +116,7 @@ namespace COCOMOCalculator
                 case "Critical":
                     return RatingType.Critical;
                 default:
-                    throw new Exception("Неверно указан тип атрибуита");
+                    return RatingType.Undefined;
             }
         }
 
