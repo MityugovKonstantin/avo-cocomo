@@ -45,21 +45,21 @@
             this.IntermediateCOCOMOTabPage = new System.Windows.Forms.TabPage();
             this.butICCalculate = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.DSRComboBox = new System.Windows.Forms.ComboBox();
+            this.ASDMComboBox = new System.Windows.Forms.ComboBox();
+            this.USDTComboBox = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.DEPLComboBox = new System.Windows.Forms.ComboBox();
+            this.EWVMComboBox = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.DEComboBox = new System.Windows.Forms.ComboBox();
+            this.SDAComboBox = new System.Windows.Forms.ComboBox();
+            this.ASComboBox = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtICSize = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.NRTСomboBox = new System.Windows.Forms.ComboBox();
             this.RTTLabel = new System.Windows.Forms.Label();
             this.VVMEComboBox = new System.Windows.Forms.ComboBox();
             this.MCComboBox = new System.Windows.Forms.ComboBox();
@@ -153,7 +153,7 @@
             this.BasicCOCOMOTabPage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.BasicCOCOMOTabPage.Location = new System.Drawing.Point(4, 22);
             this.BasicCOCOMOTabPage.Name = "BasicCOCOMOTabPage";
-            this.BasicCOCOMOTabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.BasicCOCOMOTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.BasicCOCOMOTabPage.Size = new System.Drawing.Size(718, 400);
             this.BasicCOCOMOTabPage.TabIndex = 0;
             this.BasicCOCOMOTabPage.Text = "Basic COCOMO";
@@ -266,7 +266,7 @@
             this.IntermediateCOCOMOTabPage.Controls.Add(this.ProductAttributesPanel);
             this.IntermediateCOCOMOTabPage.Location = new System.Drawing.Point(4, 22);
             this.IntermediateCOCOMOTabPage.Name = "IntermediateCOCOMOTabPage";
-            this.IntermediateCOCOMOTabPage.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.IntermediateCOCOMOTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.IntermediateCOCOMOTabPage.Size = new System.Drawing.Size(718, 400);
             this.IntermediateCOCOMOTabPage.TabIndex = 1;
             this.IntermediateCOCOMOTabPage.Text = "Intermediate COCOMO";
@@ -278,7 +278,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.butICCalculate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.butICCalculate.Location = new System.Drawing.Point(7, 345);
-            this.butICCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butICCalculate.Margin = new System.Windows.Forms.Padding(2);
             this.butICCalculate.Name = "butICCalculate";
             this.butICCalculate.Size = new System.Drawing.Size(194, 50);
             this.butICCalculate.TabIndex = 12;
@@ -290,9 +290,9 @@
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.comboBox7);
-            this.panel4.Controls.Add(this.comboBox8);
-            this.panel4.Controls.Add(this.comboBox9);
+            this.panel4.Controls.Add(this.DSRComboBox);
+            this.panel4.Controls.Add(this.ASDMComboBox);
+            this.panel4.Controls.Add(this.USDTComboBox);
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label11);
@@ -302,56 +302,56 @@
             this.panel4.Size = new System.Drawing.Size(397, 111);
             this.panel4.TabIndex = 11;
             // 
-            // comboBox7
+            // DSRComboBox
             // 
-            this.comboBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.DSRComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.DSRComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DSRComboBox.FormattingEnabled = true;
+            this.DSRComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low",
             "Normal",
             "High",
             "Very high"});
-            this.comboBox7.Location = new System.Drawing.Point(297, 77);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(86, 21);
-            this.comboBox7.TabIndex = 9;
+            this.DSRComboBox.Location = new System.Drawing.Point(297, 77);
+            this.DSRComboBox.Name = "DSRComboBox";
+            this.DSRComboBox.Size = new System.Drawing.Size(86, 21);
+            this.DSRComboBox.TabIndex = 9;
             // 
-            // comboBox8
+            // ASDMComboBox
             // 
-            this.comboBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.ASDMComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.ASDMComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ASDMComboBox.FormattingEnabled = true;
+            this.ASDMComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low",
             "Normal",
             "High",
             "Very high"});
-            this.comboBox8.Location = new System.Drawing.Point(297, 55);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(86, 21);
-            this.comboBox8.TabIndex = 8;
+            this.ASDMComboBox.Location = new System.Drawing.Point(297, 55);
+            this.ASDMComboBox.Name = "ASDMComboBox";
+            this.ASDMComboBox.Size = new System.Drawing.Size(86, 21);
+            this.ASDMComboBox.TabIndex = 8;
             // 
-            // comboBox9
+            // USDTComboBox
             // 
-            this.comboBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.USDTComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
+            this.USDTComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.USDTComboBox.FormattingEnabled = true;
+            this.USDTComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low",
             "Normal",
             "High",
             "Very high"});
-            this.comboBox9.Location = new System.Drawing.Point(297, 33);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(86, 21);
-            this.comboBox9.TabIndex = 7;
+            this.USDTComboBox.Location = new System.Drawing.Point(297, 33);
+            this.USDTComboBox.Name = "USDTComboBox";
+            this.USDTComboBox.Size = new System.Drawing.Size(86, 21);
+            this.USDTComboBox.TabIndex = 7;
             // 
             // label9
             // 
@@ -399,13 +399,13 @@
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.comboBox5);
-            this.panel3.Controls.Add(this.comboBox6);
+            this.panel3.Controls.Add(this.DEPLComboBox);
+            this.panel3.Controls.Add(this.EWVMComboBox);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.comboBox2);
-            this.panel3.Controls.Add(this.comboBox3);
-            this.panel3.Controls.Add(this.comboBox4);
+            this.panel3.Controls.Add(this.DEComboBox);
+            this.panel3.Controls.Add(this.SDAComboBox);
+            this.panel3.Controls.Add(this.ASComboBox);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
@@ -415,37 +415,37 @@
             this.panel3.Size = new System.Drawing.Size(397, 144);
             this.panel3.TabIndex = 10;
             // 
-            // comboBox5
+            // DEPLComboBox
             // 
-            this.comboBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.DEPLComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.DEPLComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DEPLComboBox.FormattingEnabled = true;
+            this.DEPLComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low",
             "Normal",
             "High"});
-            this.comboBox5.Location = new System.Drawing.Point(297, 113);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(86, 21);
-            this.comboBox5.TabIndex = 13;
+            this.DEPLComboBox.Location = new System.Drawing.Point(297, 113);
+            this.DEPLComboBox.Name = "DEPLComboBox";
+            this.DEPLComboBox.Size = new System.Drawing.Size(86, 21);
+            this.DEPLComboBox.TabIndex = 13;
             // 
-            // comboBox6
+            // EWVMComboBox
             // 
-            this.comboBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.EWVMComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.EWVMComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.EWVMComboBox.FormattingEnabled = true;
+            this.EWVMComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low ",
             "Normal ",
             "High"});
-            this.comboBox6.Location = new System.Drawing.Point(297, 91);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(86, 21);
-            this.comboBox6.TabIndex = 12;
+            this.EWVMComboBox.Location = new System.Drawing.Point(297, 91);
+            this.EWVMComboBox.Name = "EWVMComboBox";
+            this.EWVMComboBox.Size = new System.Drawing.Size(86, 21);
+            this.EWVMComboBox.TabIndex = 12;
             // 
             // label7
             // 
@@ -467,56 +467,56 @@
             this.label8.Text = "Опыт использования виртуальных машин";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // comboBox2
+            // DEComboBox
             // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.DEComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.DEComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DEComboBox.FormattingEnabled = true;
+            this.DEComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low ",
             "Normal ",
             "High ",
             "Very high"});
-            this.comboBox2.Location = new System.Drawing.Point(297, 69);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(86, 21);
-            this.comboBox2.TabIndex = 9;
+            this.DEComboBox.Location = new System.Drawing.Point(297, 69);
+            this.DEComboBox.Name = "DEComboBox";
+            this.DEComboBox.Size = new System.Drawing.Size(86, 21);
+            this.DEComboBox.TabIndex = 9;
             // 
-            // comboBox3
+            // SDAComboBox
             // 
-            this.comboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.SDAComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.SDAComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SDAComboBox.FormattingEnabled = true;
+            this.SDAComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low ",
             "Normal ",
             "High ",
             "Very high"});
-            this.comboBox3.Location = new System.Drawing.Point(297, 47);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(86, 21);
-            this.comboBox3.TabIndex = 8;
+            this.SDAComboBox.Location = new System.Drawing.Point(297, 47);
+            this.SDAComboBox.Name = "SDAComboBox";
+            this.SDAComboBox.Size = new System.Drawing.Size(86, 21);
+            this.SDAComboBox.TabIndex = 8;
             // 
-            // comboBox4
+            // ASComboBox
             // 
-            this.comboBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.ASComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.ASComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ASComboBox.FormattingEnabled = true;
+            this.ASComboBox.Items.AddRange(new object[] {
             "Very low",
             "Low ",
             "Normal ",
             "High ",
             "Very high"});
-            this.comboBox4.Location = new System.Drawing.Point(297, 25);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(86, 21);
-            this.comboBox4.TabIndex = 7;
+            this.ASComboBox.Location = new System.Drawing.Point(297, 25);
+            this.ASComboBox.Name = "ASComboBox";
+            this.ASComboBox.Size = new System.Drawing.Size(86, 21);
+            this.ASComboBox.TabIndex = 7;
             // 
             // label3
             // 
@@ -640,7 +640,7 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.NRTСomboBox);
             this.panel1.Controls.Add(this.RTTLabel);
             this.panel1.Controls.Add(this.VVMEComboBox);
             this.panel1.Controls.Add(this.MCComboBox);
@@ -654,21 +654,21 @@
             this.panel1.Size = new System.Drawing.Size(298, 147);
             this.panel1.TabIndex = 1;
             // 
-            // comboBox1
+            // NRTСomboBox
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.NRTСomboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.NRTСomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.NRTСomboBox.FormattingEnabled = true;
+            this.NRTСomboBox.Items.AddRange(new object[] {
             "Low ",
             "Normal ",
             "High ",
             "Very high"});
-            this.comboBox1.Location = new System.Drawing.Point(205, 118);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(81, 21);
-            this.comboBox1.TabIndex = 14;
+            this.NRTСomboBox.Location = new System.Drawing.Point(205, 118);
+            this.NRTСomboBox.Name = "NRTСomboBox";
+            this.NRTСomboBox.Size = new System.Drawing.Size(81, 21);
+            this.NRTСomboBox.TabIndex = 14;
             // 
             // RTTLabel
             // 
@@ -730,9 +730,9 @@
             // 
             // VVMELabel
             // 
-            this.VVMELabel.Location = new System.Drawing.Point(54, 84);
+            this.VVMELabel.Location = new System.Drawing.Point(40, 84);
             this.VVMELabel.Name = "VVMELabel";
-            this.VVMELabel.Size = new System.Drawing.Size(145, 29);
+            this.VVMELabel.Size = new System.Drawing.Size(159, 29);
             this.VVMELabel.TabIndex = 3;
             this.VVMELabel.Text = "Неустойчивость окружения виртуальной машины";
             this.VVMELabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -962,24 +962,24 @@
         private System.Windows.Forms.ComboBox CPComboBox;
         private System.Windows.Forms.ComboBox SADComboBox;
         private System.Windows.Forms.ComboBox RSRComboBox;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox NRTСomboBox;
         private System.Windows.Forms.Label RTTLabel;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox DEComboBox;
+        private System.Windows.Forms.ComboBox SDAComboBox;
+        private System.Windows.Forms.ComboBox ASComboBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox DEPLComboBox;
+        private System.Windows.Forms.ComboBox EWVMComboBox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox DSRComboBox;
+        private System.Windows.Forms.ComboBox ASDMComboBox;
+        private System.Windows.Forms.ComboBox USDTComboBox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
