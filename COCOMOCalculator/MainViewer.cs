@@ -42,7 +42,39 @@ namespace COCOMOCalculator
         {
             var args = new IntermediateCalculationArgs
             {
-                // ...
+                BasicAttributes = new BasicAttributes
+                {
+                    Size = int.Parse(txtICSize.Text),
+                    ProjectType = MapProjectType(cmbICProjectType.Text)
+                },
+                ProductAttributes = new ProductAttributes
+                {
+                    SoftwareReadability = MapAttributes(RSRComboBox.Text),
+                    DatabaseSize = MapAttributes(SADComboBox.Text),
+                    ProductComplexity = MapAttributes(CPComboBox.Text)
+                },
+                HardwareAttributes = new HardwareAttributes
+                {
+                    SpeedLimit = MapAttributes(RTPCComboBox.Text),
+                    MemoryLimit = MapAttributes(MCComboBox.Text),
+                    EnvironmentalInstability = MapAttributes(VVMEComboBox.Text),
+                    RecoveryTime = MapAttributes(NRTСomboBox.Text)
+                },
+                PersonalAttributes = new PersonalAttributes
+                { 
+                    AnalyticSkills = MapAttributes(ASComboBox.Text),
+                    SoftwareDevelopmentAbility = MapAttributes(SDAComboBox.Text),
+                    DevelopmentExperience = MapAttributes(DEComboBox.Text),
+                    ExperienceWithVirtualMachines = MapAttributes(EWVMComboBox.Text),
+                    DevelopmentExperienceInProgrammingLanguages = MapAttributes(DEPLComboBox.Text)
+                },
+                ProjectAttributes = new ProjectAttributes
+                {
+                    UsingSDToolkit = MapAttributes(USDTComboBox.Text),
+                    ApplicationSDMethods = MapAttributes(ASDMComboBox.Text),
+                    DevelopmentScheduleRequirements = MapAttributes(DSRComboBox.Text)
+                }
+                
             };
 
             OnCalculate?.Invoke(sender, args);
@@ -66,26 +98,26 @@ namespace COCOMOCalculator
             }
         }
 
-        /*private AttributesType MapCoefs(string type)
+        private RatingType MapAttributes(string type)
         {
             switch (type)
             {
                 case "Very low":
-                    return AttributesType.VeryLow;
+                    return RatingType.VeryLow;
                 case "Low":
-                    return AttributesType.Low;
+                    return RatingType.Low;
                 case "Normal":
-                    return AttributesType.Normal;
+                    return RatingType.Normal;
                 case "High":
-                    return AttributesType.High;
+                    return RatingType.High;
                 case "Very high":
-                    return AttributesType.VeryHigh;
+                    return RatingType.VeryHigh;
                 case "Critical":
-                    return AttributesType.Critical;
+                    return RatingType.Critical;
                 default:
                     throw new Exception("Неверно указан тип атрибуита");
             }
-        }*/
+        }
 
     }
 }
