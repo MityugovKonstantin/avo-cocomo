@@ -4,8 +4,8 @@ namespace COCOMOCalculator.BL.Models.Attributes
 {
     public class ProjectAttributes
     {
-        public RatingType UsingSDToolkit { get; set; }
-        public RatingType ApplicationSDMethods { get; set; }
-        public RatingType DevelopmentScheduleRequirements { get; set; }
+        public RatingType UseOfSoftwareTools { get; set; }
+        public RatingType ApplicationOfSoftwareEngineeringMethods { get; set; }
+        public RatingType RequiredDevelopmentSchedule { get; set; }
     }
 }

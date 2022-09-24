@@ -10,7 +10,7 @@ namespace COCOMOCalculator.BL.Models
 
         public HardwareAttributes HardwareAttributes { get; set; }
 
-        public PersonalAttributes PersonalAttributes { get; set; }
+        public PersonnelAttributes PersonnelAttributes { get; set; }
 
         public ProjectAttributes ProjectAttributes { get; set; }
     }

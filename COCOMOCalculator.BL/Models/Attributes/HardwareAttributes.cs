@@ -2,9 +2,9 @@
 {
     public class HardwareAttributes
     {
-        public RatingType SpeedLimit { get; set; }
-        public RatingType MemoryLimit { get; set; }
-        public RatingType EnvironmentalInstability { get; set; }
-        public RatingType RecoveryTime { get; set; }
+        public RatingType RunTimePerformanceConstraints { get; set; }
+        public RatingType MemoryConstraints { get; set; }
+        public RatingType VolatilityOfTheVirtualMachineEnvironment { get; set; }
+        public RatingType RequiredTurnaboutTime { get; set; }
     }
 }

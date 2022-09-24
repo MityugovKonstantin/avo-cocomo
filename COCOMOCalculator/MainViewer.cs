@@ -43,6 +43,7 @@ namespace COCOMOCalculator
 
         private void ButICCalculate_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Твоя мать шлюха" + cmbICProjectType.Text);
             var args = new IntermediateCalculationArgs
             {
                 BasicAttributes = new BasicAttributes
@@ -52,30 +53,30 @@ namespace COCOMOCalculator
                 },
                 ProductAttributes = new ProductAttributes
                 {
-                    SoftwareReadability = MapAttributes(RSRComboBox.Text),
-                    DatabaseSize = MapAttributes(SADComboBox.Text),
-                    ProductComplexity = MapAttributes(CPComboBox.Text)
+                    RequiredSoftwareReliability = MapAttributes(RSRComboBox.Text),
+                    SizeOfApplicationDatabase = MapAttributes(SADComboBox.Text),
+                    ComplexityOfTheProduct = MapAttributes(CPComboBox.Text)
                 },
                 HardwareAttributes = new HardwareAttributes
                 {
-                    SpeedLimit = MapAttributes(RTPCComboBox.Text),
-                    MemoryLimit = MapAttributes(MCComboBox.Text),
-                    EnvironmentalInstability = MapAttributes(VVMEComboBox.Text),
-                    RecoveryTime = MapAttributes(NRTСomboBox.Text)
+                    RunTimePerformanceConstraints = MapAttributes(RTPCComboBox.Text),
+                    MemoryConstraints = MapAttributes(MCComboBox.Text),
+                    VolatilityOfTheVirtualMachineEnvironment = MapAttributes(VVMEComboBox.Text),
+                    RequiredTurnaboutTime = MapAttributes(NRTСomboBox.Text)
                 },
-                PersonalAttributes = new PersonalAttributes
+                PersonnelAttributes = new PersonnelAttributes
                 { 
-                    AnalyticSkills = MapAttributes(ASComboBox.Text),
-                    SoftwareDevelopmentAbility = MapAttributes(SDAComboBox.Text),
-                    DevelopmentExperience = MapAttributes(DEComboBox.Text),
-                    ExperienceWithVirtualMachines = MapAttributes(EWVMComboBox.Text),
-                    DevelopmentExperienceInProgrammingLanguages = MapAttributes(DEPLComboBox.Text)
+                    AnalystCapability = MapAttributes(ASComboBox.Text),
+                    SoftwareEngineerCapability = MapAttributes(SDAComboBox.Text),
+                    ApplicationsExperience = MapAttributes(DEComboBox.Text),
+                    VirtualMachineExperience = MapAttributes(EWVMComboBox.Text),
+                    ProgrammingLanguageExperience = MapAttributes(DEPLComboBox.Text)
                 },
                 ProjectAttributes = new ProjectAttributes
                 {
-                    UsingSDToolkit = MapAttributes(USDTComboBox.Text),
-                    ApplicationSDMethods = MapAttributes(ASDMComboBox.Text),
-                    DevelopmentScheduleRequirements = MapAttributes(DSRComboBox.Text)
+                    UseOfSoftwareTools = MapAttributes(USDTComboBox.Text),
+                    ApplicationOfSoftwareEngineeringMethods = MapAttributes(ASDMComboBox.Text),
+                    RequiredDevelopmentSchedule = MapAttributes(DSRComboBox.Text)
                 }
             };
             OnCalculate?.Invoke(sender, args);

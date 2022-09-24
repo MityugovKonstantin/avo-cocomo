@@ -2,10 +2,10 @@
 {
     public class ProductAttributes
     {
-        public RatingType SoftwareReadability { get; set; }
+        public RatingType RequiredSoftwareReliability { get; set; }
 
-        public RatingType DatabaseSize { get; set; }
+        public RatingType SizeOfApplicationDatabase { get; set; }
 
-        public RatingType ProductComplexity { get; set; }
+        public RatingType ComplexityOfTheProduct { get; set; }
     }
 }

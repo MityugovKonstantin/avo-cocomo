@@ -591,6 +591,7 @@
             // 
             this.cmbICProjectType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbICProjectType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbICProjectType.FormattingEnabled = true;
             this.cmbICProjectType.Items.AddRange(new object[] {
             "Common",
@@ -815,7 +816,7 @@
             "Normal ",
             "High ",
             "Very high"});
-            this.SADComboBox.Location = new System.Drawing.Point(206, 57);
+            this.SADComboBox.Location = new System.Drawing.Point(206, 55);
             this.SADComboBox.Name = "SADComboBox";
             this.SADComboBox.Size = new System.Drawing.Size(81, 21);
             this.SADComboBox.TabIndex = 8;
@@ -832,7 +833,7 @@
             "Normal ",
             "High ",
             "Very high"});
-            this.RSRComboBox.Location = new System.Drawing.Point(206, 36);
+            this.RSRComboBox.Location = new System.Drawing.Point(206, 30);
             this.RSRComboBox.Name = "RSRComboBox";
             this.RSRComboBox.Size = new System.Drawing.Size(81, 21);
             this.RSRComboBox.TabIndex = 7;
@@ -850,7 +851,7 @@
             // SADLabel
             // 
             this.SADLabel.AutoSize = true;
-            this.SADLabel.Location = new System.Drawing.Point(70, 60);
+            this.SADLabel.Location = new System.Drawing.Point(70, 33);
             this.SADLabel.Name = "SADLabel";
             this.SADLabel.Size = new System.Drawing.Size(130, 13);
             this.SADLabel.TabIndex = 2;
@@ -860,12 +861,12 @@
             // RSRLabel
             // 
             this.RSRLabel.AutoSize = true;
-            this.RSRLabel.Location = new System.Drawing.Point(54, 39);
+            this.RSRLabel.Location = new System.Drawing.Point(54, 58);
             this.RSRLabel.Name = "RSRLabel";
             this.RSRLabel.Size = new System.Drawing.Size(146, 13);
             this.RSRLabel.TabIndex = 1;
             this.RSRLabel.Text = "Требуемая надежность ПО";
-            this.RSRLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.RSRLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // PAPanelName
             // 
