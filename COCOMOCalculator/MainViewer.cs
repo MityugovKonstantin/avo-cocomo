@@ -20,12 +20,12 @@ namespace COCOMOCalculator
 
         public void ShowResult(CalculationResult result)
         {
-            lblPM.Text = $@"People * month : {result.PeopleMonth}";
-            lblTM.Text = $@"Time * month : {result.TimeMonth}";
+            new MessageService().ShowMessage(
+                $@"People * month : {result.PeopleMonth}" +
+                "\n" +
+                $@"Time * month   : {result.TimeMonth}"
+            );
         }
-
-        // Проблема: Программа падает, когда входные данные не сообветствуют тому типу
-        // данных, который принимает ф-ция т.е. когда входные данные null (незаполненны)
 
         private void ButBCCalculate_Click(object sender, EventArgs e)
         {
@@ -43,7 +43,6 @@ namespace COCOMOCalculator
 
         private void ButICCalculate_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Твоя мать шлюха" + cmbICProjectType.Text);
             var args = new IntermediateCalculationArgs
             {
                 BasicAttributes = new BasicAttributes
@@ -65,7 +64,7 @@ namespace COCOMOCalculator
                     RequiredTurnaboutTime = MapAttributes(NRTСomboBox.Text)
                 },
                 PersonnelAttributes = new PersonnelAttributes
-                { 
+                {
                     AnalystCapability = MapAttributes(ASComboBox.Text),
                     SoftwareEngineerCapability = MapAttributes(SDAComboBox.Text),
                     ApplicationsExperience = MapAttributes(DEComboBox.Text),
