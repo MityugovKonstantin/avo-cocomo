@@ -33,11 +33,6 @@
             this.TheProjectTypeLabel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.BasicCOCOMOTabPage = new System.Windows.Forms.TabPage();
-            this.ResultPanel = new System.Windows.Forms.Panel();
-            this.lblTM = new System.Windows.Forms.Label();
-            this.lblPM = new System.Windows.Forms.Label();
-            this.DevelopmentTime = new System.Windows.Forms.Label();
-            this.TheComplexity = new System.Windows.Forms.Label();
             this.CalculatePanel = new System.Windows.Forms.Panel();
             this.butBCCalculate = new System.Windows.Forms.Button();
             this.cmbBCProjectType = new System.Windows.Forms.ComboBox();
@@ -91,9 +86,11 @@
             this.PAPanelName = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
+            this.label16 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.BasicCOCOMOTabPage.SuspendLayout();
-            this.ResultPanel.SuspendLayout();
             this.CalculatePanel.SuspendLayout();
             this.IntermediateCOCOMOTabPage.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -107,15 +104,15 @@
             // 
             this.txtBCSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBCSize.Location = new System.Drawing.Point(114, 6);
+            this.txtBCSize.Location = new System.Drawing.Point(169, 33);
             this.txtBCSize.Name = "txtBCSize";
-            this.txtBCSize.Size = new System.Drawing.Size(488, 20);
+            this.txtBCSize.Size = new System.Drawing.Size(452, 20);
             this.txtBCSize.TabIndex = 0;
             // 
             // ProgramScopeLabel
             // 
             this.ProgramScopeLabel.AutoSize = true;
-            this.ProgramScopeLabel.Location = new System.Drawing.Point(3, 9);
+            this.ProgramScopeLabel.Location = new System.Drawing.Point(56, 36);
             this.ProgramScopeLabel.Name = "ProgramScopeLabel";
             this.ProgramScopeLabel.Size = new System.Drawing.Size(107, 13);
             this.ProgramScopeLabel.TabIndex = 1;
@@ -125,7 +122,7 @@
             // TheProjectTypeLabel
             // 
             this.TheProjectTypeLabel.AutoSize = true;
-            this.TheProjectTypeLabel.Location = new System.Drawing.Point(32, 34);
+            this.TheProjectTypeLabel.Location = new System.Drawing.Point(90, 62);
             this.TheProjectTypeLabel.Name = "TheProjectTypeLabel";
             this.TheProjectTypeLabel.Size = new System.Drawing.Size(73, 13);
             this.TheProjectTypeLabel.TabIndex = 2;
@@ -148,8 +145,8 @@
             // 
             // BasicCOCOMOTabPage
             // 
-            this.BasicCOCOMOTabPage.Controls.Add(this.ResultPanel);
             this.BasicCOCOMOTabPage.Controls.Add(this.CalculatePanel);
+            this.BasicCOCOMOTabPage.Controls.Add(this.butBCCalculate);
             this.BasicCOCOMOTabPage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.BasicCOCOMOTabPage.Location = new System.Drawing.Point(4, 22);
             this.BasicCOCOMOTabPage.Name = "BasicCOCOMOTabPage";
@@ -159,77 +156,30 @@
             this.BasicCOCOMOTabPage.Text = "Basic COCOMO";
             this.BasicCOCOMOTabPage.UseVisualStyleBackColor = true;
             // 
-            // ResultPanel
-            // 
-            this.ResultPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ResultPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ResultPanel.Controls.Add(this.lblTM);
-            this.ResultPanel.Controls.Add(this.lblPM);
-            this.ResultPanel.Controls.Add(this.DevelopmentTime);
-            this.ResultPanel.Controls.Add(this.TheComplexity);
-            this.ResultPanel.Location = new System.Drawing.Point(6, 99);
-            this.ResultPanel.Name = "ResultPanel";
-            this.ResultPanel.Size = new System.Drawing.Size(706, 87);
-            this.ResultPanel.TabIndex = 7;
-            // 
-            // lblTM
-            // 
-            this.lblTM.AutoSize = true;
-            this.lblTM.Location = new System.Drawing.Point(121, 48);
-            this.lblTM.Name = "lblTM";
-            this.lblTM.Size = new System.Drawing.Size(0, 13);
-            this.lblTM.TabIndex = 3;
-            // 
-            // lblPM
-            // 
-            this.lblPM.AutoSize = true;
-            this.lblPM.Location = new System.Drawing.Point(118, 16);
-            this.lblPM.Name = "lblPM";
-            this.lblPM.Size = new System.Drawing.Size(0, 13);
-            this.lblPM.TabIndex = 2;
-            // 
-            // DevelopmentTime
-            // 
-            this.DevelopmentTime.AutoSize = true;
-            this.DevelopmentTime.Location = new System.Drawing.Point(112, 48);
-            this.DevelopmentTime.Name = "DevelopmentTime";
-            this.DevelopmentTime.Size = new System.Drawing.Size(0, 13);
-            this.DevelopmentTime.TabIndex = 1;
-            // 
-            // TheComplexity
-            // 
-            this.TheComplexity.AutoSize = true;
-            this.TheComplexity.Location = new System.Drawing.Point(112, 16);
-            this.TheComplexity.Name = "TheComplexity";
-            this.TheComplexity.Size = new System.Drawing.Size(0, 13);
-            this.TheComplexity.TabIndex = 0;
-            // 
             // CalculatePanel
             // 
             this.CalculatePanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CalculatePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CalculatePanel.Controls.Add(this.label16);
             this.CalculatePanel.Controls.Add(this.ProgramScopeLabel);
-            this.CalculatePanel.Controls.Add(this.butBCCalculate);
             this.CalculatePanel.Controls.Add(this.txtBCSize);
             this.CalculatePanel.Controls.Add(this.cmbBCProjectType);
             this.CalculatePanel.Controls.Add(this.TheProjectTypeLabel);
             this.CalculatePanel.Controls.Add(this.ProgrammScopeType);
             this.CalculatePanel.Location = new System.Drawing.Point(6, 6);
             this.CalculatePanel.Name = "CalculatePanel";
-            this.CalculatePanel.Size = new System.Drawing.Size(706, 87);
+            this.CalculatePanel.Size = new System.Drawing.Size(706, 94);
             this.CalculatePanel.TabIndex = 6;
             // 
             // butBCCalculate
             // 
-            this.butBCCalculate.Location = new System.Drawing.Point(114, 59);
+            this.butBCCalculate.Location = new System.Drawing.Point(175, 106);
             this.butBCCalculate.Name = "butBCCalculate";
-            this.butBCCalculate.Size = new System.Drawing.Size(100, 23);
+            this.butBCCalculate.Size = new System.Drawing.Size(453, 23);
             this.butBCCalculate.TabIndex = 5;
             this.butBCCalculate.Text = "Посчитать";
             this.butBCCalculate.UseVisualStyleBackColor = true;
-            this.butBCCalculate.Click += new System.EventHandler(this.ButBCCalculate_Click);
             // 
             // cmbBCProjectType
             // 
@@ -241,17 +191,17 @@
             "Common",
             "Semi-independent",
             "Built-in"});
-            this.cmbBCProjectType.Location = new System.Drawing.Point(114, 32);
+            this.cmbBCProjectType.Location = new System.Drawing.Point(169, 59);
             this.cmbBCProjectType.Name = "cmbBCProjectType";
-            this.cmbBCProjectType.Size = new System.Drawing.Size(489, 21);
+            this.cmbBCProjectType.Size = new System.Drawing.Size(453, 21);
             this.cmbBCProjectType.TabIndex = 4;
             // 
             // ProgrammScopeType
             // 
             this.ProgrammScopeType.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ProgrammScopeType.Location = new System.Drawing.Point(608, 9);
+            this.ProgrammScopeType.Location = new System.Drawing.Point(627, 36);
             this.ProgrammScopeType.Name = "ProgrammScopeType";
-            this.ProgrammScopeType.Size = new System.Drawing.Size(93, 13);
+            this.ProgrammScopeType.Size = new System.Drawing.Size(74, 13);
             this.ProgrammScopeType.TabIndex = 3;
             this.ProgrammScopeType.Text = "тысяч строк кода.";
             this.ProgrammScopeType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -280,11 +230,10 @@
             this.butICCalculate.Location = new System.Drawing.Point(7, 345);
             this.butICCalculate.Margin = new System.Windows.Forms.Padding(2);
             this.butICCalculate.Name = "butICCalculate";
-            this.butICCalculate.Size = new System.Drawing.Size(194, 50);
+            this.butICCalculate.Size = new System.Drawing.Size(700, 50);
             this.butICCalculate.TabIndex = 12;
             this.butICCalculate.Text = "Подсчитать";
             this.butICCalculate.UseVisualStyleBackColor = true;
-            this.butICCalculate.Click += new System.EventHandler(this.ButICCalculate_Click);
             // 
             // panel4
             // 
@@ -439,8 +388,8 @@
             this.EWVMComboBox.FormattingEnabled = true;
             this.EWVMComboBox.Items.AddRange(new object[] {
             "Very low",
-            "Low ",
-            "Normal ",
+            "Low",
+            "Normal",
             "High"});
             this.EWVMComboBox.Location = new System.Drawing.Point(297, 91);
             this.EWVMComboBox.Name = "EWVMComboBox";
@@ -475,9 +424,9 @@
             this.DEComboBox.FormattingEnabled = true;
             this.DEComboBox.Items.AddRange(new object[] {
             "Very low",
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.DEComboBox.Location = new System.Drawing.Point(297, 69);
             this.DEComboBox.Name = "DEComboBox";
@@ -492,9 +441,9 @@
             this.SDAComboBox.FormattingEnabled = true;
             this.SDAComboBox.Items.AddRange(new object[] {
             "Very low",
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.SDAComboBox.Location = new System.Drawing.Point(297, 47);
             this.SDAComboBox.Name = "SDAComboBox";
@@ -509,9 +458,9 @@
             this.ASComboBox.FormattingEnabled = true;
             this.ASComboBox.Items.AddRange(new object[] {
             "Very low",
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.ASComboBox.Location = new System.Drawing.Point(297, 25);
             this.ASComboBox.Name = "ASComboBox";
@@ -662,9 +611,9 @@
             this.NRTСomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.NRTСomboBox.FormattingEnabled = true;
             this.NRTСomboBox.Items.AddRange(new object[] {
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.NRTСomboBox.Location = new System.Drawing.Point(205, 118);
             this.NRTСomboBox.Name = "NRTСomboBox";
@@ -688,9 +637,9 @@
             this.VVMEComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VVMEComboBox.FormattingEnabled = true;
             this.VVMEComboBox.Items.AddRange(new object[] {
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.VVMEComboBox.Location = new System.Drawing.Point(205, 92);
             this.VVMEComboBox.Name = "VVMEComboBox";
@@ -704,8 +653,8 @@
             this.MCComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MCComboBox.FormattingEnabled = true;
             this.MCComboBox.Items.AddRange(new object[] {
-            "Normal ",
-            "High ",
+            "Normal",
+            "High",
             "Very high",
             "Critical"});
             this.MCComboBox.Location = new System.Drawing.Point(205, 66);
@@ -720,8 +669,8 @@
             this.RTPCComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RTPCComboBox.FormattingEnabled = true;
             this.RTPCComboBox.Items.AddRange(new object[] {
-            "Normal ",
-            "High ",
+            "Normal",
+            "High",
             "Very high",
             "Critical"});
             this.RTPCComboBox.Location = new System.Drawing.Point(205, 40);
@@ -812,9 +761,9 @@
             this.SADComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SADComboBox.FormattingEnabled = true;
             this.SADComboBox.Items.AddRange(new object[] {
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.SADComboBox.Location = new System.Drawing.Point(206, 55);
             this.SADComboBox.Name = "SADComboBox";
@@ -829,9 +778,9 @@
             this.RSRComboBox.FormattingEnabled = true;
             this.RSRComboBox.Items.AddRange(new object[] {
             "Very low",
-            "Low ",
-            "Normal ",
-            "High ",
+            "Low",
+            "Normal",
+            "High",
             "Very high"});
             this.RSRComboBox.Location = new System.Drawing.Point(206, 30);
             this.RSRComboBox.Name = "RSRComboBox";
@@ -897,6 +846,16 @@
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.Location = new System.Drawing.Point(7, 9);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(124, 13);
+            this.label16.TabIndex = 6;
+            this.label16.Text = "Базовые аттрибуты";
+            // 
             // COCOMOCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -907,8 +866,6 @@
             this.Text = "COCOMO Calculator";
             this.tabControl1.ResumeLayout(false);
             this.BasicCOCOMOTabPage.ResumeLayout(false);
-            this.ResultPanel.ResumeLayout(false);
-            this.ResultPanel.PerformLayout();
             this.CalculatePanel.ResumeLayout(false);
             this.CalculatePanel.PerformLayout();
             this.IntermediateCOCOMOTabPage.ResumeLayout(false);
@@ -940,9 +897,6 @@
         private System.Windows.Forms.TabPage BasicCOCOMOTabPage;
         private System.Windows.Forms.Button butBCCalculate;
         private System.Windows.Forms.Panel CalculatePanel;
-        private System.Windows.Forms.Panel ResultPanel;
-        private System.Windows.Forms.Label TheComplexity;
-        private System.Windows.Forms.Label DevelopmentTime;
         private System.Windows.Forms.Panel ProductAttributesPanel;
         private System.Windows.Forms.Label PAPanelName;
         private System.Windows.Forms.Label SADLabel;
@@ -987,10 +941,11 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox cmbICProjectType;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label lblPM;
-        private System.Windows.Forms.Label lblTM;
         private System.Windows.Forms.Button butICCalculate;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog2;
+        private System.Windows.Forms.Label label16;
     }
 }
 
