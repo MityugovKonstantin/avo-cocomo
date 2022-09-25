@@ -1,6 +1,6 @@
 ﻿namespace COCOMOCalculator.BL.Models.Coefficents
 {
-    public class IntermediateCoefficents
+    public class RatingTypesCoefficents
     {
         float VeryLow { get; set; }
         float Low { get; set; }

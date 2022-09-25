@@ -23,7 +23,7 @@ namespace COCOMOCalculator
             new MessageService().ShowMessage(
                 $@"People * month : {result.PeopleMonth}" +
                 "\n" +
-                $@"Time * month   : {result.TimeMonth}"
+                $@"Time * month : {result.TimeMonth}"
             );
         }
 
@@ -78,6 +78,7 @@ namespace COCOMOCalculator
                     RequiredDevelopmentSchedule = MapAttributes(DSRComboBox.Text)
                 }
             };
+
             OnCalculate?.Invoke(sender, args);
         }
 

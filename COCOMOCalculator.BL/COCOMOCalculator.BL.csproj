@@ -50,14 +50,14 @@
     <Compile Include="Enums\RatingType.cs" />
     <Compile Include="Models\BaseCalculationArgs.cs" />
     <Compile Include="Models\BasicCalculationArgs.cs" />
-    <Compile Include="Models\Coefficents\IntermediateCoefficents.cs" />
-    <Compile Include="Models\Coefficents\IntermediateProjectTypeCoefficents.cs" />
+    <Compile Include="Models\Coefficents\RatingTypesCoefficents.cs" />
     <Compile Include="Models\IntermediateCalculationArgs.cs" />
     <Compile Include="Services\CocomoCalculator.cs" />
     <Compile Include="Models\CalculationResult.cs" />
     <Compile Include="Enums\ProjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Coefficents\BasicProjectTypeCoefficents.cs" />
+    <Compile Include="Models\Coefficents\ProjectTypeCoefficents.cs" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="basicProjectTypeCoefficents.csv" />
     <None Include="intermediateProjectTypeCoefficents.csv" />
