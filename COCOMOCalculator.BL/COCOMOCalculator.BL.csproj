@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\FileManager.cs" />
+    <Compile Include="Services\IntermediateCocomoCalculator.cs" />
+    <Compile Include="Services\BasicCocomoCalculator.cs" />
     <Compile Include="Interfaces\ICocomoCalculator.cs" />
     <Compile Include="Models\Attributes\BasicAttributes.cs" />
     <Compile Include="Models\Attributes\HardwareAttributes.cs" />
@@ -59,8 +62,15 @@
     <Compile Include="Models\Coefficents\ProjectTypeCoefficents.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="basicProjectTypeCoefficents.csv" />
-    <None Include="intermediateProjectTypeCoefficents.csv" />
+    <None Include="Database\BasicProjectTypeCoefficents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database\CostAttributesCoefficents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database\IntermediateProjectTypeCoefficents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,4 @@
-﻿using System.Net.NetworkInformation;
-
-namespace COCOMOCalculator.BL.Models.Attributes
+﻿namespace COCOMOCalculator.BL.Models.Attributes
 {
     public class ProjectAttributes
     {
