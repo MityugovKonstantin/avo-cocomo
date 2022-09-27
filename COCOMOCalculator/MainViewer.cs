@@ -12,8 +12,8 @@ namespace COCOMOCalculator
         {
             InitializeComponent();
 
-            butBCCalculate.Click += ButBCCalculate_Click;
-            butICCalculate.Click += ButICCalculate_Click;
+            CalculateB.Click += ButBCCalculate_Click;
+            CalculateI.Click += ButICCalculate_Click;
         }
 
         public event EventHandler<BaseCalculationArgs> OnCalculate;
@@ -35,8 +35,8 @@ namespace COCOMOCalculator
                 {
                     BasicAttributes = new BasicAttributes
                     {
-                        ProjectType = MapProjectType(cmbBCProjectType.Text),
-                        Size = int.Parse(txtBCSize.Text)
+                        ProjectType = MapProjectType(ProjectTypeComboBoxB.Text),
+                        Size = int.Parse(SizeTextB.Text)
                     }
                 };
                 OnCalculate?.Invoke(sender, args);
@@ -55,35 +55,35 @@ namespace COCOMOCalculator
                 {
                     BasicAttributes = new BasicAttributes
                     {
-                        Size = int.Parse(txtICSize.Text),
-                        ProjectType = MapProjectType(cmbICProjectType.Text)
+                        Size = int.Parse(SizeTextI.Text),
+                        ProjectType = MapProjectType(ProjectTypeComboBoxI.Text)
                     },
                     ProductAttributes = new ProductAttributes
                     {
-                        RequiredSoftwareReliability = MapAttributes(RSRComboBox.Text),
-                        SizeOfApplicationDatabase = MapAttributes(SADComboBox.Text),
-                        ComplexityOfTheProduct = MapAttributes(CPComboBox.Text)
+                        RequiredSoftwareReliability = MapAttributes(RequiredSoftwareRelabilityComboBoxI.Text),
+                        SizeOfApplicationDatabase = MapAttributes(SizeOfApplicationDatabaseComboBoxI.Text),
+                        ComplexityOfTheProduct = MapAttributes(ComplexityOfTheProductComboBoxI.Text)
                     },
                     HardwareAttributes = new HardwareAttributes
                     {
-                        RunTimePerformanceConstraints = MapAttributes(RTPCComboBox.Text),
-                        MemoryConstraints = MapAttributes(MCComboBox.Text),
-                        VolatilityOfTheVirtualMachineEnvironment = MapAttributes(VVMEComboBox.Text),
-                        RequiredTurnaboutTime = MapAttributes(NRTСomboBox.Text)
+                        RunTimePerformanceConstraints = MapAttributes(RunTimePerformanceConstraintsComboBoxI.Text),
+                        MemoryConstraints = MapAttributes(MemoryConstraintsComboBoxI.Text),
+                        VolatilityOfTheVirtualMachineEnvironment = MapAttributes(VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Text),
+                        RequiredTurnaboutTime = MapAttributes(ReuiredTurnaboutTimeComboBoxI.Text)
                     },
                     PersonnelAttributes = new PersonnelAttributes
                     {
-                        AnalystCapability = MapAttributes(ASComboBox.Text),
-                        SoftwareEngineerCapability = MapAttributes(SDAComboBox.Text),
-                        ApplicationsExperience = MapAttributes(DEComboBox.Text),
-                        VirtualMachineExperience = MapAttributes(EWVMComboBox.Text),
-                        ProgrammingLanguageExperience = MapAttributes(DEPLComboBox.Text)
+                        AnalystCapability = MapAttributes(AnalystCapabilityComboBoxI.Text),
+                        SoftwareEngineerCapability = MapAttributes(SoftwareEngineerCapabilityComboBoxI.Text),
+                        ApplicationsExperience = MapAttributes(ApplicationExperienceComboBoxI.Text),
+                        VirtualMachineExperience = MapAttributes(VirtualMachineExperienceComboBoxI.Text),
+                        ProgrammingLanguageExperience = MapAttributes(ProgrammingLanguageExperienceComboBoxI.Text)
                     },
                     ProjectAttributes = new ProjectAttributes
                     {
-                        UseOfSoftwareTools = MapAttributes(USDTComboBox.Text),
-                        ApplicationOfSoftwareEngineeringMethods = MapAttributes(ASDMComboBox.Text),
-                        RequiredDevelopmentSchedule = MapAttributes(DSRComboBox.Text)
+                        UseOfSoftwareTools = MapAttributes(UseOfSoftwareToolsComboBoxI.Text),
+                        ApplicationOfSoftwareEngineeringMethods = MapAttributes(ApplicationOfSoftwareEngineeringMethodsComboBoxI.Text),
+                        RequiredDevelopmentSchedule = MapAttributes(RequiredDevelopmentScheduleComboBoxI.Text)
                     }
                 };
                 OnCalculate?.Invoke(sender, args);
@@ -132,6 +132,5 @@ namespace COCOMOCalculator
                     return RatingType.Undefined;
             }
         }
-
     }
 }
