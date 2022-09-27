@@ -67,7 +67,7 @@ namespace COCOMOCalculator.BL.Services
         {
             costAttributes.TryGetValue(costAttribute, out var dictionary);
             if (!dictionary.TryGetValue(ratingType, out var coefficent))
-                throw new ArgumentException("Неверный рейтинг аттрибута: " + costAttribute);
+                throw new ArgumentException("Рейтинг аттрибута должен быть задан!");
             return coefficent;
         }
     }

@@ -29,57 +29,69 @@ namespace COCOMOCalculator
 
         private void ButBCCalculate_Click(object sender, EventArgs e)
         {
-            var args = new BasicCalculationArgs
+            try
             {
-                BasicAttributes = new BasicAttributes
+                var args = new BasicCalculationArgs
                 {
-                    ProjectType = MapProjectType(cmbBCProjectType.Text),
-                    Size = int.Parse(txtBCSize.Text)
-                }
-            };
-
-            OnCalculate?.Invoke(sender, args);
+                    BasicAttributes = new BasicAttributes
+                    {
+                        ProjectType = MapProjectType(cmbBCProjectType.Text),
+                        Size = int.Parse(txtBCSize.Text)
+                    }
+                };
+                OnCalculate?.Invoke(sender, args);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Неправильный формат строки!");
+            }
         }
 
         private void ButICCalculate_Click(object sender, EventArgs e)
         {
-            var args = new IntermediateCalculationArgs
+            try
             {
-                BasicAttributes = new BasicAttributes
+                var args = new IntermediateCalculationArgs
                 {
-                    Size = int.Parse(txtICSize.Text),
-                    ProjectType = MapProjectType(cmbICProjectType.Text)
-                },
-                ProductAttributes = new ProductAttributes
-                {
-                    RequiredSoftwareReliability = MapAttributes(RSRComboBox.Text),
-                    SizeOfApplicationDatabase = MapAttributes(SADComboBox.Text),
-                    ComplexityOfTheProduct = MapAttributes(CPComboBox.Text)
-                },
-                HardwareAttributes = new HardwareAttributes
-                {
-                    RunTimePerformanceConstraints = MapAttributes(RTPCComboBox.Text),
-                    MemoryConstraints = MapAttributes(MCComboBox.Text),
-                    VolatilityOfTheVirtualMachineEnvironment = MapAttributes(VVMEComboBox.Text),
-                    RequiredTurnaboutTime = MapAttributes(NRTСomboBox.Text)
-                },
-                PersonnelAttributes = new PersonnelAttributes
-                {
-                    AnalystCapability = MapAttributes(ASComboBox.Text),
-                    SoftwareEngineerCapability = MapAttributes(SDAComboBox.Text),
-                    ApplicationsExperience = MapAttributes(DEComboBox.Text),
-                    VirtualMachineExperience = MapAttributes(EWVMComboBox.Text),
-                    ProgrammingLanguageExperience = MapAttributes(DEPLComboBox.Text)
-                },
-                ProjectAttributes = new ProjectAttributes
-                {
-                    UseOfSoftwareTools = MapAttributes(USDTComboBox.Text),
-                    ApplicationOfSoftwareEngineeringMethods = MapAttributes(ASDMComboBox.Text),
-                    RequiredDevelopmentSchedule = MapAttributes(DSRComboBox.Text)
-                }
-            };
-
-            OnCalculate?.Invoke(sender, args);
+                    BasicAttributes = new BasicAttributes
+                    {
+                        Size = int.Parse(txtICSize.Text),
+                        ProjectType = MapProjectType(cmbICProjectType.Text)
+                    },
+                    ProductAttributes = new ProductAttributes
+                    {
+                        RequiredSoftwareReliability = MapAttributes(RSRComboBox.Text),
+                        SizeOfApplicationDatabase = MapAttributes(SADComboBox.Text),
+                        ComplexityOfTheProduct = MapAttributes(CPComboBox.Text)
+                    },
+                    HardwareAttributes = new HardwareAttributes
+                    {
+                        RunTimePerformanceConstraints = MapAttributes(RTPCComboBox.Text),
+                        MemoryConstraints = MapAttributes(MCComboBox.Text),
+                        VolatilityOfTheVirtualMachineEnvironment = MapAttributes(VVMEComboBox.Text),
+                        RequiredTurnaboutTime = MapAttributes(NRTСomboBox.Text)
+                    },
+                    PersonnelAttributes = new PersonnelAttributes
+                    {
+                        AnalystCapability = MapAttributes(ASComboBox.Text),
+                        SoftwareEngineerCapability = MapAttributes(SDAComboBox.Text),
+                        ApplicationsExperience = MapAttributes(DEComboBox.Text),
+                        VirtualMachineExperience = MapAttributes(EWVMComboBox.Text),
+                        ProgrammingLanguageExperience = MapAttributes(DEPLComboBox.Text)
+                    },
+                    ProjectAttributes = new ProjectAttributes
+                    {
+                        UseOfSoftwareTools = MapAttributes(USDTComboBox.Text),
+                        ApplicationOfSoftwareEngineeringMethods = MapAttributes(ASDMComboBox.Text),
+                        RequiredDevelopmentSchedule = MapAttributes(DSRComboBox.Text)
+                    }
+                };
+                OnCalculate?.Invoke(sender, args);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Неправильный формат строки!");
+            }
         }
 
         private static ProjectType MapProjectType(string type)
