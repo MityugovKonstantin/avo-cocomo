@@ -1,15 +1,16 @@
-﻿RequiredSoftwareReliability,0.75,0.88,1.00,1.15,1.40,null
-SizeOfApplicationDatabase,null,0.94,1.00,1.08,1.16,null
-ComplexityOfTheProduct,0.70,0.85,1.00,1.15,1.30,1.65
-RunTimePerformanceConstraints,null,null,1.00,1.11,1.30,1.66
-MemoryConstraints,null,null,1.00,1.06,1.21,1.56
-VolatilityOfTheVirtualMachineEnvironment,null,0.87,1.00,1.15,1.30,null
-RequiredTurnaboutTime,null,0.87,1.00,1.07,1.15,null
-AnalystCapability,1.46,1.19,1.00,0.86,0.71,null
-ApplicationsExperience,1.29,1.13,1.00,0.91,0.82,null
-SoftwareEngineerCapability,1.42,1.17,1.00,0.86,0.70,null
-VirtualMachineExperience,1.21,1.10,1.00,0.90,null,null
-ProgrammingLanguageExperience,1.14,1.07,1.00,0.95,null,null
-UseOfSoftwareTools,1.24,1.10,1.00,0.91,0.82,null
-ApplicationOfSoftwareEngineeringMethods,1.24,1.10,1.00,0.91,0.83,null
-RequiredDevelopmentSchedule,1.23,1.08,1.00,1.04,1.10,null
+﻿CostAttributes,                           VeryLow,  Low,      Normal,   High,     VeryHigh, Critical
+RequiredSoftwareReliability,              0.75,     0.88,     1.00,     1.15,     1.40,         
+SizeOfApplicationDatabase,                    ,     0.94,     1.00,     1.08,     1.16,         
+ComplexityOfTheProduct,                   0.70,     0.85,     1.00,     1.15,     1.30,     1.65
+RunTimePerformanceConstraints,                ,         ,     1.00,     1.11,     1.30,     1.66
+MemoryConstraints,                            ,         ,     1.00,     1.06,     1.21,     1.56
+VolatilityOfTheVirtualMachineEnvironment,     ,     0.87,     1.00,     1.15,     1.30,         
+RequiredTurnaboutTime,                        ,     0.87,     1.00,     1.07,     1.15,         
+AnalystCapability,                        1.46,     1.19,     1.00,     0.86,     0.71,         
+ApplicationsExperience,                   1.29,     1.13,     1.00,     0.91,     0.82,         
+SoftwareEngineerCapability,               1.42,     1.17,     1.00,     0.86,     0.70,         
+VirtualMachineExperience,                 1.21,     1.10,     1.00,     0.90,         ,         
+ProgrammingLanguageExperience,            1.14,     1.07,     1.00,     0.95,         ,         
+UseOfSoftwareTools,                       1.24,     1.10,     1.00,     0.91,     0.82,         
+ApplicationOfSoftwareEngineeringMethods,  1.24,     1.10,     1.00,     0.91,     0.83,         
+RequiredDevelopmentSchedule,              1.23,     1.08,     1.00,     1.04,     1.10,         

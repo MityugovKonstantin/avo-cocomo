@@ -1,6 +1,7 @@
 ﻿using System;
 using COCOMOCalculator.BL.Interfaces;
 using COCOMOCalculator.BL.Models;
+using COCOMOCalculator.BL.Models.Args;
 using COCOMOCalculator.Interfaces;
 
 namespace COCOMOCalculator
@@ -33,6 +34,14 @@ namespace COCOMOCalculator
 
                     case IntermediateCalculationArgs ica:
                         result = _calculator.Calculate(ica);
+                        break;
+
+                    case EarlyDesignCalculationArgs edca:
+                        result = _calculator.Calculate(edca);
+                        break;
+
+                    case PostArchitectureCalculationArgs paca:
+                        result = _calculator.Calculate(paca);
                         break;
 
                     default:

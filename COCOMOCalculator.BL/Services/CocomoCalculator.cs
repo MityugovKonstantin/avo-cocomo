@@ -1,6 +1,7 @@
 ﻿using System;
 using COCOMOCalculator.BL.Interfaces;
 using COCOMOCalculator.BL.Models;
+using COCOMOCalculator.BL.Models.Args;
 
 namespace COCOMOCalculator.BL.Services
 {
@@ -16,6 +17,18 @@ namespace COCOMOCalculator.BL.Services
         {
             IntermediateCocomoCalculator calculator = new IntermediateCocomoCalculator();
             return calculator.Calculate(args);
+        }
+
+        public CalculationResult Calculate(EarlyDesignCalculationArgs args)
+        {
+            EarlyDesignCocomoCalculator calculator = new EarlyDesignCocomoCalculator();
+            return calculator.Calculate(args);
+        }
+
+        public CalculationResult Calculate(PostArchitectureCalculationArgs args)
+        {
+            PostArchitectureCocomoCalculator calculator = new PostArchitectureCocomoCalculator();
+            return null;// calculator.Calculate(args);
         }
     }
 }

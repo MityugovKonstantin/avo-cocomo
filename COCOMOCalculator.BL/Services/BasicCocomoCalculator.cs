@@ -7,7 +7,7 @@ namespace COCOMOCalculator.BL.Services
     {
         public CalculationResult Calculate(BasicCalculationArgs args)
         {
-            var coefficents = FileManager.FillProjectTypeDictionary("Database\\BasicProjectTypeCoefficents.csv");
+            var coefficents = FileManager.ProjectTypeDictionaryFill("Database\\BasicProjectTypeCoefficents.csv");
 
             if (args == null)
                 throw new ArgumentNullException(nameof(args));

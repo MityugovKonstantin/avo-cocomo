@@ -126,7 +126,7 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.SizeTextPe = new System.Windows.Forms.TextBox();
+            this.SizeTextPa = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label36 = new System.Windows.Forms.Label();
@@ -1058,10 +1058,10 @@
             this.PrecedentednessComboBoxEd.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.PrecedentednessComboBoxEd.Location = new System.Drawing.Point(257, 35);
             this.PrecedentednessComboBoxEd.Name = "PrecedentednessComboBoxEd";
             this.PrecedentednessComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1094,10 +1094,10 @@
             this.DevelopmentFlexibilityComboBoxEd.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.DevelopmentFlexibilityComboBoxEd.Location = new System.Drawing.Point(257, 64);
             this.DevelopmentFlexibilityComboBoxEd.Name = "DevelopmentFlexibilityComboBoxEd";
             this.DevelopmentFlexibilityComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1121,10 +1121,10 @@
             this.TeamCohesionComboBoxEd.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.TeamCohesionComboBoxEd.Location = new System.Drawing.Point(257, 123);
             this.TeamCohesionComboBoxEd.Name = "TeamCohesionComboBoxEd";
             this.TeamCohesionComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1148,10 +1148,10 @@
             this.ArchitectureAndRiskResolutionComboBoxEd.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.ArchitectureAndRiskResolutionComboBoxEd.Location = new System.Drawing.Point(257, 93);
             this.ArchitectureAndRiskResolutionComboBoxEd.Name = "ArchitectureAndRiskResolutionComboBoxEd";
             this.ArchitectureAndRiskResolutionComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1175,10 +1175,10 @@
             this.ProcessMaturityComboBoxEd.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.ProcessMaturityComboBoxEd.Location = new System.Drawing.Point(257, 153);
             this.ProcessMaturityComboBoxEd.Name = "ProcessMaturityComboBoxEd";
             this.ProcessMaturityComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1234,10 +1234,10 @@
             this.PlatformDifficultyComboBoxEd.FormattingEnabled = true;
             this.PlatformDifficultyComboBoxEd.Items.AddRange(new object[] {
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.PlatformDifficultyComboBoxEd.Location = new System.Drawing.Point(257, 151);
             this.PlatformDifficultyComboBoxEd.Name = "PlatformDifficultyComboBoxEd";
             this.PlatformDifficultyComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1260,10 +1260,10 @@
             this.DevelopedForReusabilityComboBoxEd.FormattingEnabled = true;
             this.DevelopedForReusabilityComboBoxEd.Items.AddRange(new object[] {
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.DevelopedForReusabilityComboBoxEd.Location = new System.Drawing.Point(257, 121);
             this.DevelopedForReusabilityComboBoxEd.Name = "DevelopedForReusabilityComboBoxEd";
             this.DevelopedForReusabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1288,10 +1288,10 @@
             "Extra low",
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.ProductReabilityAndComplexityComboBoxEd.Location = new System.Drawing.Point(257, 91);
             this.ProductReabilityAndComplexityComboBoxEd.Name = "ProductReabilityAndComplexityComboBoxEd";
             this.ProductReabilityAndComplexityComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1316,10 +1316,10 @@
             "Extra low",
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.PersonnelExperienceComboBoxEd.Location = new System.Drawing.Point(257, 62);
             this.PersonnelExperienceComboBoxEd.Name = "PersonnelExperienceComboBoxEd";
             this.PersonnelExperienceComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1344,10 +1344,10 @@
             "Extra low",
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.PersonnelCapabilityComboBoxEd.Location = new System.Drawing.Point(257, 33);
             this.PersonnelCapabilityComboBoxEd.Name = "PersonnelCapabilityComboBoxEd";
             this.PersonnelCapabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1369,10 +1369,10 @@
             this.RequiredDevelopmentScheduleComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredDevelopmentScheduleComboBoxEd.FormattingEnabled = true;
             this.RequiredDevelopmentScheduleComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
             "Low",
-            "Normal",
-            "High"});
+            "Nominal",
+            "High",
+            "Very high"});
             this.RequiredDevelopmentScheduleComboBoxEd.Location = new System.Drawing.Point(257, 211);
             this.RequiredDevelopmentScheduleComboBoxEd.Name = "RequiredDevelopmentScheduleComboBoxEd";
             this.RequiredDevelopmentScheduleComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1397,10 +1397,10 @@
             "Extra low",
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.FacilitiesComboBoxEd.Location = new System.Drawing.Point(257, 181);
             this.FacilitiesComboBoxEd.Name = "FacilitiesComboBoxEd";
             this.FacilitiesComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1420,7 +1420,7 @@
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label33);
             this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.SizeTextPe);
+            this.panel7.Controls.Add(this.SizeTextPa);
             this.panel7.Controls.Add(this.label35);
             this.panel7.Location = new System.Drawing.Point(6, 6);
             this.panel7.Name = "panel7";
@@ -1446,12 +1446,12 @@
             this.label34.Text = "тысяч строк кода.";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SizeTextPe
+            // SizeTextPa
             // 
-            this.SizeTextPe.Location = new System.Drawing.Point(159, 34);
-            this.SizeTextPe.Name = "SizeTextPe";
-            this.SizeTextPe.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextPe.TabIndex = 7;
+            this.SizeTextPa.Location = new System.Drawing.Point(159, 34);
+            this.SizeTextPa.Name = "SizeTextPa";
+            this.SizeTextPa.Size = new System.Drawing.Size(78, 20);
+            this.SizeTextPa.TabIndex = 7;
             // 
             // label35
             // 
@@ -1500,10 +1500,10 @@
             this.ProcessMaturityComboBoxPa.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.ProcessMaturityComboBoxPa.Location = new System.Drawing.Point(241, 135);
             this.ProcessMaturityComboBoxPa.Name = "ProcessMaturityComboBoxPa";
             this.ProcessMaturityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1527,10 +1527,10 @@
             this.TeamCohesionComboBoxPa.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.TeamCohesionComboBoxPa.Location = new System.Drawing.Point(241, 110);
             this.TeamCohesionComboBoxPa.Name = "TeamCohesionComboBoxPa";
             this.TeamCohesionComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1554,10 +1554,10 @@
             this.ArchitectureAndRiskResolutionComboBoxPa.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.ArchitectureAndRiskResolutionComboBoxPa.Location = new System.Drawing.Point(241, 85);
             this.ArchitectureAndRiskResolutionComboBoxPa.Name = "ArchitectureAndRiskResolutionComboBoxPa";
             this.ArchitectureAndRiskResolutionComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1581,10 +1581,10 @@
             this.DevelopmentFlexibilityComboBoxPa.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.DevelopmentFlexibilityComboBoxPa.Location = new System.Drawing.Point(241, 60);
             this.DevelopmentFlexibilityComboBoxPa.Name = "DevelopmentFlexibilityComboBoxPa";
             this.DevelopmentFlexibilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1608,10 +1608,10 @@
             this.PrecedentednessComboBoxPa.Items.AddRange(new object[] {
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
             "Very high",
-            "Expta high"});
+            "Extra high"});
             this.PrecedentednessComboBoxPa.Location = new System.Drawing.Point(241, 35);
             this.PrecedentednessComboBoxPa.Name = "PrecedentednessComboBoxPa";
             this.PrecedentednessComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1963,12 +1963,12 @@
             this.RequiredSoftwareRelabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredSoftwareRelabilityComboBoxPa.FormattingEnabled = true;
             this.RequiredSoftwareRelabilityComboBoxPa.Items.AddRange(new object[] {
+            "Extra low",
             "Very low",
             "Low",
-            "Normal",
+            "Nominal",
             "High",
-            "Very high",
-            "Expta high"});
+            "Very high"});
             this.RequiredSoftwareRelabilityComboBoxPa.Location = new System.Drawing.Point(241, 24);
             this.RequiredSoftwareRelabilityComboBoxPa.Name = "RequiredSoftwareRelabilityComboBoxPa";
             this.RequiredSoftwareRelabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -2352,7 +2352,7 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox SizeTextPe;
+        private System.Windows.Forms.TextBox SizeTextPa;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label36;

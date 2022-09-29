@@ -1,0 +1,6 @@
+﻿ScaleFactor,                   VeryLow,  Low,      Nominal,  High,     VeryHigh, ExtraHigh
+Precedentedness,               6.20,     4.96,     3.72,     2.48,     1.24,     0.00
+DevelopmentFlexibility,        5.07,     4.05,     3.04,     2.03,     1.01,     0.00
+ArchitectureAndRiskResolution, 7.07,     5.65,     4.24,     2.83,     1.41,     0.00
+TeamCohesion,                  5.48,     4.38,     3.29,     2.19,     1.10,     0.00
+ProcessMaturuty,               7.80,     6.24,     4.68,     3.12,     1.56,     0.00

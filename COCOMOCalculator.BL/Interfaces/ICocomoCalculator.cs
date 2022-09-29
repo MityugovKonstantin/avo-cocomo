@@ -1,4 +1,5 @@
 ﻿using COCOMOCalculator.BL.Models;
+using COCOMOCalculator.BL.Models.Args;
 
 namespace COCOMOCalculator.BL.Interfaces
 {
@@ -8,6 +9,8 @@ namespace COCOMOCalculator.BL.Interfaces
 
         CalculationResult Calculate(IntermediateCalculationArgs args);
 
-        // ...
+        CalculationResult Calculate(EarlyDesignCalculationArgs args);
+
+        CalculationResult Calculate(PostArchitectureCalculationArgs args);
     }
 }
