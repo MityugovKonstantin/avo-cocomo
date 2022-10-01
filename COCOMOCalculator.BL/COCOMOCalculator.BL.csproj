@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Database\ScaleFactorsCoefficents.csv" />
-    <None Include="Database\EarlyDesignEffortMultiplierCoefficents.csv" />
+    <None Include="Database\ScaleFactorsCoefficents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database\EarlyDesignEffortMultiplierCoefficents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Compile Include="Enums\PostArchitectureEffortMultiplier.cs" />
     <Compile Include="Enums\ScaleFactor.cs" />
     <Compile Include="Enums\EarlyDesignEffortMultiplier.cs" />
@@ -88,7 +92,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Database\PostArchitectureEffortMultiplierCoefficents.csv" />
+    <None Include="Database\PostArchitectureEffortMultiplierCoefficents.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
