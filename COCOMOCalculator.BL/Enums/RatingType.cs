@@ -1,4 +1,4 @@
-﻿namespace COCOMOCalculator.BL.Models
+﻿namespace COCOMOCalculator.BL.Enums
 {
     public enum RatingType
     {

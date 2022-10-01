@@ -1,4 +1,6 @@
-﻿namespace COCOMOCalculator.BL.Models.Attributes
+﻿using COCOMOCalculator.BL.Enums;
+
+namespace COCOMOCalculator.BL.Models.Attributes
 {
     public class PersonnelAttributes
     {

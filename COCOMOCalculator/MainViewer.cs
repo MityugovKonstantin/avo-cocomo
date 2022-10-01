@@ -186,7 +186,7 @@ namespace COCOMOCalculator
             }
         }
 
-        private static ProjectType MapProjectType(string type)
+        private ProjectType MapProjectType(string type)
         {
             switch (type)
             {
