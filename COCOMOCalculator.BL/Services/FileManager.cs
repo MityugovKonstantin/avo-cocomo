@@ -1,17 +1,14 @@
-﻿    using COCOMOCalculator.BL.Models.Coefficents;
+﻿using COCOMOCalculator.BL.Models.Coefficents;
 using COCOMOCalculator.BL.Models;
 using System.Collections.Generic;
 using System.IO;
-using COCOMOCalculator.BL.Enums;
 using System.Linq;
 using System;
-using System.Security.Cryptography;
 
 namespace COCOMOCalculator.BL.Services
 {
-    public class FileManager
+    public class FileManager<T>
     {
-
         public static Dictionary<ProjectType, ProjectTypeCoefficients> ProjectTypeDictionaryFill(string path)
         {
             Dictionary<ProjectType, ProjectTypeCoefficients> coefficentsDictionary = new Dictionary<ProjectType, ProjectTypeCoefficients>();
@@ -23,7 +20,7 @@ namespace COCOMOCalculator.BL.Services
                 var coefStrings = line.Split(',');
                 var projectType = MapProjectType(coefStrings[0].Trim());
 
-                coefParseCheck(coefStrings);
+                CoefParseCheck(coefStrings);
 
                 var coefficents = new ProjectTypeCoefficients()
                 {
@@ -39,35 +36,68 @@ namespace COCOMOCalculator.BL.Services
             return coefficentsDictionary;
         }
 
-        public static Dictionary<string, Dictionary<RatingType, float>> CostAttributesDictionaryFill(string path)
+        public static Dictionary<string, Dictionary<T, float>> CostAttributesDictionaryFill()
         {
-            Dictionary<string, Dictionary<RatingType, float>> coefficentDictionaries = new Dictionary<string, Dictionary<RatingType, float>>();
+            var path = "Database\\CostAttributesCoefficents.csv";
+            var size = 6;
+            return DoubleDictionaryFill(path, size);
+        }
+
+        public static Dictionary<string, Dictionary<T, float>> ScaleFactorDictionaryFill()
+        {
+            var path = "Database\\ScaleFactorsCoefficents.csv";
+            var size = 6;
+            return DoubleDictionaryFill(path, size);
+        }
+
+        public static Dictionary<string, Dictionary<T, float>> EarlyDesignEffortMultiplierDictionaryFill()
+        {
+            var path = "Database\\EarlyDesignEffortMultiplierCoefficents.csv";
+            var size = 7;
+            return DoubleDictionaryFill(path, size);
+        }
+
+        public static Dictionary<string, Dictionary<T, float>> PostArchitectureEffortMultiplierDictionaryFill()
+        {
+            var path = "Database\\PostArchitectureEffortMultiplierCoefficents.csv";
+            var size = 6;
+            return DoubleDictionaryFill(path, size);
+        }
+
+        private static Dictionary<string, Dictionary<T, float>> DoubleDictionaryFill(string path, int size)
+        {
+            Dictionary<string, Dictionary<T, float>> coefficentDictionaries = new Dictionary<string, Dictionary<T, float>>();
 
             var lines = File.ReadAllLines(path);
-            
+
             foreach (var line in lines.Skip(1))
             {
                 var coefStrings = line.Split(',');
-                var costAttribute = coefStrings[0].Trim();
+                var scaleFactor = coefStrings[0].Trim();
 
-                coefParseCheck(coefStrings);
+                CoefParseCheck(coefStrings);
 
-                var dicnionary = new Dictionary<RatingType, float>();
-                for (int i = 1; i < 7; i++)
-                {
-                    if (!string.IsNullOrWhiteSpace(coefStrings[i]))
-                    {
-                        dicnionary.Add(GetRatingTypeByIndex(i), float.Parse(coefStrings[i]));
-                    }
-                }
-                coefficentDictionaries.Add(costAttribute, dicnionary);
+                var dicnionary = SubArrayFill(size, coefStrings);
+                coefficentDictionaries.Add(scaleFactor, dicnionary);
             }
+
             return coefficentDictionaries;
         }
 
+        private static Dictionary<T, float> SubArrayFill(int size, string[] coefStrings)
+        {
+            var dicnionary = new Dictionary<T, float>();
+            for (int i = 1; i <= size; i++)
+            {
+                if (!string.IsNullOrWhiteSpace(coefStrings[i]))
+                {
+                    dicnionary.Add(GetEnumValueByIndex(i), float.Parse(coefStrings[i]));
+                }
+            }
+            return dicnionary;
+        }
 
-
-        private static void coefParseCheck(string[] coefs)
+        private static void CoefParseCheck(string[] coefs)
         {
             float[] parsedCoefs = new float[coefs.Length - 1];
             for (int i = 1; i < coefs.Length - 1; i++)
@@ -76,9 +106,15 @@ namespace COCOMOCalculator.BL.Services
                 {
                     bool parseSuccess = float.TryParse(coefs[i], out parsedCoefs[i - 1]);
                     if (!parseSuccess)
-                        throw new ArgumentException("Ошибка во внешнем файле. \nТип неверного коэффицента : " + coefs[0] + "\nНеверный коэффицент №" + (i + 1));
+                        throw new ArgumentException("Ошибка во внешнем файле. \nТип неверного коэффицента : "
+                            + coefs[0] + "\nНеверный коэффицент №" + (i + 1));
                 }
             }
+        }
+
+        private static T GetEnumValueByIndex(int i)
+        {
+            return (T)Enum.GetValues(typeof(T)).GetValue(i);
         }
 
         private static ProjectType MapProjectType(string type)
@@ -93,27 +129,6 @@ namespace COCOMOCalculator.BL.Services
                     return ProjectType.BuiltIn;
                 default:
                     return ProjectType.Undefined;
-            }
-        }
-
-        private static RatingType GetRatingTypeByIndex(int i)
-        {
-            switch (i)
-            {
-                case 1:
-                    return RatingType.VeryLow;
-                case 2:
-                    return RatingType.Low;
-                case 3:
-                    return RatingType.Normal;
-                case 4:
-                    return RatingType.High;
-                case 5:
-                    return RatingType.VeryHigh;
-                case 6:
-                    return RatingType.Critical;
-                default:
-                    return RatingType.Undefined;
             }
         }
     }

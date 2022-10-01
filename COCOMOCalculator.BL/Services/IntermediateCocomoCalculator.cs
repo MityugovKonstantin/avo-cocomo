@@ -1,4 +1,5 @@
-﻿using COCOMOCalculator.BL.Models;
+﻿using COCOMOCalculator.BL.Enums;
+using COCOMOCalculator.BL.Models;
 using System;
 using System.Collections.Generic;
 
@@ -6,11 +7,11 @@ namespace COCOMOCalculator.BL.Services
 {
     public class IntermediateCocomoCalculator
     {
-        Dictionary<string, Dictionary<RatingType, float>> costAttributes = FileManager.CostAttributesDictionaryFill("Database\\CostAttributesCoefficents.csv");
+        Dictionary<string, Dictionary<RatingType, float>> costAttributes = FileManager<RatingType>.CostAttributesDictionaryFill();
 
         public CalculationResult Calculate(IntermediateCalculationArgs args)
         {
-            var projectTypeCoefficents = FileManager.ProjectTypeDictionaryFill("Database\\IntermediateProjectTypeCoefficents.csv");
+            var projectTypeCoefficents = FileManager<ProjectType>.ProjectTypeDictionaryFill("Database\\IntermediateProjectTypeCoefficents.csv");
 
             if (args == null)
                 throw new ArgumentNullException(nameof(args));
