@@ -36,15 +36,22 @@ namespace COCOMOCalculator
         {
             try
             {
-                var args = new BasicCalculationArgs
+                if (int.Parse(SizeTextB.Text) <= 0)
                 {
-                    BasicAttributes = new BL.Models.Attributes.BasicAttributes
+                    MessageBox.Show("Количество тысяч строк кода должно быть больше нуля.");
+                }
+                else
+                {
+                    var args = new BasicCalculationArgs
                     {
-                        ProjectType = MapProjectType(ProjectTypeComboBoxB.Text),
-                        Size = int.Parse(SizeTextB.Text)
-                    }
-                };
-                OnCalculate?.Invoke(sender, args);
+                        BasicAttributes = new BasicAttributes
+                        {
+                            ProjectType = MapProjectType(ProjectTypeComboBoxB.Text),
+                            Size = int.Parse(SizeTextB.Text)
+                        }
+                    };
+                    OnCalculate?.Invoke(sender, args);
+                }
             }
             catch (Exception)
             {
@@ -56,46 +63,53 @@ namespace COCOMOCalculator
         {
             try
             {
-                var args = new IntermediateCalculationArgs
+                if (int.Parse(SizeTextI.Text) <= 0)
                 {
-                    BasicAttributes = new BL.Models.Attributes.BasicAttributes
+                    new MessageService().ShowError("Количество тысяч строк кода должно быть больше нуля.");
+                }
+                else
+                {
+                    var args = new IntermediateCalculationArgs
                     {
-                        Size = int.Parse(SizeTextI.Text),
-                        ProjectType = MapProjectType(ProjectTypeComboBoxI.Text)
-                    },
-                    ProductAttributes = new ProductAttributes
-                    {
-                        RequiredSoftwareReliability = MapRatingType(RequiredSoftwareRelabilityComboBoxI.Text),
-                        SizeOfApplicationDatabase = MapRatingType(SizeOfApplicationDatabaseComboBoxI.Text),
-                        ComplexityOfTheProduct = MapRatingType(ComplexityOfTheProductComboBoxI.Text)
-                    },
-                    HardwareAttributes = new HardwareAttributes
-                    {
-                        RunTimePerformanceConstraints = MapRatingType(RunTimePerformanceConstraintsComboBoxI.Text),
-                        MemoryConstraints = MapRatingType(MemoryConstraintsComboBoxI.Text),
-                        VolatilityOfTheVirtualMachineEnvironment = MapRatingType(VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Text),
-                        RequiredTurnaboutTime = MapRatingType(ReuiredTurnaboutTimeComboBoxI.Text)
-                    },
-                    PersonnelAttributes = new PersonnelAttributes
-                    {
-                        AnalystCapability = MapRatingType(AnalystCapabilityComboBoxI.Text),
-                        SoftwareEngineerCapability = MapRatingType(SoftwareEngineerCapabilityComboBoxI.Text),
-                        ApplicationsExperience = MapRatingType(ApplicationExperienceComboBoxI.Text),
-                        VirtualMachineExperience = MapRatingType(VirtualMachineExperienceComboBoxI.Text),
-                        ProgrammingLanguageExperience = MapRatingType(ProgrammingLanguageExperienceComboBoxI.Text)
-                    },
-                    ProjectAttributes = new ProjectAttributes
-                    {
-                        UseOfSoftwareTools = MapRatingType(UseOfSoftwareToolsComboBoxI.Text),
-                        ApplicationOfSoftwareEngineeringMethods = MapRatingType(ApplicationOfSoftwareEngineeringMethodsComboBoxI.Text),
-                        RequiredDevelopmentSchedule = MapRatingType(RequiredDevelopmentScheduleComboBoxI.Text)
-                    }
-                };
-                OnCalculate?.Invoke(sender, args);
+                        BasicAttributes = new BasicAttributes
+                        {
+                            Size = int.Parse(SizeTextI.Text),
+                            ProjectType = MapProjectType(ProjectTypeComboBoxI.Text)
+                        },
+                        ProductAttributes = new ProductAttributes
+                        {
+                            RequiredSoftwareReliability = MapRatingType(RequiredSoftwareRelabilityComboBoxI.Text),
+                            SizeOfApplicationDatabase = MapRatingType(SizeOfApplicationDatabaseComboBoxI.Text),
+                            ComplexityOfTheProduct = MapRatingType(ComplexityOfTheProductComboBoxI.Text)
+                        },
+                        HardwareAttributes = new HardwareAttributes
+                        {
+                            RunTimePerformanceConstraints = MapRatingType(RunTimePerformanceConstraintsComboBoxI.Text),
+                            MemoryConstraints = MapRatingType(MemoryConstraintsComboBoxI.Text),
+                            VolatilityOfTheVirtualMachineEnvironment = MapRatingType(VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Text),
+                            RequiredTurnaboutTime = MapRatingType(ReuiredTurnaboutTimeComboBoxI.Text)
+                        },
+                        PersonnelAttributes = new PersonnelAttributes
+                        {
+                            AnalystCapability = MapRatingType(AnalystCapabilityComboBoxI.Text),
+                            SoftwareEngineerCapability = MapRatingType(SoftwareEngineerCapabilityComboBoxI.Text),
+                            ApplicationsExperience = MapRatingType(ApplicationExperienceComboBoxI.Text),
+                            VirtualMachineExperience = MapRatingType(VirtualMachineExperienceComboBoxI.Text),
+                            ProgrammingLanguageExperience = MapRatingType(ProgrammingLanguageExperienceComboBoxI.Text)
+                        },
+                        ProjectAttributes = new ProjectAttributes
+                        {
+                            UseOfSoftwareTools = MapRatingType(UseOfSoftwareToolsComboBoxI.Text),
+                            ApplicationOfSoftwareEngineeringMethods = MapRatingType(ApplicationOfSoftwareEngineeringMethodsComboBoxI.Text),
+                            RequiredDevelopmentSchedule = MapRatingType(RequiredDevelopmentScheduleComboBoxI.Text)
+                        }
+                    };
+                    OnCalculate?.Invoke(sender, args);
+                }
             }
             catch (Exception)
             {
-                MessageBox.Show("Неправильный формат строки!");
+                new MessageService().ShowError("Неправильный формат строки!");
             }
         }
 
@@ -103,33 +117,40 @@ namespace COCOMOCalculator
         {
             try
             {
-                var args = new EarlyDesignCalculationArgs
+                if (int.Parse(SizeTextEd.Text) <= 0)
                 {
-                    Size = int.Parse(SizeTextEd.Text),
-                    ScaleFactorsAttributes = new ScaleFactorsAttributes
+                    new MessageService().ShowError("Количество тысяч строк кода должно быть больше нуля.");
+                }
+                else
+                {
+                    var args = new EarlyDesignCalculationArgs
                     {
-                        Precedentedness =               MapScaleFactor(PrecedentednessComboBoxEd.Text),
-                        DevelopmentFlexibility =        MapScaleFactor(DevelopmentFlexibilityComboBoxEd.Text),
-                        ArchitectureAndRiskResolution = MapScaleFactor(ArchitectureAndRiskResolutionComboBoxEd.Text),
-                        TeamCohesion =                  MapScaleFactor(TeamCohesionComboBoxEd.Text),
-                        ProcessMaturuty =               MapScaleFactor(ProcessMaturityComboBoxEd.Text)
-                    },
-                    EffortMultipliersAttributes = new EffortMultipliersAttributes
-                    {
-                        PersonnelCapability =               MapEarlyDesignEffortMultiplier(PersonnelCapabilityComboBoxEd.Text),
-                        PersonnelExperience =               MapEarlyDesignEffortMultiplier(PersonnelExperienceComboBoxEd.Text),
-                        ProductRelabilityAndComplexity =    MapEarlyDesignEffortMultiplier(ProductReabilityAndComplexityComboBoxEd.Text),
-                        DeveloperForReusability =           MapEarlyDesignEffortMultiplier(DevelopedForReusabilityComboBoxEd.Text),
-                        PlatformDifficulty =                MapEarlyDesignEffortMultiplier(PlatformDifficultyComboBoxEd.Text),
-                        Facilities =                        MapEarlyDesignEffortMultiplier(FacilitiesComboBoxEd.Text),
-                        RequiredDevelopmentSchedule =       MapEarlyDesignEffortMultiplier(RequiredDevelopmentScheduleComboBoxEd.Text)
-                    }
-                };
-                OnCalculate?.Invoke(sender, args);
+                        Size = int.Parse(SizeTextEd.Text),
+                        ScaleFactorsAttributes = new ScaleFactorsAttributes
+                        {
+                            Precedentedness = MapScaleFactor(PrecedentednessComboBoxEd.Text),
+                            DevelopmentFlexibility = MapScaleFactor(DevelopmentFlexibilityComboBoxEd.Text),
+                            ArchitectureAndRiskResolution = MapScaleFactor(ArchitectureAndRiskResolutionComboBoxEd.Text),
+                            TeamCohesion = MapScaleFactor(TeamCohesionComboBoxEd.Text),
+                            ProcessMaturuty = MapScaleFactor(ProcessMaturityComboBoxEd.Text)
+                        },
+                        EffortMultipliersAttributes = new EffortMultipliersAttributes
+                        {
+                            PersonnelCapability = MapEarlyDesignEffortMultiplier(PersonnelCapabilityComboBoxEd.Text),
+                            PersonnelExperience = MapEarlyDesignEffortMultiplier(PersonnelExperienceComboBoxEd.Text),
+                            ProductRelabilityAndComplexity = MapEarlyDesignEffortMultiplier(ProductReabilityAndComplexityComboBoxEd.Text),
+                            DeveloperForReusability = MapEarlyDesignEffortMultiplier(DevelopedForReusabilityComboBoxEd.Text),
+                            PlatformDifficulty = MapEarlyDesignEffortMultiplier(PlatformDifficultyComboBoxEd.Text),
+                            Facilities = MapEarlyDesignEffortMultiplier(FacilitiesComboBoxEd.Text),
+                            RequiredDevelopmentSchedule = MapEarlyDesignEffortMultiplier(RequiredDevelopmentScheduleComboBoxEd.Text)
+                        }
+                    };
+                    OnCalculate?.Invoke(sender, args);
+                }
             }
             catch (Exception)
             {
-                MessageBox.Show("Неправильный формат строки!");
+                new MessageService().ShowError("Неправильный формат строки!");
             }
         }
 
@@ -137,52 +158,59 @@ namespace COCOMOCalculator
         {
             try
             {
-                var args = new PostArchitectureCalculationArgs
+                if (int.Parse(SizeTextPa.Text) <= 0)
                 {
-                    Size = int.Parse(SizeTextPa.Text),
-                    ScaleFactorsAttributes = new ScaleFactorsAttributes
+                    new MessageService().ShowError("Количество тысяч строк кода должно быть больше нуля.");
+                }
+                else
+                {
+                    var args = new PostArchitectureCalculationArgs
                     {
-                        Precedentedness =               MapScaleFactor(PrecedentednessComboBoxPa.Text),
-                        DevelopmentFlexibility =        MapScaleFactor(DevelopmentFlexibilityComboBoxPa.Text),
-                        ArchitectureAndRiskResolution = MapScaleFactor(ArchitectureAndRiskResolutionComboBoxPa.Text),
-                        TeamCohesion =                  MapScaleFactor(TeamCohesionComboBoxPa.Text),
-                        ProcessMaturuty =               MapScaleFactor(ProcessMaturityComboBoxPa.Text)
-                    },
-                    PersonnelFactors = new PersonnelFactors
-                    {
-                        AnalystCapability =         MapPostArchitectureEffortMultiplier(AnalystCapabilityComboBoxPa.Text),
-                        ApplicationExperience =     MapPostArchitectureEffortMultiplier(ApplicationExperienceComboBoxPa.Text),
-                        ProgrammerCapability =      MapPostArchitectureEffortMultiplier(ProgrammerCapabilityComboBoxPa.Text),
-                        PersonnelContinuity =       MapPostArchitectureEffortMultiplier(PersonnelCapabilityComboBoxPa.Text),
-                        PlatformExperience =        MapPostArchitectureEffortMultiplier(PlatformExperienceComboBoxPa.Text),
-                        LanguageAndToolExperience = MapPostArchitectureEffortMultiplier(LanguageAndToolExperienceComboBoxPa.Text)
-                    },
-                    ProductFactors = new ProductFactors
-                    {
-                        RequiredSoftwareReliability =           MapPostArchitectureEffortMultiplier(RequiredSoftwareRelabilityComboBoxPa.Text),
-                        DatabaseSize =                          MapPostArchitectureEffortMultiplier(DatabaseSizeComboBoxPa.Text),
-                        SoftwareProductComplexity =             MapPostArchitectureEffortMultiplier(SoftwareProductComplexityComboBoxPa.Text),
-                        RequiredResability =                    MapPostArchitectureEffortMultiplier(RequiredReusabilityComboBoxPa.Text),
-                        DocumentationMatchToLifeCycleNeeds =    MapPostArchitectureEffortMultiplier(DocumentationMatchToLifeCycleNeedsComboBoxPa.Text)
-                    },
-                    PlatformFactors = new PlatformFactors
-                    {
-                        ExecutionTimeConstraint =   MapPostArchitectureEffortMultiplier(ExecutionTimeConstraintComboBoxPa.Text),
-                        MainStorageConstraint =     MapPostArchitectureEffortMultiplier(MainStorageConstraintComboBoxPa.Text),
-                        PlatformVolatility =        MapPostArchitectureEffortMultiplier(PlatformVolatilityComboBoxPa.Text)
-                    },
-                    ProjectFactors = new ProjectFactors
-                    {
-                        UseOfSoftwareTools =            MapPostArchitectureEffortMultiplier(UseOfSoftwareToolsComboBoxPa.Text),
-                        MultisiteDevelopment =          MapPostArchitectureEffortMultiplier(MultisiteDevelopmentComboBoxPa.Text),
-                        RequiredDevelopmentSchedule =   MapPostArchitectureEffortMultiplier(RequiredDevelopmentScheduleComboBoxPa.Text)
-                    }
-                };
-                OnCalculate?.Invoke(sender, args);
+                        Size = int.Parse(SizeTextPa.Text),
+                        ScaleFactorsAttributes = new ScaleFactorsAttributes
+                        {
+                            Precedentedness = MapScaleFactor(PrecedentednessComboBoxPa.Text),
+                            DevelopmentFlexibility = MapScaleFactor(DevelopmentFlexibilityComboBoxPa.Text),
+                            ArchitectureAndRiskResolution = MapScaleFactor(ArchitectureAndRiskResolutionComboBoxPa.Text),
+                            TeamCohesion = MapScaleFactor(TeamCohesionComboBoxPa.Text),
+                            ProcessMaturuty = MapScaleFactor(ProcessMaturityComboBoxPa.Text)
+                        },
+                        PersonnelFactors = new PersonnelFactors
+                        {
+                            AnalystCapability = MapPostArchitectureEffortMultiplier(AnalystCapabilityComboBoxPa.Text),
+                            ApplicationExperience = MapPostArchitectureEffortMultiplier(ApplicationExperienceComboBoxPa.Text),
+                            ProgrammerCapability = MapPostArchitectureEffortMultiplier(ProgrammerCapabilityComboBoxPa.Text),
+                            PersonnelContinuity = MapPostArchitectureEffortMultiplier(PersonnelCapabilityComboBoxPa.Text),
+                            PlatformExperience = MapPostArchitectureEffortMultiplier(PlatformExperienceComboBoxPa.Text),
+                            LanguageAndToolExperience = MapPostArchitectureEffortMultiplier(LanguageAndToolExperienceComboBoxPa.Text)
+                        },
+                        ProductFactors = new ProductFactors
+                        {
+                            RequiredSoftwareReliability = MapPostArchitectureEffortMultiplier(RequiredSoftwareRelabilityComboBoxPa.Text),
+                            DatabaseSize = MapPostArchitectureEffortMultiplier(DatabaseSizeComboBoxPa.Text),
+                            SoftwareProductComplexity = MapPostArchitectureEffortMultiplier(SoftwareProductComplexityComboBoxPa.Text),
+                            RequiredResability = MapPostArchitectureEffortMultiplier(RequiredReusabilityComboBoxPa.Text),
+                            DocumentationMatchToLifeCycleNeeds = MapPostArchitectureEffortMultiplier(DocumentationMatchToLifeCycleNeedsComboBoxPa.Text)
+                        },
+                        PlatformFactors = new PlatformFactors
+                        {
+                            ExecutionTimeConstraint = MapPostArchitectureEffortMultiplier(ExecutionTimeConstraintComboBoxPa.Text),
+                            MainStorageConstraint = MapPostArchitectureEffortMultiplier(MainStorageConstraintComboBoxPa.Text),
+                            PlatformVolatility = MapPostArchitectureEffortMultiplier(PlatformVolatilityComboBoxPa.Text)
+                        },
+                        ProjectFactors = new ProjectFactors
+                        {
+                            UseOfSoftwareTools = MapPostArchitectureEffortMultiplier(UseOfSoftwareToolsComboBoxPa.Text),
+                            MultisiteDevelopment = MapPostArchitectureEffortMultiplier(MultisiteDevelopmentComboBoxPa.Text),
+                            RequiredDevelopmentSchedule = MapPostArchitectureEffortMultiplier(RequiredDevelopmentScheduleComboBoxPa.Text)
+                        }
+                    };
+                    OnCalculate?.Invoke(sender, args);
+                }
             }
             catch (Exception)
             {
-                MessageBox.Show("Неправильный формат строки!");
+                new MessageService().ShowError("Неправильный формат строки!");
             }
         }
 
