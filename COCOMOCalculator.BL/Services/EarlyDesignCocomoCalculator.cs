@@ -18,9 +18,18 @@ namespace COCOMOCalculator.BL.Services
 
         public CalculationResult Calculate(EarlyDesignCalculationArgs args)
         {
-            var size = args.Size;
+            if (args == null)
+                throw new ArgumentNullException(nameof(args));
+
             var scaleFactors = args.ScaleFactorsAttributes;
+            if (scaleFactors == null)
+                throw new ArgumentNullException(nameof(scaleFactors));
+
             var effortMultipliers = args.EffortMultipliersAttributes;
+            if (effortMultipliers == null)
+                throw new ArgumentNullException(nameof(effortMultipliers));
+
+            var size = args.Size;
 
             var scaleFactorsSum =   ScaleFactorMap(nameof(scaleFactors.Precedentedness),                scaleFactors.Precedentedness);
             scaleFactorsSum +=      ScaleFactorMap(nameof(scaleFactors.DevelopmentFlexibility),         scaleFactors.DevelopmentFlexibility);
@@ -48,6 +57,7 @@ namespace COCOMOCalculator.BL.Services
             eaf *= EffortMutriplierMap(nameof(effortMultipliers.Facilities),                        effortMultipliers.Facilities);
 
             var peopleMonthNs = eaf * A * Math.Pow(size, e);
+
             var sced = EffortMutriplierMap(nameof(effortMultipliers.RequiredDevelopmentSchedule), effortMultipliers.RequiredDevelopmentSchedule);
 
             var timeMonth = (float)Math.Round(sced * C * Math.Pow(peopleMonthNs, D + 0.2f * (e - B)), 6);
@@ -55,19 +65,19 @@ namespace COCOMOCalculator.BL.Services
             return new CalculationResult() { PeopleMonth = peopleMonth, TimeMonth = timeMonth };
         }
 
-        private float ScaleFactorMap(string costAttribute, ScaleFactor scaleFactor)
+        private float ScaleFactorMap(string attribute, ScaleFactor scaleFactor)
         {
-            _scale_factors.TryGetValue(costAttribute, out var dictionary);
+            _scale_factors.TryGetValue(attribute, out var dictionary);
             if (!dictionary.TryGetValue(scaleFactor, out var coefficent))
-                throw new ArgumentException("Рейтинг аттрибута должен быть задан!");
+                throw new ArgumentException("Рейтинг аттрибута " + attribute + " должен быть задан!");
             return coefficent;
         }
 
-        private float EffortMutriplierMap(string costAttribute, EarlyDesignEffortMultiplier earlyDesignEffortMultiplier)
+        private float EffortMutriplierMap(string attribute, EarlyDesignEffortMultiplier earlyDesignEffortMultiplier)
         {
-            _effort_multipliers.TryGetValue(costAttribute, out var dictionary);
+            _effort_multipliers.TryGetValue(attribute, out var dictionary);
             if (!dictionary.TryGetValue(earlyDesignEffortMultiplier, out var coefficent))
-                throw new ArgumentException("Рейтинг аттрибута должен быть задан!");
+                throw new ArgumentException("Рейтинг аттрибута " + attribute + " должен быть задан!");
             return coefficent;
         }
     }

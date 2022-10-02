@@ -19,9 +19,30 @@ namespace COCOMOCalculator.BL.Services
 
         public CalculationResult Calculate(PostArchitectureCalculationArgs args)
         {
-            var size = args.Size;
+            if (args == null)
+                throw new ArgumentNullException(nameof(args));
 
             var scaleFactors = args.ScaleFactorsAttributes;
+            if (scaleFactors == null)
+                throw new ArgumentNullException(nameof(scaleFactors));
+
+            var personnelFactors = args.PersonnelFactors;
+            if (personnelFactors == null)
+                throw new ArgumentNullException(nameof(personnelFactors));
+
+            var productFactors = args.ProductFactors;
+            if (productFactors == null)
+                throw new ArgumentNullException(nameof(productFactors));
+
+            var platformFactors = args.PlatformFactors;
+            if (platformFactors == null)
+                throw new ArgumentNullException(nameof(platformFactors));
+
+            var projectFactors = args.ProjectFactors;
+            if (projectFactors == null)
+                throw new ArgumentNullException(nameof(projectFactors));
+
+            var size = args.Size;
 
             var scaleFactorsSum =   ScaleFactorMap(nameof(scaleFactors.Precedentedness),                scaleFactors.Precedentedness);
             scaleFactorsSum +=      ScaleFactorMap(nameof(scaleFactors.DevelopmentFlexibility),         scaleFactors.DevelopmentFlexibility);
@@ -30,11 +51,6 @@ namespace COCOMOCalculator.BL.Services
             scaleFactorsSum +=      ScaleFactorMap(nameof(scaleFactors.ProcessMaturuty),                scaleFactors.ProcessMaturuty);
 
             var e = B + 0.01f * scaleFactorsSum;
-
-            var personnelFactors =  args.PersonnelFactors;
-            var productFactors =    args.ProductFactors;
-            var platformFactors =   args.PlatformFactors;
-            var projectFactors =    args.ProjectFactors;
 
             var eaf =   EffortMutriplierMap(nameof(personnelFactors.AnalystCapability),         personnelFactors.AnalystCapability);
             eaf *=      EffortMutriplierMap(nameof(personnelFactors.ApplicationExperience),     personnelFactors.ApplicationExperience);
@@ -68,19 +84,19 @@ namespace COCOMOCalculator.BL.Services
             return new CalculationResult() { PeopleMonth = peopleMonth, TimeMonth = timeMonth };
         }
 
-        private float ScaleFactorMap(string costAttribute, ScaleFactor scaleFactor)
+        private float ScaleFactorMap(string attribute, ScaleFactor scaleFactor)
         {
-            _scale_factors.TryGetValue(costAttribute, out var dictionary);
+            _scale_factors.TryGetValue(attribute, out var dictionary);
             if (!dictionary.TryGetValue(scaleFactor, out var coefficent))
-                throw new ArgumentException("Рейтинг аттрибута должен быть задан!");
+                throw new ArgumentException("Рейтинг аттрибута " + attribute + " должен быть задан!");
             return coefficent;
         }
 
-        private float EffortMutriplierMap(string costAttribute, PostArchitectureEffortMultiplier postArchitectureEffortMultiplier)
+        private float EffortMutriplierMap(string attribute, PostArchitectureEffortMultiplier postArchitectureEffortMultiplier)
         {
-            _effort_multipliers.TryGetValue(costAttribute, out var dictionary);
+            _effort_multipliers.TryGetValue(attribute, out var dictionary);
             if (!dictionary.TryGetValue(postArchitectureEffortMultiplier, out var coefficent))
-                throw new ArgumentException("Рейтинг аттрибута должен быть задан!");
+                throw new ArgumentException("Рейтинг аттрибута " +  attribute + " должен быть задан!");
             return coefficent;
         }
     }

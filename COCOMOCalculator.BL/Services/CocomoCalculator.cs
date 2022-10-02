@@ -28,7 +28,7 @@ namespace COCOMOCalculator.BL.Services
         public CalculationResult Calculate(PostArchitectureCalculationArgs args)
         {
             PostArchitectureCocomoCalculator calculator = new PostArchitectureCocomoCalculator();
-            return null;// calculator.Calculate(args);
+            return calculator.Calculate(args);
         }
     }
 }

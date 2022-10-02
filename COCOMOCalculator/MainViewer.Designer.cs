@@ -86,28 +86,12 @@
             this.RSRLabel = new System.Windows.Forms.Label();
             this.PAPanelName = new System.Windows.Forms.Label();
             this.EarlyDesignCocomoII = new System.Windows.Forms.TabPage();
-            this.PostArchitectureCocomoII = new System.Windows.Forms.TabPage();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.SizeTextEd = new System.Windows.Forms.TextBox();
-            this.panel = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.PrecedentednessComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.DevelopmentFlexibilityComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.TeamCohesionComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.ArchitectureAndRiskResolutionComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.ProcessMaturityComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.CalculateEd = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.RequiredDevelopmentScheduleComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.FacilitiesComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this.PlatformDifficultyComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label27 = new System.Windows.Forms.Label();
@@ -118,42 +102,42 @@
             this.PersonnelExperienceComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label30 = new System.Windows.Forms.Label();
             this.PersonnelCapabilityComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.RequiredDevelopmentScheduleComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.FacilitiesComboBoxEd = new System.Windows.Forms.ComboBox();
-            this.CalculateEd = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.SizeTextPa = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label36 = new System.Windows.Forms.Label();
-            this.ProcessMaturityComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.TeamCohesionComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.ArchitectureAndRiskResolutionComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.DevelopmentFlexibilityComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.PrecedentednessComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.PersonnelCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.ProgrammerCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.ApplicationExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.AnalystCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.PlatformExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.LanguageAndToolExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.panel = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.ProcessMaturityComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.TeamCohesionComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.ArchitectureAndRiskResolutionComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.DevelopmentFlexibilityComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.PrecedentednessComboBoxEd = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.SizeTextEd = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.PostArchitectureCocomoII = new System.Windows.Forms.TabPage();
+            this.CalculatePa = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label49 = new System.Windows.Forms.Label();
+            this.RequiredDevelopmentScheduleComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.MultisiteDevelopmentComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.UseOfSoftwareToolsComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label57 = new System.Windows.Forms.Label();
+            this.PlatformVolatilityComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.MainStorageConstraintComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.ExecutionTimeConstraintComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label60 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label50 = new System.Windows.Forms.Label();
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa = new System.Windows.Forms.ComboBox();
@@ -166,23 +150,39 @@
             this.label54 = new System.Windows.Forms.Label();
             this.RequiredSoftwareRelabilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label55 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label57 = new System.Windows.Forms.Label();
-            this.PlatformVolatilityComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label58 = new System.Windows.Forms.Label();
-            this.MainStorageConstraintComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.ExecutionTimeConstraintComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label49 = new System.Windows.Forms.Label();
-            this.RequiredDevelopmentScheduleComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.MultisiteDevelopmentComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.UseOfSoftwareToolsComboBoxPa = new System.Windows.Forms.ComboBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.CalculatePa = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label48 = new System.Windows.Forms.Label();
+            this.LanguageAndToolExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.PlatformExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.PersonnelCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.ProgrammerCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.ApplicationExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.AnalystCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.ProcessMaturityComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.TeamCohesionComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.ArchitectureAndRiskResolutionComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.DevelopmentFlexibilityComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.PrecedentednessComboBoxPa = new System.Windows.Forms.ComboBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.SizeTextPa = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
             this.tabControl1.SuspendLayout();
             this.BasicCocomoTabPage.SuspendLayout();
             this.CalculatePanel.SuspendLayout();
@@ -193,16 +193,16 @@
             this.panel1.SuspendLayout();
             this.ProductAttributesPanel.SuspendLayout();
             this.EarlyDesignCocomoII.SuspendLayout();
-            this.PostArchitectureCocomoII.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
+            this.panel.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.PostArchitectureCocomoII.SuspendLayout();
             this.panel12.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // SizeTextB
@@ -956,233 +956,14 @@
             this.EarlyDesignCocomoII.Text = "COCOMO II (Early Design)";
             this.EarlyDesignCocomoII.UseVisualStyleBackColor = true;
             // 
-            // PostArchitectureCocomoII
+            // CalculateEd
             // 
-            this.PostArchitectureCocomoII.Controls.Add(this.CalculatePa);
-            this.PostArchitectureCocomoII.Controls.Add(this.panel12);
-            this.PostArchitectureCocomoII.Controls.Add(this.panel11);
-            this.PostArchitectureCocomoII.Controls.Add(this.panel10);
-            this.PostArchitectureCocomoII.Controls.Add(this.panel9);
-            this.PostArchitectureCocomoII.Controls.Add(this.panel8);
-            this.PostArchitectureCocomoII.Controls.Add(this.panel7);
-            this.PostArchitectureCocomoII.Location = new System.Drawing.Point(4, 22);
-            this.PostArchitectureCocomoII.Name = "PostArchitectureCocomoII";
-            this.PostArchitectureCocomoII.Size = new System.Drawing.Size(752, 411);
-            this.PostArchitectureCocomoII.TabIndex = 3;
-            this.PostArchitectureCocomoII.Text = "COCOMO II (Post Architecture)";
-            this.PostArchitectureCocomoII.UseVisualStyleBackColor = true;
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.label18);
-            this.panel5.Controls.Add(this.SizeTextEd);
-            this.panel5.Controls.Add(this.label15);
-            this.panel5.Location = new System.Drawing.Point(6, 6);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(353, 64);
-            this.panel5.TabIndex = 0;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(6, 6);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(118, 13);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Базовые атрибуты";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(107, 34);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 13);
-            this.label17.TabIndex = 8;
-            this.label17.Text = "Объём кода:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label18
-            // 
-            this.label18.Location = new System.Drawing.Point(269, 34);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(73, 13);
-            this.label18.TabIndex = 9;
-            this.label18.Text = "тысяч строк кода.";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // SizeTextEd
-            // 
-            this.SizeTextEd.Location = new System.Drawing.Point(185, 31);
-            this.SizeTextEd.Name = "SizeTextEd";
-            this.SizeTextEd.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextEd.TabIndex = 7;
-            // 
-            // panel
-            // 
-            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel.Controls.Add(this.label24);
-            this.panel.Controls.Add(this.ProcessMaturityComboBoxEd);
-            this.panel.Controls.Add(this.label22);
-            this.panel.Controls.Add(this.TeamCohesionComboBoxEd);
-            this.panel.Controls.Add(this.label23);
-            this.panel.Controls.Add(this.ArchitectureAndRiskResolutionComboBoxEd);
-            this.panel.Controls.Add(this.label21);
-            this.panel.Controls.Add(this.DevelopmentFlexibilityComboBoxEd);
-            this.panel.Controls.Add(this.label20);
-            this.panel.Controls.Add(this.PrecedentednessComboBoxEd);
-            this.panel.Controls.Add(this.label19);
-            this.panel.Location = new System.Drawing.Point(6, 76);
-            this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(353, 185);
-            this.panel.TabIndex = 1;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.Location = new System.Drawing.Point(6, 6);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(125, 13);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Факторы масштаба";
-            // 
-            // PrecedentednessComboBoxEd
-            // 
-            this.PrecedentednessComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PrecedentednessComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PrecedentednessComboBoxEd.FormattingEnabled = true;
-            this.PrecedentednessComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
-            this.PrecedentednessComboBoxEd.Location = new System.Drawing.Point(257, 35);
-            this.PrecedentednessComboBoxEd.Name = "PrecedentednessComboBoxEd";
-            this.PrecedentednessComboBoxEd.Size = new System.Drawing.Size(86, 21);
-            this.PrecedentednessComboBoxEd.TabIndex = 8;
-            // 
-            // label20
-            // 
-            this.label20.Location = new System.Drawing.Point(72, 29);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(179, 30);
-            this.label20.TabIndex = 2;
-            this.label20.Text = "Прецендентность, наличие опыта аналогичных разработок";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label21
-            // 
-            this.label21.Location = new System.Drawing.Point(72, 58);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(179, 30);
-            this.label21.TabIndex = 9;
-            this.label21.Text = "Гибкость процесса разработки";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // DevelopmentFlexibilityComboBoxEd
-            // 
-            this.DevelopmentFlexibilityComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DevelopmentFlexibilityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.DevelopmentFlexibilityComboBoxEd.FormattingEnabled = true;
-            this.DevelopmentFlexibilityComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
-            this.DevelopmentFlexibilityComboBoxEd.Location = new System.Drawing.Point(257, 64);
-            this.DevelopmentFlexibilityComboBoxEd.Name = "DevelopmentFlexibilityComboBoxEd";
-            this.DevelopmentFlexibilityComboBoxEd.Size = new System.Drawing.Size(86, 21);
-            this.DevelopmentFlexibilityComboBoxEd.TabIndex = 10;
-            // 
-            // label22
-            // 
-            this.label22.Location = new System.Drawing.Point(72, 117);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(179, 30);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "Сработанность команды";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // TeamCohesionComboBoxEd
-            // 
-            this.TeamCohesionComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TeamCohesionComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.TeamCohesionComboBoxEd.FormattingEnabled = true;
-            this.TeamCohesionComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
-            this.TeamCohesionComboBoxEd.Location = new System.Drawing.Point(257, 123);
-            this.TeamCohesionComboBoxEd.Name = "TeamCohesionComboBoxEd";
-            this.TeamCohesionComboBoxEd.Size = new System.Drawing.Size(86, 21);
-            this.TeamCohesionComboBoxEd.TabIndex = 14;
-            // 
-            // label23
-            // 
-            this.label23.Location = new System.Drawing.Point(65, 88);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(186, 30);
-            this.label23.TabIndex = 11;
-            this.label23.Text = "Архитектура и разрешение рисков";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // ArchitectureAndRiskResolutionComboBoxEd
-            // 
-            this.ArchitectureAndRiskResolutionComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ArchitectureAndRiskResolutionComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ArchitectureAndRiskResolutionComboBoxEd.FormattingEnabled = true;
-            this.ArchitectureAndRiskResolutionComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
-            this.ArchitectureAndRiskResolutionComboBoxEd.Location = new System.Drawing.Point(257, 93);
-            this.ArchitectureAndRiskResolutionComboBoxEd.Name = "ArchitectureAndRiskResolutionComboBoxEd";
-            this.ArchitectureAndRiskResolutionComboBoxEd.Size = new System.Drawing.Size(86, 21);
-            this.ArchitectureAndRiskResolutionComboBoxEd.TabIndex = 12;
-            // 
-            // label24
-            // 
-            this.label24.Location = new System.Drawing.Point(72, 147);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(179, 30);
-            this.label24.TabIndex = 15;
-            this.label24.Text = "Зрелость процессов";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // ProcessMaturityComboBoxEd
-            // 
-            this.ProcessMaturityComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ProcessMaturityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ProcessMaturityComboBoxEd.FormattingEnabled = true;
-            this.ProcessMaturityComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
-            this.ProcessMaturityComboBoxEd.Location = new System.Drawing.Point(257, 153);
-            this.ProcessMaturityComboBoxEd.Name = "ProcessMaturityComboBoxEd";
-            this.ProcessMaturityComboBoxEd.Size = new System.Drawing.Size(86, 21);
-            this.ProcessMaturityComboBoxEd.TabIndex = 16;
+            this.CalculateEd.Location = new System.Drawing.Point(6, 267);
+            this.CalculateEd.Name = "CalculateEd";
+            this.CalculateEd.Size = new System.Drawing.Size(740, 53);
+            this.CalculateEd.TabIndex = 18;
+            this.CalculateEd.Text = "Посчитать";
+            this.CalculateEd.UseVisualStyleBackColor = true;
             // 
             // panel6
             // 
@@ -1207,15 +988,58 @@
             this.panel6.Size = new System.Drawing.Size(384, 255);
             this.panel6.TabIndex = 17;
             // 
-            // label25
+            // label31
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label25.Location = new System.Drawing.Point(6, 6);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(161, 13);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Множитель трудоёмкости";
+            this.label31.Location = new System.Drawing.Point(90, 205);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(161, 30);
+            this.label31.TabIndex = 29;
+            this.label31.Text = "Требуемое выполнение графика работ";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // RequiredDevelopmentScheduleComboBoxEd
+            // 
+            this.RequiredDevelopmentScheduleComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.RequiredDevelopmentScheduleComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RequiredDevelopmentScheduleComboBoxEd.FormattingEnabled = true;
+            this.RequiredDevelopmentScheduleComboBoxEd.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High"});
+            this.RequiredDevelopmentScheduleComboBoxEd.Location = new System.Drawing.Point(257, 211);
+            this.RequiredDevelopmentScheduleComboBoxEd.Name = "RequiredDevelopmentScheduleComboBoxEd";
+            this.RequiredDevelopmentScheduleComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.RequiredDevelopmentScheduleComboBoxEd.TabIndex = 30;
+            // 
+            // label32
+            // 
+            this.label32.Location = new System.Drawing.Point(72, 175);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(179, 30);
+            this.label32.TabIndex = 27;
+            this.label32.Text = "Оборудование";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // FacilitiesComboBoxEd
+            // 
+            this.FacilitiesComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FacilitiesComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FacilitiesComboBoxEd.FormattingEnabled = true;
+            this.FacilitiesComboBoxEd.Items.AddRange(new object[] {
+            "Extra low",
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.FacilitiesComboBoxEd.Location = new System.Drawing.Point(257, 181);
+            this.FacilitiesComboBoxEd.Name = "FacilitiesComboBoxEd";
+            this.FacilitiesComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.FacilitiesComboBoxEd.TabIndex = 28;
             // 
             // label26
             // 
@@ -1353,115 +1177,809 @@
             this.PersonnelCapabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
             this.PersonnelCapabilityComboBoxEd.TabIndex = 18;
             // 
-            // label31
+            // label25
             // 
-            this.label31.Location = new System.Drawing.Point(90, 205);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(161, 30);
-            this.label31.TabIndex = 29;
-            this.label31.Text = "Требуемое выполнение графика работ";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label25.Location = new System.Drawing.Point(6, 6);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(161, 13);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Множитель трудоёмкости";
             // 
-            // RequiredDevelopmentScheduleComboBoxEd
+            // panel
             // 
-            this.RequiredDevelopmentScheduleComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel.Controls.Add(this.label24);
+            this.panel.Controls.Add(this.ProcessMaturityComboBoxEd);
+            this.panel.Controls.Add(this.label22);
+            this.panel.Controls.Add(this.TeamCohesionComboBoxEd);
+            this.panel.Controls.Add(this.label23);
+            this.panel.Controls.Add(this.ArchitectureAndRiskResolutionComboBoxEd);
+            this.panel.Controls.Add(this.label21);
+            this.panel.Controls.Add(this.DevelopmentFlexibilityComboBoxEd);
+            this.panel.Controls.Add(this.label20);
+            this.panel.Controls.Add(this.PrecedentednessComboBoxEd);
+            this.panel.Controls.Add(this.label19);
+            this.panel.Location = new System.Drawing.Point(6, 76);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(353, 185);
+            this.panel.TabIndex = 1;
+            // 
+            // label24
+            // 
+            this.label24.Location = new System.Drawing.Point(72, 147);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(179, 30);
+            this.label24.TabIndex = 15;
+            this.label24.Text = "Зрелость процессов";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // ProcessMaturityComboBoxEd
+            // 
+            this.ProcessMaturityComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.RequiredDevelopmentScheduleComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.RequiredDevelopmentScheduleComboBoxEd.FormattingEnabled = true;
-            this.RequiredDevelopmentScheduleComboBoxEd.Items.AddRange(new object[] {
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
-            this.RequiredDevelopmentScheduleComboBoxEd.Location = new System.Drawing.Point(257, 211);
-            this.RequiredDevelopmentScheduleComboBoxEd.Name = "RequiredDevelopmentScheduleComboBoxEd";
-            this.RequiredDevelopmentScheduleComboBoxEd.Size = new System.Drawing.Size(117, 21);
-            this.RequiredDevelopmentScheduleComboBoxEd.TabIndex = 30;
-            // 
-            // label32
-            // 
-            this.label32.Location = new System.Drawing.Point(72, 175);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(179, 30);
-            this.label32.TabIndex = 27;
-            this.label32.Text = "Оборудование";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // FacilitiesComboBoxEd
-            // 
-            this.FacilitiesComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.FacilitiesComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.FacilitiesComboBoxEd.FormattingEnabled = true;
-            this.FacilitiesComboBoxEd.Items.AddRange(new object[] {
-            "Extra low",
+            this.ProcessMaturityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ProcessMaturityComboBoxEd.FormattingEnabled = true;
+            this.ProcessMaturityComboBoxEd.Items.AddRange(new object[] {
             "Very low",
             "Low",
             "Nominal",
             "High",
             "Very high",
             "Extra high"});
-            this.FacilitiesComboBoxEd.Location = new System.Drawing.Point(257, 181);
-            this.FacilitiesComboBoxEd.Name = "FacilitiesComboBoxEd";
-            this.FacilitiesComboBoxEd.Size = new System.Drawing.Size(117, 21);
-            this.FacilitiesComboBoxEd.TabIndex = 28;
+            this.ProcessMaturityComboBoxEd.Location = new System.Drawing.Point(257, 153);
+            this.ProcessMaturityComboBoxEd.Name = "ProcessMaturityComboBoxEd";
+            this.ProcessMaturityComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.ProcessMaturityComboBoxEd.TabIndex = 16;
             // 
-            // CalculateEd
+            // label22
             // 
-            this.CalculateEd.Location = new System.Drawing.Point(6, 267);
-            this.CalculateEd.Name = "CalculateEd";
-            this.CalculateEd.Size = new System.Drawing.Size(740, 53);
-            this.CalculateEd.TabIndex = 18;
-            this.CalculateEd.Text = "Посчитать";
-            this.CalculateEd.UseVisualStyleBackColor = true;
+            this.label22.Location = new System.Drawing.Point(72, 117);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(179, 30);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Сработанность команды";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // panel7
+            // TeamCohesionComboBoxEd
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.label33);
-            this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.SizeTextPa);
-            this.panel7.Controls.Add(this.label35);
-            this.panel7.Location = new System.Drawing.Point(6, 6);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(328, 64);
-            this.panel7.TabIndex = 1;
+            this.TeamCohesionComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TeamCohesionComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TeamCohesionComboBoxEd.FormattingEnabled = true;
+            this.TeamCohesionComboBoxEd.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.TeamCohesionComboBoxEd.Location = new System.Drawing.Point(257, 123);
+            this.TeamCohesionComboBoxEd.Name = "TeamCohesionComboBoxEd";
+            this.TeamCohesionComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.TeamCohesionComboBoxEd.TabIndex = 14;
             // 
-            // label33
+            // label23
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(81, 37);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(72, 13);
-            this.label33.TabIndex = 8;
-            this.label33.Text = "Объём кода:";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label23.Location = new System.Drawing.Point(65, 88);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(186, 30);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "Архитектура и разрешение рисков";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label34
+            // ArchitectureAndRiskResolutionComboBoxEd
             // 
-            this.label34.Location = new System.Drawing.Point(243, 37);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(73, 13);
-            this.label34.TabIndex = 9;
-            this.label34.Text = "тысяч строк кода.";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ArchitectureAndRiskResolutionComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ArchitectureAndRiskResolutionComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ArchitectureAndRiskResolutionComboBoxEd.FormattingEnabled = true;
+            this.ArchitectureAndRiskResolutionComboBoxEd.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.ArchitectureAndRiskResolutionComboBoxEd.Location = new System.Drawing.Point(257, 93);
+            this.ArchitectureAndRiskResolutionComboBoxEd.Name = "ArchitectureAndRiskResolutionComboBoxEd";
+            this.ArchitectureAndRiskResolutionComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.ArchitectureAndRiskResolutionComboBoxEd.TabIndex = 12;
             // 
-            // SizeTextPa
+            // label21
             // 
-            this.SizeTextPa.Location = new System.Drawing.Point(159, 34);
-            this.SizeTextPa.Name = "SizeTextPa";
-            this.SizeTextPa.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextPa.TabIndex = 7;
+            this.label21.Location = new System.Drawing.Point(72, 58);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(179, 30);
+            this.label21.TabIndex = 9;
+            this.label21.Text = "Гибкость процесса разработки";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label35
+            // DevelopmentFlexibilityComboBoxEd
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label35.Location = new System.Drawing.Point(6, 6);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(118, 13);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "Базовые атрибуты";
+            this.DevelopmentFlexibilityComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DevelopmentFlexibilityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DevelopmentFlexibilityComboBoxEd.FormattingEnabled = true;
+            this.DevelopmentFlexibilityComboBoxEd.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.DevelopmentFlexibilityComboBoxEd.Location = new System.Drawing.Point(257, 64);
+            this.DevelopmentFlexibilityComboBoxEd.Name = "DevelopmentFlexibilityComboBoxEd";
+            this.DevelopmentFlexibilityComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.DevelopmentFlexibilityComboBoxEd.TabIndex = 10;
+            // 
+            // label20
+            // 
+            this.label20.Location = new System.Drawing.Point(72, 29);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(179, 30);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "Прецендентность, наличие опыта аналогичных разработок";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // PrecedentednessComboBoxEd
+            // 
+            this.PrecedentednessComboBoxEd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PrecedentednessComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PrecedentednessComboBoxEd.FormattingEnabled = true;
+            this.PrecedentednessComboBoxEd.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.PrecedentednessComboBoxEd.Location = new System.Drawing.Point(257, 35);
+            this.PrecedentednessComboBoxEd.Name = "PrecedentednessComboBoxEd";
+            this.PrecedentednessComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.PrecedentednessComboBoxEd.TabIndex = 8;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.Location = new System.Drawing.Point(6, 6);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(125, 13);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Факторы масштаба";
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.SizeTextEd);
+            this.panel5.Controls.Add(this.label15);
+            this.panel5.Location = new System.Drawing.Point(6, 6);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(353, 64);
+            this.panel5.TabIndex = 0;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(107, 34);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(72, 13);
+            this.label17.TabIndex = 8;
+            this.label17.Text = "Объём кода:";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label18
+            // 
+            this.label18.Location = new System.Drawing.Point(269, 34);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(73, 13);
+            this.label18.TabIndex = 9;
+            this.label18.Text = "тысяч строк кода.";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // SizeTextEd
+            // 
+            this.SizeTextEd.Location = new System.Drawing.Point(185, 31);
+            this.SizeTextEd.Name = "SizeTextEd";
+            this.SizeTextEd.Size = new System.Drawing.Size(78, 20);
+            this.SizeTextEd.TabIndex = 7;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.Location = new System.Drawing.Point(6, 6);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(118, 13);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Базовые атрибуты";
+            // 
+            // PostArchitectureCocomoII
+            // 
+            this.PostArchitectureCocomoII.Controls.Add(this.CalculatePa);
+            this.PostArchitectureCocomoII.Controls.Add(this.panel12);
+            this.PostArchitectureCocomoII.Controls.Add(this.panel11);
+            this.PostArchitectureCocomoII.Controls.Add(this.panel10);
+            this.PostArchitectureCocomoII.Controls.Add(this.panel9);
+            this.PostArchitectureCocomoII.Controls.Add(this.panel8);
+            this.PostArchitectureCocomoII.Controls.Add(this.panel7);
+            this.PostArchitectureCocomoII.Location = new System.Drawing.Point(4, 22);
+            this.PostArchitectureCocomoII.Name = "PostArchitectureCocomoII";
+            this.PostArchitectureCocomoII.Size = new System.Drawing.Size(752, 411);
+            this.PostArchitectureCocomoII.TabIndex = 3;
+            this.PostArchitectureCocomoII.Text = "COCOMO II (Post Architecture)";
+            this.PostArchitectureCocomoII.UseVisualStyleBackColor = true;
+            // 
+            // CalculatePa
+            // 
+            this.CalculatePa.Location = new System.Drawing.Point(337, 372);
+            this.CalculatePa.Name = "CalculatePa";
+            this.CalculatePa.Size = new System.Drawing.Size(409, 36);
+            this.CalculatePa.TabIndex = 7;
+            this.CalculatePa.Text = "Посчитать";
+            this.CalculatePa.UseVisualStyleBackColor = true;
+            // 
+            // panel12
+            // 
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.label49);
+            this.panel12.Controls.Add(this.RequiredDevelopmentScheduleComboBoxPa);
+            this.panel12.Controls.Add(this.label56);
+            this.panel12.Controls.Add(this.MultisiteDevelopmentComboBoxPa);
+            this.panel12.Controls.Add(this.label61);
+            this.panel12.Controls.Add(this.UseOfSoftwareToolsComboBoxPa);
+            this.panel12.Controls.Add(this.label62);
+            this.panel12.Location = new System.Drawing.Point(337, 246);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(409, 121);
+            this.panel12.TabIndex = 6;
+            // 
+            // label49
+            // 
+            this.label49.Location = new System.Drawing.Point(22, 92);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(212, 15);
+            this.label49.TabIndex = 11;
+            this.label49.Text = "Требуемое выполнения графика работ";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // RequiredDevelopmentScheduleComboBoxPa
+            // 
+            this.RequiredDevelopmentScheduleComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.RequiredDevelopmentScheduleComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RequiredDevelopmentScheduleComboBoxPa.FormattingEnabled = true;
+            this.RequiredDevelopmentScheduleComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.RequiredDevelopmentScheduleComboBoxPa.Location = new System.Drawing.Point(240, 90);
+            this.RequiredDevelopmentScheduleComboBoxPa.Name = "RequiredDevelopmentScheduleComboBoxPa";
+            this.RequiredDevelopmentScheduleComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.RequiredDevelopmentScheduleComboBoxPa.TabIndex = 12;
+            // 
+            // label56
+            // 
+            this.label56.Location = new System.Drawing.Point(58, 54);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(176, 30);
+            this.label56.TabIndex = 9;
+            this.label56.Text = "Многоабонентская (удалённая) разработка";
+            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // MultisiteDevelopmentComboBoxPa
+            // 
+            this.MultisiteDevelopmentComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MultisiteDevelopmentComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MultisiteDevelopmentComboBoxPa.FormattingEnabled = true;
+            this.MultisiteDevelopmentComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.MultisiteDevelopmentComboBoxPa.Location = new System.Drawing.Point(240, 60);
+            this.MultisiteDevelopmentComboBoxPa.Name = "MultisiteDevelopmentComboBoxPa";
+            this.MultisiteDevelopmentComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.MultisiteDevelopmentComboBoxPa.TabIndex = 10;
+            // 
+            // label61
+            // 
+            this.label61.Location = new System.Drawing.Point(39, 24);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(195, 30);
+            this.label61.TabIndex = 2;
+            this.label61.Text = "Использование инструментальных программных средств";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // UseOfSoftwareToolsComboBoxPa
+            // 
+            this.UseOfSoftwareToolsComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.UseOfSoftwareToolsComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.UseOfSoftwareToolsComboBoxPa.FormattingEnabled = true;
+            this.UseOfSoftwareToolsComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.UseOfSoftwareToolsComboBoxPa.Location = new System.Drawing.Point(240, 30);
+            this.UseOfSoftwareToolsComboBoxPa.Name = "UseOfSoftwareToolsComboBoxPa";
+            this.UseOfSoftwareToolsComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.UseOfSoftwareToolsComboBoxPa.TabIndex = 8;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label62.Location = new System.Drawing.Point(6, 6);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(127, 13);
+            this.label62.TabIndex = 1;
+            this.label62.Text = "Параметры проекта";
+            // 
+            // panel11
+            // 
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.label57);
+            this.panel11.Controls.Add(this.PlatformVolatilityComboBoxPa);
+            this.panel11.Controls.Add(this.label58);
+            this.panel11.Controls.Add(this.MainStorageConstraintComboBoxPa);
+            this.panel11.Controls.Add(this.label59);
+            this.panel11.Controls.Add(this.ExecutionTimeConstraintComboBoxPa);
+            this.panel11.Controls.Add(this.label60);
+            this.panel11.Location = new System.Drawing.Point(337, 132);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(409, 108);
+            this.panel11.TabIndex = 5;
+            // 
+            // label57
+            // 
+            this.label57.Location = new System.Drawing.Point(48, 77);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(186, 15);
+            this.label57.TabIndex = 11;
+            this.label57.Text = "Изменяемость платформы";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // PlatformVolatilityComboBoxPa
+            // 
+            this.PlatformVolatilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PlatformVolatilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PlatformVolatilityComboBoxPa.FormattingEnabled = true;
+            this.PlatformVolatilityComboBoxPa.Items.AddRange(new object[] {
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.PlatformVolatilityComboBoxPa.Location = new System.Drawing.Point(240, 75);
+            this.PlatformVolatilityComboBoxPa.Name = "PlatformVolatilityComboBoxPa";
+            this.PlatformVolatilityComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.PlatformVolatilityComboBoxPa.TabIndex = 12;
+            // 
+            // label58
+            // 
+            this.label58.Location = new System.Drawing.Point(55, 52);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(179, 15);
+            this.label58.TabIndex = 9;
+            this.label58.Text = "Ограничения памяти";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // MainStorageConstraintComboBoxPa
+            // 
+            this.MainStorageConstraintComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MainStorageConstraintComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MainStorageConstraintComboBoxPa.FormattingEnabled = true;
+            this.MainStorageConstraintComboBoxPa.Items.AddRange(new object[] {
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.MainStorageConstraintComboBoxPa.Location = new System.Drawing.Point(240, 50);
+            this.MainStorageConstraintComboBoxPa.Name = "MainStorageConstraintComboBoxPa";
+            this.MainStorageConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.MainStorageConstraintComboBoxPa.TabIndex = 10;
+            // 
+            // label59
+            // 
+            this.label59.Location = new System.Drawing.Point(39, 27);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(195, 15);
+            this.label59.TabIndex = 2;
+            this.label59.Text = "Ограничение времени выполнения";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // ExecutionTimeConstraintComboBoxPa
+            // 
+            this.ExecutionTimeConstraintComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ExecutionTimeConstraintComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ExecutionTimeConstraintComboBoxPa.FormattingEnabled = true;
+            this.ExecutionTimeConstraintComboBoxPa.Items.AddRange(new object[] {
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.ExecutionTimeConstraintComboBoxPa.Location = new System.Drawing.Point(240, 25);
+            this.ExecutionTimeConstraintComboBoxPa.Name = "ExecutionTimeConstraintComboBoxPa";
+            this.ExecutionTimeConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.ExecutionTimeConstraintComboBoxPa.TabIndex = 8;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label60.Location = new System.Drawing.Point(6, 6);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(147, 13);
+            this.label60.TabIndex = 1;
+            this.label60.Text = "Параметры платформы";
+            // 
+            // panel10
+            // 
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.label50);
+            this.panel10.Controls.Add(this.DocumentationMatchToLifeCycleNeedsComboBoxPa);
+            this.panel10.Controls.Add(this.label51);
+            this.panel10.Controls.Add(this.RequiredReusabilityComboBoxPa);
+            this.panel10.Controls.Add(this.label52);
+            this.panel10.Controls.Add(this.SoftwareProductComplexityComboBoxPa);
+            this.panel10.Controls.Add(this.label53);
+            this.panel10.Controls.Add(this.DatabaseSizeComboBoxPa);
+            this.panel10.Controls.Add(this.label54);
+            this.panel10.Controls.Add(this.RequiredSoftwareRelabilityComboBoxPa);
+            this.panel10.Controls.Add(this.label55);
+            this.panel10.Location = new System.Drawing.Point(6, 246);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(328, 162);
+            this.panel10.TabIndex = 4;
+            // 
+            // label50
+            // 
+            this.label50.Location = new System.Drawing.Point(31, 125);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(206, 29);
+            this.label50.TabIndex = 23;
+            this.label50.Text = "Соответствие документации потребностями жизненного цикла";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // DocumentationMatchToLifeCycleNeedsComboBoxPa
+            // 
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.FormattingEnabled = true;
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Location = new System.Drawing.Point(241, 130);
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Name = "DocumentationMatchToLifeCycleNeedsComboBoxPa";
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.TabIndex = 24;
+            // 
+            // label51
+            // 
+            this.label51.Location = new System.Drawing.Point(34, 95);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(203, 27);
+            this.label51.TabIndex = 21;
+            this.label51.Text = "Требуемая возможность многократного использования";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // RequiredReusabilityComboBoxPa
+            // 
+            this.RequiredReusabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.RequiredReusabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RequiredReusabilityComboBoxPa.FormattingEnabled = true;
+            this.RequiredReusabilityComboBoxPa.Items.AddRange(new object[] {
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.RequiredReusabilityComboBoxPa.Location = new System.Drawing.Point(241, 99);
+            this.RequiredReusabilityComboBoxPa.Name = "RequiredReusabilityComboBoxPa";
+            this.RequiredReusabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.RequiredReusabilityComboBoxPa.TabIndex = 22;
+            // 
+            // label52
+            // 
+            this.label52.Location = new System.Drawing.Point(102, 76);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(135, 15);
+            this.label52.TabIndex = 19;
+            this.label52.Text = "Сложность программы";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // SoftwareProductComplexityComboBoxPa
+            // 
+            this.SoftwareProductComplexityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SoftwareProductComplexityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SoftwareProductComplexityComboBoxPa.FormattingEnabled = true;
+            this.SoftwareProductComplexityComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.SoftwareProductComplexityComboBoxPa.Location = new System.Drawing.Point(241, 74);
+            this.SoftwareProductComplexityComboBoxPa.Name = "SoftwareProductComplexityComboBoxPa";
+            this.SoftwareProductComplexityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.SoftwareProductComplexityComboBoxPa.TabIndex = 20;
+            // 
+            // label53
+            // 
+            this.label53.Location = new System.Drawing.Point(114, 51);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(123, 15);
+            this.label53.TabIndex = 17;
+            this.label53.Text = "Размер базы данных";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // DatabaseSizeComboBoxPa
+            // 
+            this.DatabaseSizeComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DatabaseSizeComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DatabaseSizeComboBoxPa.FormattingEnabled = true;
+            this.DatabaseSizeComboBoxPa.Items.AddRange(new object[] {
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.DatabaseSizeComboBoxPa.Location = new System.Drawing.Point(241, 49);
+            this.DatabaseSizeComboBoxPa.Name = "DatabaseSizeComboBoxPa";
+            this.DatabaseSizeComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.DatabaseSizeComboBoxPa.TabIndex = 18;
+            // 
+            // label54
+            // 
+            this.label54.Location = new System.Drawing.Point(34, 26);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(203, 15);
+            this.label54.TabIndex = 15;
+            this.label54.Text = "Требуемая надёжность программы";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // RequiredSoftwareRelabilityComboBoxPa
+            // 
+            this.RequiredSoftwareRelabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.RequiredSoftwareRelabilityComboBoxPa.AutoCompleteCustomSource.AddRange(new string[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high",
+            "Extra high"});
+            this.RequiredSoftwareRelabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RequiredSoftwareRelabilityComboBoxPa.FormattingEnabled = true;
+            this.RequiredSoftwareRelabilityComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.RequiredSoftwareRelabilityComboBoxPa.Location = new System.Drawing.Point(241, 24);
+            this.RequiredSoftwareRelabilityComboBoxPa.Name = "RequiredSoftwareRelabilityComboBoxPa";
+            this.RequiredSoftwareRelabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.RequiredSoftwareRelabilityComboBoxPa.TabIndex = 16;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label55.Location = new System.Drawing.Point(6, 6);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(133, 13);
+            this.label55.TabIndex = 0;
+            this.label55.Text = "Параметры продукта";
+            // 
+            // panel9
+            // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.label48);
+            this.panel9.Controls.Add(this.LanguageAndToolExperienceComboBoxPa);
+            this.panel9.Controls.Add(this.label47);
+            this.panel9.Controls.Add(this.PlatformExperienceComboBoxPa);
+            this.panel9.Controls.Add(this.label43);
+            this.panel9.Controls.Add(this.PersonnelCapabilityComboBoxPa);
+            this.panel9.Controls.Add(this.label44);
+            this.panel9.Controls.Add(this.ProgrammerCapabilityComboBoxPa);
+            this.panel9.Controls.Add(this.label45);
+            this.panel9.Controls.Add(this.ApplicationExperienceComboBoxPa);
+            this.panel9.Controls.Add(this.label46);
+            this.panel9.Controls.Add(this.AnalystCapabilityComboBoxPa);
+            this.panel9.Controls.Add(this.label42);
+            this.panel9.Location = new System.Drawing.Point(337, 6);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(409, 120);
+            this.panel9.TabIndex = 3;
+            // 
+            // label48
+            // 
+            this.label48.Location = new System.Drawing.Point(193, 82);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(122, 31);
+            this.label48.TabIndex = 25;
+            this.label48.Text = "Опыт использования языка/инструментов";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // LanguageAndToolExperienceComboBoxPa
+            // 
+            this.LanguageAndToolExperienceComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LanguageAndToolExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.LanguageAndToolExperienceComboBoxPa.FormattingEnabled = true;
+            this.LanguageAndToolExperienceComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.LanguageAndToolExperienceComboBoxPa.Location = new System.Drawing.Point(321, 88);
+            this.LanguageAndToolExperienceComboBoxPa.Name = "LanguageAndToolExperienceComboBoxPa";
+            this.LanguageAndToolExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.LanguageAndToolExperienceComboBoxPa.TabIndex = 26;
+            // 
+            // label47
+            // 
+            this.label47.Location = new System.Drawing.Point(203, 53);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(112, 30);
+            this.label47.TabIndex = 23;
+            this.label47.Text = "Опыт работы с платформой";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // PlatformExperienceComboBoxPa
+            // 
+            this.PlatformExperienceComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PlatformExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PlatformExperienceComboBoxPa.FormattingEnabled = true;
+            this.PlatformExperienceComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.PlatformExperienceComboBoxPa.Location = new System.Drawing.Point(321, 59);
+            this.PlatformExperienceComboBoxPa.Name = "PlatformExperienceComboBoxPa";
+            this.PlatformExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.PlatformExperienceComboBoxPa.TabIndex = 24;
+            // 
+            // label43
+            // 
+            this.label43.Location = new System.Drawing.Point(203, 24);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(112, 30);
+            this.label43.TabIndex = 21;
+            this.label43.Text = "Продолжительность работы персонала";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // PersonnelCapabilityComboBoxPa
+            // 
+            this.PersonnelCapabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PersonnelCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PersonnelCapabilityComboBoxPa.FormattingEnabled = true;
+            this.PersonnelCapabilityComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.PersonnelCapabilityComboBoxPa.Location = new System.Drawing.Point(321, 30);
+            this.PersonnelCapabilityComboBoxPa.Name = "PersonnelCapabilityComboBoxPa";
+            this.PersonnelCapabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.PersonnelCapabilityComboBoxPa.TabIndex = 22;
+            // 
+            // label44
+            // 
+            this.label44.Location = new System.Drawing.Point(5, 83);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(94, 30);
+            this.label44.TabIndex = 19;
+            this.label44.Text = "Возможности программиста";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // ProgrammerCapabilityComboBoxPa
+            // 
+            this.ProgrammerCapabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ProgrammerCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ProgrammerCapabilityComboBoxPa.FormattingEnabled = true;
+            this.ProgrammerCapabilityComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.ProgrammerCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 88);
+            this.ProgrammerCapabilityComboBoxPa.Name = "ProgrammerCapabilityComboBoxPa";
+            this.ProgrammerCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
+            this.ProgrammerCapabilityComboBoxPa.TabIndex = 20;
+            // 
+            // label45
+            // 
+            this.label45.Location = new System.Drawing.Point(2, 53);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(97, 30);
+            this.label45.TabIndex = 17;
+            this.label45.Text = "Опыт разработки приложений";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // ApplicationExperienceComboBoxPa
+            // 
+            this.ApplicationExperienceComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ApplicationExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ApplicationExperienceComboBoxPa.FormattingEnabled = true;
+            this.ApplicationExperienceComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.ApplicationExperienceComboBoxPa.Location = new System.Drawing.Point(105, 59);
+            this.ApplicationExperienceComboBoxPa.Name = "ApplicationExperienceComboBoxPa";
+            this.ApplicationExperienceComboBoxPa.Size = new System.Drawing.Size(82, 21);
+            this.ApplicationExperienceComboBoxPa.TabIndex = 18;
+            // 
+            // label46
+            // 
+            this.label46.Location = new System.Drawing.Point(19, 24);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(80, 30);
+            this.label46.TabIndex = 15;
+            this.label46.Text = "Возможности аналитика";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // AnalystCapabilityComboBoxPa
+            // 
+            this.AnalystCapabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AnalystCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.AnalystCapabilityComboBoxPa.FormattingEnabled = true;
+            this.AnalystCapabilityComboBoxPa.Items.AddRange(new object[] {
+            "Very low",
+            "Low",
+            "Nominal",
+            "High",
+            "Very high"});
+            this.AnalystCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 30);
+            this.AnalystCapabilityComboBoxPa.Name = "AnalystCapabilityComboBoxPa";
+            this.AnalystCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
+            this.AnalystCapabilityComboBoxPa.TabIndex = 16;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label42.Location = new System.Drawing.Point(6, 6);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(142, 13);
+            this.label42.TabIndex = 0;
+            this.label42.Text = "Параметры персонала";
             // 
             // panel8
             // 
@@ -1627,583 +2145,53 @@
             this.label41.TabIndex = 1;
             this.label41.Text = "Факторы масштаба";
             // 
-            // panel9
-            // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.label48);
-            this.panel9.Controls.Add(this.LanguageAndToolExperienceComboBoxPa);
-            this.panel9.Controls.Add(this.label47);
-            this.panel9.Controls.Add(this.PlatformExperienceComboBoxPa);
-            this.panel9.Controls.Add(this.label43);
-            this.panel9.Controls.Add(this.PersonnelCapabilityComboBoxPa);
-            this.panel9.Controls.Add(this.label44);
-            this.panel9.Controls.Add(this.ProgrammerCapabilityComboBoxPa);
-            this.panel9.Controls.Add(this.label45);
-            this.panel9.Controls.Add(this.ApplicationExperienceComboBoxPa);
-            this.panel9.Controls.Add(this.label46);
-            this.panel9.Controls.Add(this.AnalystCapabilityComboBoxPa);
-            this.panel9.Controls.Add(this.label42);
-            this.panel9.Location = new System.Drawing.Point(337, 6);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(409, 120);
-            this.panel9.TabIndex = 3;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label42.Location = new System.Drawing.Point(6, 6);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(142, 13);
-            this.label42.TabIndex = 0;
-            this.label42.Text = "Параметры персонала";
-            // 
-            // label43
-            // 
-            this.label43.Location = new System.Drawing.Point(203, 24);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(112, 30);
-            this.label43.TabIndex = 21;
-            this.label43.Text = "Продолжительность работы персонала";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // PersonnelCapabilityComboBoxPa
-            // 
-            this.PersonnelCapabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PersonnelCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PersonnelCapabilityComboBoxPa.FormattingEnabled = true;
-            this.PersonnelCapabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.PersonnelCapabilityComboBoxPa.Location = new System.Drawing.Point(321, 30);
-            this.PersonnelCapabilityComboBoxPa.Name = "PersonnelCapabilityComboBoxPa";
-            this.PersonnelCapabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.PersonnelCapabilityComboBoxPa.TabIndex = 22;
-            // 
-            // label44
-            // 
-            this.label44.Location = new System.Drawing.Point(5, 83);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(94, 30);
-            this.label44.TabIndex = 19;
-            this.label44.Text = "Возможности программиста";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // ProgrammerCapabilityComboBoxPa
-            // 
-            this.ProgrammerCapabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ProgrammerCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ProgrammerCapabilityComboBoxPa.FormattingEnabled = true;
-            this.ProgrammerCapabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.ProgrammerCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 88);
-            this.ProgrammerCapabilityComboBoxPa.Name = "ProgrammerCapabilityComboBoxPa";
-            this.ProgrammerCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
-            this.ProgrammerCapabilityComboBoxPa.TabIndex = 20;
-            // 
-            // label45
-            // 
-            this.label45.Location = new System.Drawing.Point(2, 53);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(97, 30);
-            this.label45.TabIndex = 17;
-            this.label45.Text = "Опыт разработки приложений";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // ApplicationExperienceComboBoxPa
-            // 
-            this.ApplicationExperienceComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ApplicationExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ApplicationExperienceComboBoxPa.FormattingEnabled = true;
-            this.ApplicationExperienceComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.ApplicationExperienceComboBoxPa.Location = new System.Drawing.Point(105, 59);
-            this.ApplicationExperienceComboBoxPa.Name = "ApplicationExperienceComboBoxPa";
-            this.ApplicationExperienceComboBoxPa.Size = new System.Drawing.Size(82, 21);
-            this.ApplicationExperienceComboBoxPa.TabIndex = 18;
-            // 
-            // label46
-            // 
-            this.label46.Location = new System.Drawing.Point(19, 24);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(80, 30);
-            this.label46.TabIndex = 15;
-            this.label46.Text = "Возможности аналитика";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // AnalystCapabilityComboBoxPa
-            // 
-            this.AnalystCapabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AnalystCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.AnalystCapabilityComboBoxPa.FormattingEnabled = true;
-            this.AnalystCapabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.AnalystCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 30);
-            this.AnalystCapabilityComboBoxPa.Name = "AnalystCapabilityComboBoxPa";
-            this.AnalystCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
-            this.AnalystCapabilityComboBoxPa.TabIndex = 16;
-            // 
-            // label47
-            // 
-            this.label47.Location = new System.Drawing.Point(203, 53);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(112, 30);
-            this.label47.TabIndex = 23;
-            this.label47.Text = "Опыт работы с платформой";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // PlatformExperienceComboBoxPa
-            // 
-            this.PlatformExperienceComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PlatformExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PlatformExperienceComboBoxPa.FormattingEnabled = true;
-            this.PlatformExperienceComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.PlatformExperienceComboBoxPa.Location = new System.Drawing.Point(321, 59);
-            this.PlatformExperienceComboBoxPa.Name = "PlatformExperienceComboBoxPa";
-            this.PlatformExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.PlatformExperienceComboBoxPa.TabIndex = 24;
-            // 
-            // label48
-            // 
-            this.label48.Location = new System.Drawing.Point(193, 82);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(122, 31);
-            this.label48.TabIndex = 25;
-            this.label48.Text = "Опыт использования языка/инструментов";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // LanguageAndToolExperienceComboBoxPa
-            // 
-            this.LanguageAndToolExperienceComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.LanguageAndToolExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.LanguageAndToolExperienceComboBoxPa.FormattingEnabled = true;
-            this.LanguageAndToolExperienceComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.LanguageAndToolExperienceComboBoxPa.Location = new System.Drawing.Point(321, 88);
-            this.LanguageAndToolExperienceComboBoxPa.Name = "LanguageAndToolExperienceComboBoxPa";
-            this.LanguageAndToolExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.LanguageAndToolExperienceComboBoxPa.TabIndex = 26;
-            // 
-            // panel10
-            // 
-            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.label50);
-            this.panel10.Controls.Add(this.DocumentationMatchToLifeCycleNeedsComboBoxPa);
-            this.panel10.Controls.Add(this.label51);
-            this.panel10.Controls.Add(this.RequiredReusabilityComboBoxPa);
-            this.panel10.Controls.Add(this.label52);
-            this.panel10.Controls.Add(this.SoftwareProductComplexityComboBoxPa);
-            this.panel10.Controls.Add(this.label53);
-            this.panel10.Controls.Add(this.DatabaseSizeComboBoxPa);
-            this.panel10.Controls.Add(this.label54);
-            this.panel10.Controls.Add(this.RequiredSoftwareRelabilityComboBoxPa);
-            this.panel10.Controls.Add(this.label55);
-            this.panel10.Location = new System.Drawing.Point(6, 246);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(328, 162);
-            this.panel10.TabIndex = 4;
-            // 
-            // label50
-            // 
-            this.label50.Location = new System.Drawing.Point(31, 125);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(206, 29);
-            this.label50.TabIndex = 23;
-            this.label50.Text = "Соответствие документации потребностями жизненного цикла";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // DocumentationMatchToLifeCycleNeedsComboBoxPa
-            // 
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.FormattingEnabled = true;
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Location = new System.Drawing.Point(241, 130);
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Name = "DocumentationMatchToLifeCycleNeedsComboBoxPa";
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.TabIndex = 24;
-            // 
-            // label51
-            // 
-            this.label51.Location = new System.Drawing.Point(34, 95);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(203, 27);
-            this.label51.TabIndex = 21;
-            this.label51.Text = "Требуемая возможность многократного использования";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // RequiredReusabilityComboBoxPa
-            // 
-            this.RequiredReusabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.RequiredReusabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.RequiredReusabilityComboBoxPa.FormattingEnabled = true;
-            this.RequiredReusabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.RequiredReusabilityComboBoxPa.Location = new System.Drawing.Point(241, 99);
-            this.RequiredReusabilityComboBoxPa.Name = "RequiredReusabilityComboBoxPa";
-            this.RequiredReusabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.RequiredReusabilityComboBoxPa.TabIndex = 22;
-            // 
-            // label52
-            // 
-            this.label52.Location = new System.Drawing.Point(102, 76);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(135, 15);
-            this.label52.TabIndex = 19;
-            this.label52.Text = "Сложность программы";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // SoftwareProductComplexityComboBoxPa
-            // 
-            this.SoftwareProductComplexityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SoftwareProductComplexityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.SoftwareProductComplexityComboBoxPa.FormattingEnabled = true;
-            this.SoftwareProductComplexityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.SoftwareProductComplexityComboBoxPa.Location = new System.Drawing.Point(241, 74);
-            this.SoftwareProductComplexityComboBoxPa.Name = "SoftwareProductComplexityComboBoxPa";
-            this.SoftwareProductComplexityComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.SoftwareProductComplexityComboBoxPa.TabIndex = 20;
-            // 
-            // label53
-            // 
-            this.label53.Location = new System.Drawing.Point(114, 51);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(123, 15);
-            this.label53.TabIndex = 17;
-            this.label53.Text = "Размер базы данных";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // DatabaseSizeComboBoxPa
-            // 
-            this.DatabaseSizeComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DatabaseSizeComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.DatabaseSizeComboBoxPa.FormattingEnabled = true;
-            this.DatabaseSizeComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.DatabaseSizeComboBoxPa.Location = new System.Drawing.Point(241, 49);
-            this.DatabaseSizeComboBoxPa.Name = "DatabaseSizeComboBoxPa";
-            this.DatabaseSizeComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.DatabaseSizeComboBoxPa.TabIndex = 18;
-            // 
-            // label54
-            // 
-            this.label54.Location = new System.Drawing.Point(34, 26);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(203, 15);
-            this.label54.TabIndex = 15;
-            this.label54.Text = "Требуемая надёжность программы";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // RequiredSoftwareRelabilityComboBoxPa
-            // 
-            this.RequiredSoftwareRelabilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.RequiredSoftwareRelabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.RequiredSoftwareRelabilityComboBoxPa.FormattingEnabled = true;
-            this.RequiredSoftwareRelabilityComboBoxPa.Items.AddRange(new object[] {
-            "Extra low",
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
-            this.RequiredSoftwareRelabilityComboBoxPa.Location = new System.Drawing.Point(241, 24);
-            this.RequiredSoftwareRelabilityComboBoxPa.Name = "RequiredSoftwareRelabilityComboBoxPa";
-            this.RequiredSoftwareRelabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
-            this.RequiredSoftwareRelabilityComboBoxPa.TabIndex = 16;
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label55.Location = new System.Drawing.Point(6, 6);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(133, 13);
-            this.label55.TabIndex = 0;
-            this.label55.Text = "Параметры продукта";
-            // 
-            // panel11
-            // 
-            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.label57);
-            this.panel11.Controls.Add(this.PlatformVolatilityComboBoxPa);
-            this.panel11.Controls.Add(this.label58);
-            this.panel11.Controls.Add(this.MainStorageConstraintComboBoxPa);
-            this.panel11.Controls.Add(this.label59);
-            this.panel11.Controls.Add(this.ExecutionTimeConstraintComboBoxPa);
-            this.panel11.Controls.Add(this.label60);
-            this.panel11.Location = new System.Drawing.Point(337, 132);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(409, 108);
-            this.panel11.TabIndex = 5;
-            // 
-            // label57
-            // 
-            this.label57.Location = new System.Drawing.Point(48, 77);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(186, 15);
-            this.label57.TabIndex = 11;
-            this.label57.Text = "Изменяемость платформы";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // PlatformVolatilityComboBoxPa
-            // 
-            this.PlatformVolatilityComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PlatformVolatilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PlatformVolatilityComboBoxPa.FormattingEnabled = true;
-            this.PlatformVolatilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.PlatformVolatilityComboBoxPa.Location = new System.Drawing.Point(240, 75);
-            this.PlatformVolatilityComboBoxPa.Name = "PlatformVolatilityComboBoxPa";
-            this.PlatformVolatilityComboBoxPa.Size = new System.Drawing.Size(161, 21);
-            this.PlatformVolatilityComboBoxPa.TabIndex = 12;
-            // 
-            // label58
-            // 
-            this.label58.Location = new System.Drawing.Point(55, 52);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(179, 15);
-            this.label58.TabIndex = 9;
-            this.label58.Text = "Ограничения памяти";
-            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MainStorageConstraintComboBoxPa
-            // 
-            this.MainStorageConstraintComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.MainStorageConstraintComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MainStorageConstraintComboBoxPa.FormattingEnabled = true;
-            this.MainStorageConstraintComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.MainStorageConstraintComboBoxPa.Location = new System.Drawing.Point(240, 50);
-            this.MainStorageConstraintComboBoxPa.Name = "MainStorageConstraintComboBoxPa";
-            this.MainStorageConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
-            this.MainStorageConstraintComboBoxPa.TabIndex = 10;
-            // 
-            // label59
-            // 
-            this.label59.Location = new System.Drawing.Point(39, 27);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(195, 15);
-            this.label59.TabIndex = 2;
-            this.label59.Text = "Ограничение времени выполнения";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // ExecutionTimeConstraintComboBoxPa
-            // 
-            this.ExecutionTimeConstraintComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ExecutionTimeConstraintComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ExecutionTimeConstraintComboBoxPa.FormattingEnabled = true;
-            this.ExecutionTimeConstraintComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.ExecutionTimeConstraintComboBoxPa.Location = new System.Drawing.Point(240, 25);
-            this.ExecutionTimeConstraintComboBoxPa.Name = "ExecutionTimeConstraintComboBoxPa";
-            this.ExecutionTimeConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
-            this.ExecutionTimeConstraintComboBoxPa.TabIndex = 8;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label60.Location = new System.Drawing.Point(6, 6);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(147, 13);
-            this.label60.TabIndex = 1;
-            this.label60.Text = "Параметры платформы";
-            // 
-            // panel12
-            // 
-            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.label49);
-            this.panel12.Controls.Add(this.RequiredDevelopmentScheduleComboBoxPa);
-            this.panel12.Controls.Add(this.label56);
-            this.panel12.Controls.Add(this.MultisiteDevelopmentComboBoxPa);
-            this.panel12.Controls.Add(this.label61);
-            this.panel12.Controls.Add(this.UseOfSoftwareToolsComboBoxPa);
-            this.panel12.Controls.Add(this.label62);
-            this.panel12.Location = new System.Drawing.Point(337, 246);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(409, 121);
-            this.panel12.TabIndex = 6;
-            // 
-            // label49
-            // 
-            this.label49.Location = new System.Drawing.Point(22, 92);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(212, 15);
-            this.label49.TabIndex = 11;
-            this.label49.Text = "Требуемое выполнения графика работ";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // RequiredDevelopmentScheduleComboBoxPa
-            // 
-            this.RequiredDevelopmentScheduleComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.RequiredDevelopmentScheduleComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.RequiredDevelopmentScheduleComboBoxPa.FormattingEnabled = true;
-            this.RequiredDevelopmentScheduleComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.RequiredDevelopmentScheduleComboBoxPa.Location = new System.Drawing.Point(240, 90);
-            this.RequiredDevelopmentScheduleComboBoxPa.Name = "RequiredDevelopmentScheduleComboBoxPa";
-            this.RequiredDevelopmentScheduleComboBoxPa.Size = new System.Drawing.Size(161, 21);
-            this.RequiredDevelopmentScheduleComboBoxPa.TabIndex = 12;
-            // 
-            // label56
-            // 
-            this.label56.Location = new System.Drawing.Point(58, 54);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(176, 30);
-            this.label56.TabIndex = 9;
-            this.label56.Text = "Многоабонентская (удалённая) разработка";
-            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // MultisiteDevelopmentComboBoxPa
-            // 
-            this.MultisiteDevelopmentComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.MultisiteDevelopmentComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.MultisiteDevelopmentComboBoxPa.FormattingEnabled = true;
-            this.MultisiteDevelopmentComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.MultisiteDevelopmentComboBoxPa.Location = new System.Drawing.Point(240, 60);
-            this.MultisiteDevelopmentComboBoxPa.Name = "MultisiteDevelopmentComboBoxPa";
-            this.MultisiteDevelopmentComboBoxPa.Size = new System.Drawing.Size(161, 21);
-            this.MultisiteDevelopmentComboBoxPa.TabIndex = 10;
-            // 
-            // label61
-            // 
-            this.label61.Location = new System.Drawing.Point(39, 24);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(195, 30);
-            this.label61.TabIndex = 2;
-            this.label61.Text = "Использование инструментальных программных средств";
-            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // UseOfSoftwareToolsComboBoxPa
-            // 
-            this.UseOfSoftwareToolsComboBoxPa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.UseOfSoftwareToolsComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.UseOfSoftwareToolsComboBoxPa.FormattingEnabled = true;
-            this.UseOfSoftwareToolsComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Expta high"});
-            this.UseOfSoftwareToolsComboBoxPa.Location = new System.Drawing.Point(240, 30);
-            this.UseOfSoftwareToolsComboBoxPa.Name = "UseOfSoftwareToolsComboBoxPa";
-            this.UseOfSoftwareToolsComboBoxPa.Size = new System.Drawing.Size(161, 21);
-            this.UseOfSoftwareToolsComboBoxPa.TabIndex = 8;
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label62.Location = new System.Drawing.Point(6, 6);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(127, 13);
-            this.label62.TabIndex = 1;
-            this.label62.Text = "Параметры проекта";
-            // 
-            // CalculatePa
-            // 
-            this.CalculatePa.Location = new System.Drawing.Point(337, 372);
-            this.CalculatePa.Name = "CalculatePa";
-            this.CalculatePa.Size = new System.Drawing.Size(409, 36);
-            this.CalculatePa.TabIndex = 7;
-            this.CalculatePa.Text = "Посчитать";
-            this.CalculatePa.UseVisualStyleBackColor = true;
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.label33);
+            this.panel7.Controls.Add(this.label34);
+            this.panel7.Controls.Add(this.SizeTextPa);
+            this.panel7.Controls.Add(this.label35);
+            this.panel7.Location = new System.Drawing.Point(6, 6);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(328, 64);
+            this.panel7.TabIndex = 1;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(81, 37);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(72, 13);
+            this.label33.TabIndex = 8;
+            this.label33.Text = "Объём кода:";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label34
+            // 
+            this.label34.Location = new System.Drawing.Point(243, 37);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(73, 13);
+            this.label34.TabIndex = 9;
+            this.label34.Text = "тысяч строк кода.";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // SizeTextPa
+            // 
+            this.SizeTextPa.Location = new System.Drawing.Point(159, 34);
+            this.SizeTextPa.Name = "SizeTextPa";
+            this.SizeTextPa.Size = new System.Drawing.Size(78, 20);
+            this.SizeTextPa.TabIndex = 7;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label35.Location = new System.Drawing.Point(6, 6);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(118, 13);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "Базовые атрибуты";
             // 
             // COCOMOCalculator
             // 
@@ -2229,25 +2217,25 @@
             this.ProductAttributesPanel.ResumeLayout(false);
             this.ProductAttributesPanel.PerformLayout();
             this.EarlyDesignCocomoII.ResumeLayout(false);
-            this.PostArchitectureCocomoII.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel.ResumeLayout(false);
-            this.panel.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
+            this.panel.ResumeLayout(false);
+            this.panel.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.PostArchitectureCocomoII.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
