@@ -1,17 +1,19 @@
-﻿using COCOMOCalculator.BL.Models.Coefficents;
+﻿using COCOMOCalculator.BL.Enums;
 using COCOMOCalculator.BL.Models;
+using COCOMOCalculator.BL.Models.Coefficents;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
-using System;
 
 namespace COCOMOCalculator.BL.Services
 {
-    public class FileManager<T>
+    public class FileManager
     {
-        public static Dictionary<ProjectType, ProjectTypeCoefficients> ProjectTypeDictionaryFill(string path)
+        public static Dictionary<ProjectType, CocomoCoefficients> ProjectTypeDictionaryFill(string path)
         {
-            Dictionary<ProjectType, ProjectTypeCoefficients> coefficentsDictionary = new Dictionary<ProjectType, ProjectTypeCoefficients>();
+            Dictionary<ProjectType, CocomoCoefficients> coefficentsDictionary = new Dictionary<ProjectType, CocomoCoefficients>();
 
             var lines = File.ReadAllLines(path);
 
@@ -19,15 +21,14 @@ namespace COCOMOCalculator.BL.Services
             {
                 var coefStrings = line.Split(',');
                 var projectType = MapProjectType(coefStrings[0].Trim());
+                var parsedCoefs = CoefParseCheck(coefStrings);
 
-                CoefParseCheck(coefStrings);
-
-                var coefficents = new ProjectTypeCoefficients()
+                var coefficents = new CocomoCoefficients()
                 {
-                    A = float.Parse(coefStrings[1]),
-                    B = float.Parse(coefStrings[2]),
-                    C = float.Parse(coefStrings[3]),
-                    D = float.Parse(coefStrings[4])
+                    A = (float)parsedCoefs[0],
+                    B = (float)parsedCoefs[1],
+                    C = (float)parsedCoefs[2],
+                    D = (float)parsedCoefs[3]
                 };
 
                 coefficentsDictionary.Add(projectType, coefficents);
@@ -36,37 +37,52 @@ namespace COCOMOCalculator.BL.Services
             return coefficentsDictionary;
         }
 
-        public static Dictionary<string, Dictionary<T, float>> CostAttributesDictionaryFill()
+        public static Dictionary<string, Dictionary<RatingType, float>> CostAttributesDictionaryFill()
         {
             var path = "Database\\CostAttributesCoefficents.csv";
-            var size = 6;
-            return DoubleDictionaryFill(path, size);
+            return DoubleDictionaryFill<RatingType>(path);
         }
 
-        public static Dictionary<string, Dictionary<T, float>> ScaleFactorDictionaryFill()
+        public static Dictionary<string, Dictionary<ScaleFactor, float>> ScaleFactorDictionaryFill()
         {
             var path = "Database\\ScaleFactorsCoefficents.csv";
-            var size = 6;
-            return DoubleDictionaryFill(path, size);
+            return DoubleDictionaryFill<ScaleFactor>(path);
         }
 
-        public static Dictionary<string, Dictionary<T, float>> EarlyDesignEffortMultiplierDictionaryFill()
+        public static Dictionary<string, Dictionary<EarlyDesignEffortMultiplier, float>> EarlyDesignEffortMultiplierDictionaryFill()
         {
             var path = "Database\\EarlyDesignEffortMultiplierCoefficents.csv";
-            var size = 7;
-            return DoubleDictionaryFill(path, size);
+            return DoubleDictionaryFill<EarlyDesignEffortMultiplier>(path);
         }
 
-        public static Dictionary<string, Dictionary<T, float>> PostArchitectureEffortMultiplierDictionaryFill()
+        public static Dictionary<string, Dictionary<PostArchitectureEffortMultiplier, float>> PostArchitectureEffortMultiplierDictionaryFill()
         {
             var path = "Database\\PostArchitectureEffortMultiplierCoefficents.csv";
-            var size = 6;
-            return DoubleDictionaryFill(path, size);
+            return DoubleDictionaryFill<PostArchitectureEffortMultiplier>(path);
         }
 
-        private static Dictionary<string, Dictionary<T, float>> DoubleDictionaryFill(string path, int size)
+        public static CocomoCoefficients CocomoCoefficientsFill(string path)
         {
-            Dictionary<string, Dictionary<T, float>> coefficentDictionaries = new Dictionary<string, Dictionary<T, float>>();
+            var lines = File.ReadAllLines(path);
+
+            var line = lines[1];
+            var coefStrings = line.Split(',');
+            var parsedCoefs = CoefParseCheck(coefStrings);
+
+            var coefficents = new CocomoCoefficients()
+            {
+                A = (float)parsedCoefs[0],
+                B = (float)parsedCoefs[1],
+                C = (float)parsedCoefs[2],
+                D = (float)parsedCoefs[3]
+            };
+
+            return coefficents;
+        }
+
+        private static Dictionary<string, Dictionary<TEnum, float>> DoubleDictionaryFill<TEnum>(string path)
+        {
+            Dictionary<string, Dictionary<TEnum, float>> coefficentDictionaries = new Dictionary<string, Dictionary<TEnum, float>>();
 
             var lines = File.ReadAllLines(path);
 
@@ -74,62 +90,59 @@ namespace COCOMOCalculator.BL.Services
             {
                 var coefStrings = line.Split(',');
                 var scaleFactor = coefStrings[0].Trim();
-
-                CoefParseCheck(coefStrings);
-
-                var dicnionary = SubArrayFill(size, coefStrings);
+                var parsedCoefs = CoefParseCheck(coefStrings);
+                var dicnionary = SubArrayFill<TEnum>(parsedCoefs);
                 coefficentDictionaries.Add(scaleFactor, dicnionary);
             }
 
             return coefficentDictionaries;
         }
 
-        private static Dictionary<T, float> SubArrayFill(int size, string[] coefStrings)
+        private static Dictionary<TEnum, float> SubArrayFill<TEnum>(float?[] parsedCoefs)
         {
-            var dicnionary = new Dictionary<T, float>();
-            for (int i = 1; i <= size; i++)
+            var dicnionary = new Dictionary<TEnum, float>();
+            for (int i = 1; i <= parsedCoefs.Length - 1; i++)
             {
-                if (!string.IsNullOrWhiteSpace(coefStrings[i]))
+                var coefficent = parsedCoefs[i - 1];
+                if (coefficent != null)
                 {
-                    dicnionary.Add(GetEnumValueByIndex(i), float.Parse(coefStrings[i]));
+                    dicnionary.Add(GetEnum<TEnum>(i), (float)coefficent);
                 }
             }
             return dicnionary;
         }
 
-        private static void CoefParseCheck(string[] coefs)
+        private static float?[] CoefParseCheck(string[] coefs)
         {
-            float[] parsedCoefs = new float[coefs.Length - 1];
-            for (int i = 1; i < coefs.Length - 1; i++)
+            float?[] parsedCoefs = new float?[coefs.Length - 1];
+            for (int i = 1; i < coefs.Length; i++)
             {
-                if (!string.IsNullOrWhiteSpace(coefs[i]))
+                var checkedCoef = coefs[i];
+                if (string.IsNullOrWhiteSpace(checkedCoef))
                 {
-                    bool parseSuccess = float.TryParse(coefs[i], out parsedCoefs[i - 1]);
+                    parsedCoefs[i - 1] = null;
+                }
+                else
+                {
+                    bool parseSuccess = float.TryParse(checkedCoef, NumberStyles.Any, CultureInfo.InvariantCulture, out var parsed);
                     if (!parseSuccess)
                         throw new ArgumentException("Ошибка во внешнем файле. \nТип неверного коэффицента : "
                             + coefs[0] + "\nНеверный коэффицент №" + (i + 1));
+                    else
+                        parsedCoefs[i - 1] = parsed;
                 }
             }
+            return parsedCoefs;
         }
 
-        private static T GetEnumValueByIndex(int i)
+        private static TEnum GetEnum<TEnum>(int i)
         {
-            return (T)Enum.GetValues(typeof(T)).GetValue(i);
+            return (TEnum)Enum.GetValues(typeof(TEnum)).GetValue(i);
         }
 
         private static ProjectType MapProjectType(string type)
         {
-            switch (type)
-            {
-                case "Common":
-                    return ProjectType.Common;
-                case "SemiIndependent":
-                    return ProjectType.SemiIndependent;
-                case "BuiltIn":
-                    return ProjectType.BuiltIn;
-                default:
-                    return ProjectType.Undefined;
-            }
+            return Enum.TryParse<ProjectType>(type, out var enumValue) ? enumValue : default;
         }
     }
 }
