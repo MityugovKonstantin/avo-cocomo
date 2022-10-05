@@ -1,6 +1,6 @@
 ﻿namespace COCOMOCalculator.BL.Models.Coefficents
 {
-    public class ProjectTypeCoefficients
+    public class CocomoCoefficients
     {
         public float A { get; set; }
         public float B { get; set; }

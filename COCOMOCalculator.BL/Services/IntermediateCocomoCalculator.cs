@@ -7,7 +7,7 @@ namespace COCOMOCalculator.BL.Services
 {
     public class IntermediateCocomoCalculator
     {
-        Dictionary<string, Dictionary<RatingType, float>> costAttributes = FileManager<RatingType>.CostAttributesDictionaryFill();
+        Dictionary<string, Dictionary<RatingType, float>> costAttributes = FileManager.CostAttributesDictionaryFill();
 
         public CalculationResult Calculate(IntermediateCalculationArgs args)
         {
@@ -16,58 +16,48 @@ namespace COCOMOCalculator.BL.Services
 
             var basicAttributes = args.BasicAttributes;
             if (basicAttributes == null)
-                throw new ArgumentNullException(nameof(basicAttributes));
+                throw new ArgumentException("Basic Attributes не верен.");
 
             var productAttributes = args.ProductAttributes;
             if (productAttributes == null)
-                throw new ArgumentNullException(nameof(productAttributes));
+                throw new ArgumentException("Product Attributes не верен.");
 
             var hardwareAttributes = args.HardwareAttributes;
             if (hardwareAttributes == null)
-                throw new ArgumentNullException(nameof(hardwareAttributes));
+                throw new ArgumentException("Hardware Attributes не верен.");
 
             var personnelAttributes = args.PersonnelAttributes;
             if (personnelAttributes == null)
-                throw new ArgumentNullException(nameof(personnelAttributes));
+                throw new ArgumentException("Personnel Attributes не верен.");
 
             var projectAttributes = args.ProjectAttributes;
             if (projectAttributes == null)
-                throw new ArgumentNullException(nameof(projectAttributes));
+                throw new ArgumentException("Project Attributes не верен.");
 
-            var projectTypeCoefficents = FileManager<ProjectType>.ProjectTypeDictionaryFill("Database\\IntermediateProjectTypeCoefficents.csv");
+            var projectTypeCoefficents = FileManager.ProjectTypeDictionaryFill("Database\\IntermediateProjectTypeCoefficents.csv");
             var size = basicAttributes.Size;
             var projectType = basicAttributes.ProjectType;
 
             if (!projectTypeCoefficents.TryGetValue(projectType, out var coefs))
                 throw new ArgumentException("Тип проекта должен быть указан.");
 
-            float[] coefficent = new float[15];
+            var eaf = coefficentMap(nameof(productAttributes.RequiredSoftwareReliability), productAttributes.RequiredSoftwareReliability);
+            eaf *= coefficentMap(nameof(productAttributes.SizeOfApplicationDatabase), productAttributes.SizeOfApplicationDatabase);
+            eaf *= coefficentMap(nameof(productAttributes.ComplexityOfTheProduct), productAttributes.ComplexityOfTheProduct);
+            eaf *= coefficentMap(nameof(hardwareAttributes.RunTimePerformanceConstraints), hardwareAttributes.RunTimePerformanceConstraints);
+            eaf *= coefficentMap(nameof(hardwareAttributes.MemoryConstraints), hardwareAttributes.MemoryConstraints);
+            eaf *= coefficentMap(nameof(hardwareAttributes.VolatilityOfTheVirtualMachineEnvironment), hardwareAttributes.VolatilityOfTheVirtualMachineEnvironment);
+            eaf *= coefficentMap(nameof(hardwareAttributes.RequiredTurnaboutTime), hardwareAttributes.RequiredTurnaboutTime);
+            eaf *= coefficentMap(nameof(personnelAttributes.AnalystCapability), personnelAttributes.AnalystCapability);
+            eaf *= coefficentMap(nameof(personnelAttributes.SoftwareEngineerCapability), personnelAttributes.SoftwareEngineerCapability);
+            eaf *= coefficentMap(nameof(personnelAttributes.ApplicationsExperience), personnelAttributes.ApplicationsExperience);
+            eaf *= coefficentMap(nameof(personnelAttributes.VirtualMachineExperience), personnelAttributes.VirtualMachineExperience);
+            eaf *= coefficentMap(nameof(personnelAttributes.ProgrammingLanguageExperience), personnelAttributes.ProgrammingLanguageExperience);
+            eaf *= coefficentMap(nameof(projectAttributes.UseOfSoftwareTools), projectAttributes.UseOfSoftwareTools);
+            eaf *= coefficentMap(nameof(projectAttributes.ApplicationOfSoftwareEngineeringMethods), projectAttributes.ApplicationOfSoftwareEngineeringMethods);
+            eaf *= coefficentMap(nameof(projectAttributes.RequiredDevelopmentSchedule), projectAttributes.RequiredDevelopmentSchedule);
 
-            coefficent[0]  = coefficentMap(nameof(productAttributes.RequiredSoftwareReliability),               productAttributes.RequiredSoftwareReliability);
-            coefficent[1]  = coefficentMap(nameof(productAttributes.SizeOfApplicationDatabase),                 productAttributes.SizeOfApplicationDatabase);
-            coefficent[2]  = coefficentMap(nameof(productAttributes.ComplexityOfTheProduct),                    productAttributes.ComplexityOfTheProduct);
-                           
-            coefficent[3]  = coefficentMap(nameof(hardwareAttributes.RunTimePerformanceConstraints),            hardwareAttributes.RunTimePerformanceConstraints);
-            coefficent[4]  = coefficentMap(nameof(hardwareAttributes.MemoryConstraints),                        hardwareAttributes.MemoryConstraints);
-            coefficent[5]  = coefficentMap(nameof(hardwareAttributes.VolatilityOfTheVirtualMachineEnvironment), hardwareAttributes.VolatilityOfTheVirtualMachineEnvironment);
-            coefficent[6]  = coefficentMap(nameof(hardwareAttributes.RequiredTurnaboutTime),                    hardwareAttributes.RequiredTurnaboutTime);
-                           
-            coefficent[7]  = coefficentMap(nameof (personnelAttributes.AnalystCapability),                      personnelAttributes.AnalystCapability);
-            coefficent[8]  = coefficentMap(nameof (personnelAttributes.SoftwareEngineerCapability),             personnelAttributes.SoftwareEngineerCapability);
-            coefficent[9]  = coefficentMap(nameof (personnelAttributes.ApplicationsExperience),                 personnelAttributes.ApplicationsExperience);
-            coefficent[10] = coefficentMap(nameof(personnelAttributes.VirtualMachineExperience),                personnelAttributes.VirtualMachineExperience);
-            coefficent[11] = coefficentMap(nameof(personnelAttributes.ProgrammingLanguageExperience),           personnelAttributes.ProgrammingLanguageExperience);
-
-            coefficent[12] = coefficentMap(nameof(projectAttributes.UseOfSoftwareTools),                        projectAttributes.UseOfSoftwareTools);
-            coefficent[13] = coefficentMap(nameof(projectAttributes.ApplicationOfSoftwareEngineeringMethods),   projectAttributes.ApplicationOfSoftwareEngineeringMethods);
-            coefficent[14] = coefficentMap(nameof(projectAttributes.RequiredDevelopmentSchedule),               projectAttributes.RequiredDevelopmentSchedule);
-
-            float effortAdjustmentFactor = coefficent[0];
-
-            for (int i = 1; i < 15; i++)
-                effortAdjustmentFactor *= coefficent[i];
-
-            var peopleMonth = (float)Math.Round(effortAdjustmentFactor * coefs.A * Math.Pow(size, coefs.B), 6);
+            var peopleMonth = (float)Math.Round(eaf * coefs.A * Math.Pow(size, coefs.B), 6);
             var timeMonth = (float)Math.Round(coefs.C * Math.Pow(size, coefs.D), 6);
 
             return new CalculationResult { PeopleMonth = peopleMonth, TimeMonth = timeMonth };

@@ -1,5 +1,5 @@
-﻿using System;
-using COCOMOCalculator.BL.Models;
+﻿using COCOMOCalculator.BL.Models;
+using System;
 
 namespace COCOMOCalculator.Interfaces
 {

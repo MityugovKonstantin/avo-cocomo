@@ -1,5 +1,4 @@
-﻿using COCOMOCalculator.BL.Models.Attributes;
-using COCOMOCalculator.BL.Models.Attributes.SecondCocomo;
+﻿using COCOMOCalculator.BL.Models.Attributes.SecondCocomo;
 
 namespace COCOMOCalculator.BL.Models
 {

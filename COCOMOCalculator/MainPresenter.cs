@@ -1,8 +1,8 @@
-﻿using System;
-using COCOMOCalculator.BL.Interfaces;
+﻿using COCOMOCalculator.BL.Interfaces;
 using COCOMOCalculator.BL.Models;
 using COCOMOCalculator.BL.Models.Args;
 using COCOMOCalculator.Interfaces;
+using System;
 
 namespace COCOMOCalculator
 {

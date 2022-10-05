@@ -1,11 +1,11 @@
-﻿using System;
-using System.Windows.Forms;
-using COCOMOCalculator.BL.Enums;
+﻿using COCOMOCalculator.BL.Enums;
 using COCOMOCalculator.BL.Models;
 using COCOMOCalculator.BL.Models.Args;
 using COCOMOCalculator.BL.Models.Attributes;
 using COCOMOCalculator.BL.Models.Attributes.SecondCocomo;
 using COCOMOCalculator.Interfaces;
+using System;
+using System.Windows.Forms;
 
 namespace COCOMOCalculator
 {
@@ -15,8 +15,8 @@ namespace COCOMOCalculator
         {
             InitializeComponent();
 
-            CalculateB.Click  += CalculateB_Click;
-            CalculateI.Click  += CalculateI_Click;
+            CalculateB.Click += CalculateB_Click;
+            CalculateI.Click += CalculateI_Click;
             CalculateEd.Click += CalculateEd_Click;
             CalculatePa.Click += CalculatePa_Click;
         }
@@ -257,7 +257,7 @@ namespace COCOMOCalculator
                 default:
                     return RatingType.Undefined;
             }
-        }        
+        }
 
         private ScaleFactor MapScaleFactor(string factor)
         {
