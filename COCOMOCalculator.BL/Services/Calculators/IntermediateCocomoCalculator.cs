@@ -7,7 +7,7 @@ namespace COCOMOCalculator.BL.Services
 {
     public class IntermediateCocomoCalculator
     {
-        Dictionary<string, Dictionary<RatingType, float>> costAttributes = FileManager.CostAttributesDictionaryFill();
+        Dictionary<string, Dictionary<RatingType, float>> costAttributes = FileManager.FillCostAttributesDictionary();
 
         public CalculationResult Calculate(IntermediateCalculationArgs args)
         {
@@ -34,7 +34,7 @@ namespace COCOMOCalculator.BL.Services
             if (projectAttributes == null)
                 throw new ArgumentException("Project Attributes не верен.");
 
-            var projectTypeCoefficents = FileManager.ProjectTypeDictionaryFill("Database\\IntermediateProjectTypeCoefficents.csv");
+            var projectTypeCoefficents = FileManager.FillIntermediateProjectTypeDictionary();
             var size = basicAttributes.Size;
             var projectType = basicAttributes.ProjectType;
 
@@ -58,7 +58,7 @@ namespace COCOMOCalculator.BL.Services
             eaf *= coefficentMap(nameof(projectAttributes.RequiredDevelopmentSchedule), projectAttributes.RequiredDevelopmentSchedule);
 
             var peopleMonth = (float)Math.Round(eaf * coefs.A * Math.Pow(size, coefs.B), 6);
-            var timeMonth = (float)Math.Round(coefs.C * Math.Pow(size, coefs.D), 6);
+            var timeMonth = (float)Math.Round(coefs.C * Math.Pow(peopleMonth, coefs.D), 6);
 
             return new CalculationResult { PeopleMonth = peopleMonth, TimeMonth = timeMonth };
         }

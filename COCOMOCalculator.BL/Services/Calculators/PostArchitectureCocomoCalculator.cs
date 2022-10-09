@@ -9,9 +9,9 @@ namespace COCOMOCalculator.BL.Services
 {
     public class PostArchitectureCocomoCalculator
     {
-        private readonly Dictionary<string, Dictionary<ScaleFactor, float>> _scaleFactors = FileManager.ScaleFactorDictionaryFill();
-        private readonly Dictionary<string, Dictionary<PostArchitectureEffortMultiplier, float>> _effortMultipliers = FileManager.PostArchitectureEffortMultiplierDictionaryFill();
-        private readonly CocomoCoefficients _coefficients = FileManager.CocomoCoefficientsFill("Database\\PostArchitectureCoefficents.csv");
+        private readonly Dictionary<string, Dictionary<ScaleFactor, float>> _scaleFactors = FileManager.FillScaleFactorDictionary();
+        private readonly Dictionary<string, Dictionary<PostArchitectureEffortMultiplier, float>> _effortMultipliers = FileManager.FillPostArchitectureEffortMultiplierDictionary();
+        private readonly CocomoCoefficients _coefficients = FileManager.FillCocomoCoefficients("Database\\PostArchitectureCoefficents.csv");
 
         public CalculationResult Calculate(PostArchitectureCalculationArgs args)
         {

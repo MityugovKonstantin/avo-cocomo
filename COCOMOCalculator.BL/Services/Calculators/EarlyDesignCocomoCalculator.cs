@@ -8,9 +8,9 @@ namespace COCOMOCalculator.BL.Services
 {
     public class EarlyDesignCocomoCalculator
     {
-        private readonly Dictionary<string, Dictionary<ScaleFactor, float>> _scaleFactors = FileManager.ScaleFactorDictionaryFill();
-        private readonly Dictionary<string, Dictionary<EarlyDesignEffortMultiplier, float>> _effortMultipliers = FileManager.EarlyDesignEffortMultiplierDictionaryFill();
-        private readonly CocomoCoefficients _coefficients = FileManager.CocomoCoefficientsFill("Database\\EarlyDesignCoefficents.csv");
+        private readonly Dictionary<string, Dictionary<ScaleFactor, float>> _scaleFactors = FileManager.FillScaleFactorDictionary();
+        private readonly Dictionary<string, Dictionary<EarlyDesignEffortMultiplier, float>> _effortMultipliers = FileManager.FillEarlyDesignEffortMultiplierDictionary();
+        private readonly CocomoCoefficients _coefficients = FileManager.FillCocomoCoefficients("Database\\EarlyDesignCoefficents.csv");
 
         public CalculationResult Calculate(EarlyDesignCalculationArgs args)
         {

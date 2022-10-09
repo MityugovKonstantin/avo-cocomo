@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCOMOCalculator", "COCOMOC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCOMOCalculator.BL", "COCOMOCalculator.BL\COCOMOCalculator.BL.csproj", "{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocomoCalculator.BL.Test", "Test\CocomoCalculator.BL.Test.csproj", "{01B8D806-7093-48C3-AD10-1A016539FEE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DBE1AC-D6E0-4B83-AA15-F2F81D2D1C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B8D806-7093-48C3-AD10-1A016539FEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B8D806-7093-48C3-AD10-1A016539FEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B8D806-7093-48C3-AD10-1A016539FEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B8D806-7093-48C3-AD10-1A016539FEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

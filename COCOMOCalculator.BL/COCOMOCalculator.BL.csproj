@@ -61,10 +61,10 @@
     <Compile Include="Models\Attributes\SecondCocomo\PostArchitecture\ProductFactors.cs" />
     <Compile Include="Models\Attributes\SecondCocomo\PostArchitecture\ProjectFactors.cs" />
     <Compile Include="Models\Attributes\SecondCocomo\ScaleFactorsAttributes.cs" />
-    <Compile Include="Services\EarlyDesignCocomoCalculator.cs" />
+    <Compile Include="Services\Calculators\EarlyDesignCocomoCalculator.cs" />
     <Compile Include="Services\FileManager.cs" />
-    <Compile Include="Services\IntermediateCocomoCalculator.cs" />
-    <Compile Include="Services\BasicCocomoCalculator.cs" />
+    <Compile Include="Services\Calculators\IntermediateCocomoCalculator.cs" />
+    <Compile Include="Services\Calculators\BasicCocomoCalculator.cs" />
     <Compile Include="Interfaces\ICocomoCalculator.cs" />
     <Compile Include="Models\Attributes\FirstCocomo\BasicAttributes.cs" />
     <Compile Include="Models\Attributes\FirstCocomo\HardwareAttributes.cs" />
@@ -75,12 +75,12 @@
     <Compile Include="Models\Args\BaseCalculationArgs.cs" />
     <Compile Include="Models\Args\BasicCalculationArgs.cs" />
     <Compile Include="Models\Args\IntermediateCalculationArgs.cs" />
-    <Compile Include="Services\CocomoCalculator.cs" />
+    <Compile Include="Services\Calculators\CocomoCalculator.cs" />
     <Compile Include="Models\CalculationResult.cs" />
     <Compile Include="Enums\ProjectType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Coefficents\CocomoCoefficents.cs" />
-    <Compile Include="Services\PostArchitectureCocomoCalculator.cs" />
+    <Compile Include="Services\Calculators\PostArchitectureCocomoCalculator.cs" />
     <None Include="Database\EarlyDesignCoefficents.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

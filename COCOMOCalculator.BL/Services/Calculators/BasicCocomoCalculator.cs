@@ -15,7 +15,7 @@ namespace COCOMOCalculator.BL.Services
             if (basicAttributes == null)
                 throw new ArgumentException("Basic Attributes не верен.");
 
-            var coefficents = FileManager.ProjectTypeDictionaryFill("Database\\BasicProjectTypeCoefficents.csv");
+            var coefficents = FileManager.FillBasicProjectTypeDictionary();
 
             if (!coefficents.TryGetValue(basicAttributes.ProjectType, out var coefs))
                 throw new ArgumentException("Тип проекта должен быть указан.");

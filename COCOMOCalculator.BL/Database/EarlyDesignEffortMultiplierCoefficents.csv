@@ -1,6 +1,6 @@
 ﻿EffortMultiplier,               ExtraLow, VeryLow,  Low,      Nominal,  High,     VeryHigh, ExtraHigh
 PersonnelCapability,            2.12,     1.62,     1.26,     1.00,     0.83,     0.63,     0.50
-PersonnelExperience,            1.59,     1.33,     1.22,     1,00,     0.87,     0.74,     0.62
+PersonnelExperience,            1.59,     1.33,     1.22,     1.00,     0.87,     0.74,     0.62
 ProductRelabilityAndComplexity, 0.49,     0.60,     0.83,     1.00,     1.33,     1.91,     2.72
 DeveloperForReusability,            ,         ,     0.95,     1.00,     1.07,     1.15,     1.24
 PlatformDifficulty,                 ,         ,     0.87,     1.00,     1.29,     1.81,     2.61
