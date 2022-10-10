@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(COCOMOCalculator));
             this.SizeTextB = new System.Windows.Forms.TextBox();
             this.ProgramScopeLabel = new System.Windows.Forms.Label();
             this.TheProjectTypeLabel = new System.Windows.Forms.Label();
@@ -2199,8 +2200,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "COCOMOCalculator";
-            this.Text = "COCOMO Calculator";
+            this.Text = "AVOCocomo";
             this.tabControl1.ResumeLayout(false);
             this.BasicCocomoTabPage.ResumeLayout(false);
             this.CalculatePanel.ResumeLayout(false);
