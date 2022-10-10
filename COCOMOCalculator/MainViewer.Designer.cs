@@ -42,6 +42,7 @@
             this.IntermediateCocomoTabPage = new System.Windows.Forms.TabPage();
             this.CalculateI = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label66 = new System.Windows.Forms.Label();
             this.RequiredDevelopmentScheduleComboBoxI = new System.Windows.Forms.ComboBox();
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI = new System.Windows.Forms.ComboBox();
             this.UseOfSoftwareToolsComboBoxI = new System.Windows.Forms.ComboBox();
@@ -50,6 +51,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label65 = new System.Windows.Forms.Label();
             this.ProgrammingLanguageExperienceComboBoxI = new System.Windows.Forms.ComboBox();
             this.VirtualMachineExperienceComboBoxI = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -69,6 +71,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.SizeTextI = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label64 = new System.Windows.Forms.Label();
             this.ReuiredTurnaboutTimeComboBoxI = new System.Windows.Forms.ComboBox();
             this.RTTLabel = new System.Windows.Forms.Label();
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI = new System.Windows.Forms.ComboBox();
@@ -79,6 +82,7 @@
             this.RTPSLabel = new System.Windows.Forms.Label();
             this.HAPanelName = new System.Windows.Forms.Label();
             this.ProductAttributesPanel = new System.Windows.Forms.Panel();
+            this.label63 = new System.Windows.Forms.Label();
             this.ComplexityOfTheProductComboBoxI = new System.Windows.Forms.ComboBox();
             this.SizeOfApplicationDatabaseComboBoxI = new System.Windows.Forms.ComboBox();
             this.RequiredSoftwareRelabilityComboBoxI = new System.Windows.Forms.ComboBox();
@@ -89,6 +93,7 @@
             this.EarlyDesignCocomoII = new System.Windows.Forms.TabPage();
             this.CalculateEd = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label68 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.RequiredDevelopmentScheduleComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label32 = new System.Windows.Forms.Label();
@@ -105,6 +110,7 @@
             this.PersonnelCapabilityComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label25 = new System.Windows.Forms.Label();
             this.panel = new System.Windows.Forms.Panel();
+            this.label67 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.ProcessMaturityComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
@@ -124,6 +130,7 @@
             this.PostArchitectureCocomoII = new System.Windows.Forms.TabPage();
             this.CalculatePa = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.label73 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.RequiredDevelopmentScheduleComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label56 = new System.Windows.Forms.Label();
@@ -132,6 +139,7 @@
             this.UseOfSoftwareToolsComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label62 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label72 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.PlatformVolatilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label58 = new System.Windows.Forms.Label();
@@ -140,6 +148,7 @@
             this.ExecutionTimeConstraintComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label60 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label70 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label51 = new System.Windows.Forms.Label();
@@ -152,6 +161,7 @@
             this.RequiredSoftwareRelabilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label55 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label71 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.LanguageAndToolExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label47 = new System.Windows.Forms.Label();
@@ -166,6 +176,7 @@
             this.AnalystCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label42 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label69 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.ProcessMaturityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
@@ -184,17 +195,6 @@
             this.label35 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.BasicCocomoTabPage.SuspendLayout();
             this.CalculatePanel.SuspendLayout();
@@ -379,6 +379,16 @@
             this.panel4.Size = new System.Drawing.Size(420, 111);
             this.panel4.TabIndex = 11;
             // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label66.Location = new System.Drawing.Point(312, 17);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(58, 13);
+            this.label66.TabIndex = 11;
+            this.label66.Text = "Уровень";
+            // 
             // RequiredDevelopmentScheduleComboBoxI
             // 
             this.RequiredDevelopmentScheduleComboBoxI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -391,9 +401,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.RequiredDevelopmentScheduleComboBoxI.Location = new System.Drawing.Point(297, 77);
+            this.RequiredDevelopmentScheduleComboBoxI.Location = new System.Drawing.Point(276, 77);
             this.RequiredDevelopmentScheduleComboBoxI.Name = "RequiredDevelopmentScheduleComboBoxI";
-            this.RequiredDevelopmentScheduleComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.RequiredDevelopmentScheduleComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.RequiredDevelopmentScheduleComboBoxI.TabIndex = 9;
             // 
             // ApplicationOfSoftwareEngineeringMethodsComboBoxI
@@ -408,9 +418,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Location = new System.Drawing.Point(297, 55);
+            this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Location = new System.Drawing.Point(276, 55);
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Name = "ApplicationOfSoftwareEngineeringMethodsComboBoxI";
-            this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.TabIndex = 8;
             // 
             // UseOfSoftwareToolsComboBoxI
@@ -425,15 +435,15 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.UseOfSoftwareToolsComboBoxI.Location = new System.Drawing.Point(297, 33);
+            this.UseOfSoftwareToolsComboBoxI.Location = new System.Drawing.Point(276, 33);
             this.UseOfSoftwareToolsComboBoxI.Name = "UseOfSoftwareToolsComboBoxI";
-            this.UseOfSoftwareToolsComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.UseOfSoftwareToolsComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.UseOfSoftwareToolsComboBoxI.TabIndex = 7;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(50, 80);
+            this.label9.Location = new System.Drawing.Point(29, 80);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(241, 13);
             this.label9.TabIndex = 3;
@@ -443,7 +453,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(93, 58);
+            this.label10.Location = new System.Drawing.Point(72, 58);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(198, 13);
             this.label10.TabIndex = 2;
@@ -454,7 +464,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.label11.Location = new System.Drawing.Point(37, 36);
+            this.label11.Location = new System.Drawing.Point(16, 36);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(254, 13);
             this.label11.TabIndex = 1;
@@ -493,6 +503,16 @@
             this.panel3.Size = new System.Drawing.Size(420, 144);
             this.panel3.TabIndex = 10;
             // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label65.Location = new System.Drawing.Point(312, 6);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(58, 13);
+            this.label65.TabIndex = 14;
+            this.label65.Text = "Уровень";
+            // 
             // ProgrammingLanguageExperienceComboBoxI
             // 
             this.ProgrammingLanguageExperienceComboBoxI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -504,9 +524,9 @@
             "Низкий",
             "Средний",
             "Высокий"});
-            this.ProgrammingLanguageExperienceComboBoxI.Location = new System.Drawing.Point(297, 113);
+            this.ProgrammingLanguageExperienceComboBoxI.Location = new System.Drawing.Point(276, 113);
             this.ProgrammingLanguageExperienceComboBoxI.Name = "ProgrammingLanguageExperienceComboBoxI";
-            this.ProgrammingLanguageExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.ProgrammingLanguageExperienceComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.ProgrammingLanguageExperienceComboBoxI.TabIndex = 13;
             // 
             // VirtualMachineExperienceComboBoxI
@@ -520,15 +540,15 @@
             "Низкий",
             "Средний",
             "Высокий"});
-            this.VirtualMachineExperienceComboBoxI.Location = new System.Drawing.Point(297, 91);
+            this.VirtualMachineExperienceComboBoxI.Location = new System.Drawing.Point(276, 91);
             this.VirtualMachineExperienceComboBoxI.Name = "VirtualMachineExperienceComboBoxI";
-            this.VirtualMachineExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.VirtualMachineExperienceComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.VirtualMachineExperienceComboBoxI.TabIndex = 12;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(38, 116);
+            this.label7.Location = new System.Drawing.Point(17, 116);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(253, 13);
             this.label7.TabIndex = 11;
@@ -538,7 +558,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(71, 94);
+            this.label8.Location = new System.Drawing.Point(50, 94);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(220, 13);
             this.label8.TabIndex = 10;
@@ -557,9 +577,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.ApplicationExperienceComboBoxI.Location = new System.Drawing.Point(297, 69);
+            this.ApplicationExperienceComboBoxI.Location = new System.Drawing.Point(276, 69);
             this.ApplicationExperienceComboBoxI.Name = "ApplicationExperienceComboBoxI";
-            this.ApplicationExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.ApplicationExperienceComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.ApplicationExperienceComboBoxI.TabIndex = 9;
             // 
             // SoftwareEngineerCapabilityComboBoxI
@@ -574,9 +594,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.SoftwareEngineerCapabilityComboBoxI.Location = new System.Drawing.Point(297, 47);
+            this.SoftwareEngineerCapabilityComboBoxI.Location = new System.Drawing.Point(276, 47);
             this.SoftwareEngineerCapabilityComboBoxI.Name = "SoftwareEngineerCapabilityComboBoxI";
-            this.SoftwareEngineerCapabilityComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.SoftwareEngineerCapabilityComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.SoftwareEngineerCapabilityComboBoxI.TabIndex = 8;
             // 
             // AnalystCapabilityComboBoxI
@@ -591,15 +611,15 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.AnalystCapabilityComboBoxI.Location = new System.Drawing.Point(297, 25);
+            this.AnalystCapabilityComboBoxI.Location = new System.Drawing.Point(276, 25);
             this.AnalystCapabilityComboBoxI.Name = "AnalystCapabilityComboBoxI";
-            this.AnalystCapabilityComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.AnalystCapabilityComboBoxI.Size = new System.Drawing.Size(130, 21);
             this.AnalystCapabilityComboBoxI.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(195, 72);
+            this.label3.Location = new System.Drawing.Point(174, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 13);
             this.label3.TabIndex = 3;
@@ -609,7 +629,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(128, 50);
+            this.label4.Location = new System.Drawing.Point(107, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(163, 13);
             this.label4.TabIndex = 2;
@@ -619,7 +639,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(139, 28);
+            this.label5.Location = new System.Drawing.Point(118, 28);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(152, 13);
             this.label5.TabIndex = 1;
@@ -734,6 +754,16 @@
             this.panel1.Size = new System.Drawing.Size(315, 147);
             this.panel1.TabIndex = 1;
             // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label64.Location = new System.Drawing.Point(217, 24);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(58, 13);
+            this.label64.TabIndex = 15;
+            this.label64.Text = "Уровень";
+            // 
             // ReuiredTurnaboutTimeComboBoxI
             // 
             this.ReuiredTurnaboutTimeComboBoxI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -745,15 +775,15 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.ReuiredTurnaboutTimeComboBoxI.Location = new System.Drawing.Point(205, 118);
+            this.ReuiredTurnaboutTimeComboBoxI.Location = new System.Drawing.Point(189, 118);
             this.ReuiredTurnaboutTimeComboBoxI.Name = "ReuiredTurnaboutTimeComboBoxI";
-            this.ReuiredTurnaboutTimeComboBoxI.Size = new System.Drawing.Size(98, 21);
+            this.ReuiredTurnaboutTimeComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.ReuiredTurnaboutTimeComboBoxI.TabIndex = 14;
             // 
             // RTTLabel
             // 
             this.RTTLabel.AutoSize = true;
-            this.RTTLabel.Location = new System.Drawing.Point(15, 121);
+            this.RTTLabel.Location = new System.Drawing.Point(4, 121);
             this.RTTLabel.Name = "RTTLabel";
             this.RTTLabel.Size = new System.Drawing.Size(184, 13);
             this.RTTLabel.TabIndex = 13;
@@ -771,9 +801,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Location = new System.Drawing.Point(205, 92);
+            this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Location = new System.Drawing.Point(189, 92);
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Name = "VolatilityOfTheVirtualMachineEnvironmentComboBoxI";
-            this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Size = new System.Drawing.Size(98, 21);
+            this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.TabIndex = 12;
             // 
             // MemoryConstraintsComboBoxI
@@ -787,9 +817,9 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.MemoryConstraintsComboBoxI.Location = new System.Drawing.Point(205, 66);
+            this.MemoryConstraintsComboBoxI.Location = new System.Drawing.Point(189, 66);
             this.MemoryConstraintsComboBoxI.Name = "MemoryConstraintsComboBoxI";
-            this.MemoryConstraintsComboBoxI.Size = new System.Drawing.Size(98, 21);
+            this.MemoryConstraintsComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.MemoryConstraintsComboBoxI.TabIndex = 11;
             // 
             // RunTimePerformanceConstraintsComboBoxI
@@ -803,14 +833,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.RunTimePerformanceConstraintsComboBoxI.Location = new System.Drawing.Point(205, 40);
+            this.RunTimePerformanceConstraintsComboBoxI.Location = new System.Drawing.Point(189, 40);
             this.RunTimePerformanceConstraintsComboBoxI.Name = "RunTimePerformanceConstraintsComboBoxI";
-            this.RunTimePerformanceConstraintsComboBoxI.Size = new System.Drawing.Size(98, 21);
+            this.RunTimePerformanceConstraintsComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.RunTimePerformanceConstraintsComboBoxI.TabIndex = 10;
             // 
             // VVMELabel
             // 
-            this.VVMELabel.Location = new System.Drawing.Point(40, 84);
+            this.VVMELabel.Location = new System.Drawing.Point(29, 84);
             this.VVMELabel.Name = "VVMELabel";
             this.VVMELabel.Size = new System.Drawing.Size(159, 29);
             this.VVMELabel.TabIndex = 3;
@@ -820,7 +850,7 @@
             // MCLabel
             // 
             this.MCLabel.AutoSize = true;
-            this.MCLabel.Location = new System.Drawing.Point(86, 69);
+            this.MCLabel.Location = new System.Drawing.Point(75, 69);
             this.MCLabel.Name = "MCLabel";
             this.MCLabel.Size = new System.Drawing.Size(113, 13);
             this.MCLabel.TabIndex = 2;
@@ -831,7 +861,7 @@
             // RTPSLabel
             // 
             this.RTPSLabel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.RTPSLabel.Location = new System.Drawing.Point(22, 36);
+            this.RTPSLabel.Location = new System.Drawing.Point(11, 36);
             this.RTPSLabel.Name = "RTPSLabel";
             this.RTPSLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.RTPSLabel.Size = new System.Drawing.Size(177, 26);
@@ -867,6 +897,16 @@
             this.ProductAttributesPanel.Size = new System.Drawing.Size(315, 108);
             this.ProductAttributesPanel.TabIndex = 0;
             // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label63.Location = new System.Drawing.Point(217, 9);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(58, 13);
+            this.label63.TabIndex = 10;
+            this.label63.Text = "Уровень";
+            // 
             // ComplexityOfTheProductComboBoxI
             // 
             this.ComplexityOfTheProductComboBoxI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -880,9 +920,9 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.ComplexityOfTheProductComboBoxI.Location = new System.Drawing.Point(206, 80);
+            this.ComplexityOfTheProductComboBoxI.Location = new System.Drawing.Point(189, 80);
             this.ComplexityOfTheProductComboBoxI.Name = "ComplexityOfTheProductComboBoxI";
-            this.ComplexityOfTheProductComboBoxI.Size = new System.Drawing.Size(97, 21);
+            this.ComplexityOfTheProductComboBoxI.Size = new System.Drawing.Size(114, 21);
             this.ComplexityOfTheProductComboBoxI.TabIndex = 9;
             // 
             // SizeOfApplicationDatabaseComboBoxI
@@ -896,9 +936,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.SizeOfApplicationDatabaseComboBoxI.Location = new System.Drawing.Point(206, 53);
+            this.SizeOfApplicationDatabaseComboBoxI.Location = new System.Drawing.Point(189, 53);
             this.SizeOfApplicationDatabaseComboBoxI.Name = "SizeOfApplicationDatabaseComboBoxI";
-            this.SizeOfApplicationDatabaseComboBoxI.Size = new System.Drawing.Size(97, 21);
+            this.SizeOfApplicationDatabaseComboBoxI.Size = new System.Drawing.Size(114, 21);
             this.SizeOfApplicationDatabaseComboBoxI.TabIndex = 8;
             // 
             // RequiredSoftwareRelabilityComboBoxI
@@ -913,15 +953,15 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.RequiredSoftwareRelabilityComboBoxI.Location = new System.Drawing.Point(205, 25);
+            this.RequiredSoftwareRelabilityComboBoxI.Location = new System.Drawing.Point(188, 25);
             this.RequiredSoftwareRelabilityComboBoxI.Name = "RequiredSoftwareRelabilityComboBoxI";
-            this.RequiredSoftwareRelabilityComboBoxI.Size = new System.Drawing.Size(97, 21);
+            this.RequiredSoftwareRelabilityComboBoxI.Size = new System.Drawing.Size(114, 21);
             this.RequiredSoftwareRelabilityComboBoxI.TabIndex = 7;
             // 
             // CPLabel
             // 
             this.CPLabel.AutoSize = true;
-            this.CPLabel.Location = new System.Drawing.Point(88, 83);
+            this.CPLabel.Location = new System.Drawing.Point(76, 83);
             this.CPLabel.Name = "CPLabel";
             this.CPLabel.Size = new System.Drawing.Size(112, 13);
             this.CPLabel.TabIndex = 3;
@@ -931,7 +971,7 @@
             // SADLabel
             // 
             this.SADLabel.AutoSize = true;
-            this.SADLabel.Location = new System.Drawing.Point(70, 56);
+            this.SADLabel.Location = new System.Drawing.Point(58, 56);
             this.SADLabel.Name = "SADLabel";
             this.SADLabel.Size = new System.Drawing.Size(130, 13);
             this.SADLabel.TabIndex = 2;
@@ -941,7 +981,7 @@
             // RSRLabel
             // 
             this.RSRLabel.AutoSize = true;
-            this.RSRLabel.Location = new System.Drawing.Point(55, 28);
+            this.RSRLabel.Location = new System.Drawing.Point(43, 28);
             this.RSRLabel.Name = "RSRLabel";
             this.RSRLabel.Size = new System.Drawing.Size(146, 13);
             this.RSRLabel.TabIndex = 1;
@@ -1005,9 +1045,19 @@
             this.panel6.Size = new System.Drawing.Size(384, 255);
             this.panel6.TabIndex = 17;
             // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label68.Location = new System.Drawing.Point(281, 17);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(58, 13);
+            this.label68.TabIndex = 31;
+            this.label68.Text = "Уровень";
+            // 
             // label31
             // 
-            this.label31.Location = new System.Drawing.Point(90, 205);
+            this.label31.Location = new System.Drawing.Point(65, 205);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(161, 30);
             this.label31.TabIndex = 29;
@@ -1025,14 +1075,14 @@
             "Низкий",
             "Средний",
             "Высокий"});
-            this.RequiredDevelopmentScheduleComboBoxEd.Location = new System.Drawing.Point(257, 211);
+            this.RequiredDevelopmentScheduleComboBoxEd.Location = new System.Drawing.Point(232, 211);
             this.RequiredDevelopmentScheduleComboBoxEd.Name = "RequiredDevelopmentScheduleComboBoxEd";
-            this.RequiredDevelopmentScheduleComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.RequiredDevelopmentScheduleComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.RequiredDevelopmentScheduleComboBoxEd.TabIndex = 30;
             // 
             // label32
             // 
-            this.label32.Location = new System.Drawing.Point(72, 175);
+            this.label32.Location = new System.Drawing.Point(47, 175);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(179, 30);
             this.label32.TabIndex = 27;
@@ -1053,14 +1103,14 @@
             "Высокий",
             "Очень высокий",
             "Критически высокий"});
-            this.FacilitiesComboBoxEd.Location = new System.Drawing.Point(257, 181);
+            this.FacilitiesComboBoxEd.Location = new System.Drawing.Point(232, 181);
             this.FacilitiesComboBoxEd.Name = "FacilitiesComboBoxEd";
-            this.FacilitiesComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.FacilitiesComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.FacilitiesComboBoxEd.TabIndex = 28;
             // 
             // label26
             // 
-            this.label26.Location = new System.Drawing.Point(56, 145);
+            this.label26.Location = new System.Drawing.Point(31, 145);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(195, 30);
             this.label26.TabIndex = 25;
@@ -1079,14 +1129,14 @@
             "Высокий",
             "Очень высокий",
             "Критически высокий"});
-            this.PlatformDifficultyComboBoxEd.Location = new System.Drawing.Point(257, 151);
+            this.PlatformDifficultyComboBoxEd.Location = new System.Drawing.Point(232, 151);
             this.PlatformDifficultyComboBoxEd.Name = "PlatformDifficultyComboBoxEd";
-            this.PlatformDifficultyComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.PlatformDifficultyComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.PlatformDifficultyComboBoxEd.TabIndex = 26;
             // 
             // label27
             // 
-            this.label27.Location = new System.Drawing.Point(95, 115);
+            this.label27.Location = new System.Drawing.Point(70, 115);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(156, 30);
             this.label27.TabIndex = 23;
@@ -1105,14 +1155,14 @@
             "Высокий",
             "Очень высокий",
             "Критически высокий"});
-            this.DevelopedForReusabilityComboBoxEd.Location = new System.Drawing.Point(257, 121);
+            this.DevelopedForReusabilityComboBoxEd.Location = new System.Drawing.Point(232, 121);
             this.DevelopedForReusabilityComboBoxEd.Name = "DevelopedForReusabilityComboBoxEd";
-            this.DevelopedForReusabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.DevelopedForReusabilityComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.DevelopedForReusabilityComboBoxEd.TabIndex = 24;
             // 
             // label28
             // 
-            this.label28.Location = new System.Drawing.Point(65, 86);
+            this.label28.Location = new System.Drawing.Point(40, 86);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(186, 30);
             this.label28.TabIndex = 21;
@@ -1133,14 +1183,14 @@
             "Высокий",
             "Очень высокий",
             "Критически высокий"});
-            this.ProductReabilityAndComplexityComboBoxEd.Location = new System.Drawing.Point(257, 91);
+            this.ProductReabilityAndComplexityComboBoxEd.Location = new System.Drawing.Point(232, 91);
             this.ProductReabilityAndComplexityComboBoxEd.Name = "ProductReabilityAndComplexityComboBoxEd";
-            this.ProductReabilityAndComplexityComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.ProductReabilityAndComplexityComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.ProductReabilityAndComplexityComboBoxEd.TabIndex = 22;
             // 
             // label29
             // 
-            this.label29.Location = new System.Drawing.Point(72, 56);
+            this.label29.Location = new System.Drawing.Point(47, 56);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(179, 30);
             this.label29.TabIndex = 19;
@@ -1161,14 +1211,14 @@
             "Высокий",
             "Очень высокий",
             "Критически высокий"});
-            this.PersonnelExperienceComboBoxEd.Location = new System.Drawing.Point(257, 62);
+            this.PersonnelExperienceComboBoxEd.Location = new System.Drawing.Point(232, 62);
             this.PersonnelExperienceComboBoxEd.Name = "PersonnelExperienceComboBoxEd";
-            this.PersonnelExperienceComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.PersonnelExperienceComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.PersonnelExperienceComboBoxEd.TabIndex = 20;
             // 
             // label30
             // 
-            this.label30.Location = new System.Drawing.Point(72, 27);
+            this.label30.Location = new System.Drawing.Point(47, 27);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(179, 30);
             this.label30.TabIndex = 17;
@@ -1189,9 +1239,9 @@
             "Высокий",
             "Очень высокий",
             "Критически высокий"});
-            this.PersonnelCapabilityComboBoxEd.Location = new System.Drawing.Point(257, 33);
+            this.PersonnelCapabilityComboBoxEd.Location = new System.Drawing.Point(232, 33);
             this.PersonnelCapabilityComboBoxEd.Name = "PersonnelCapabilityComboBoxEd";
-            this.PersonnelCapabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
+            this.PersonnelCapabilityComboBoxEd.Size = new System.Drawing.Size(142, 21);
             this.PersonnelCapabilityComboBoxEd.TabIndex = 18;
             // 
             // label25
@@ -1224,9 +1274,19 @@
             this.panel.Size = new System.Drawing.Size(353, 185);
             this.panel.TabIndex = 1;
             // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label67.Location = new System.Drawing.Point(258, 16);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(58, 13);
+            this.label67.TabIndex = 17;
+            this.label67.Text = "Уровень";
+            // 
             // label24
             // 
-            this.label24.Location = new System.Drawing.Point(72, 147);
+            this.label24.Location = new System.Drawing.Point(45, 147);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(179, 30);
             this.label24.TabIndex = 15;
@@ -1246,14 +1306,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.ProcessMaturityComboBoxEd.Location = new System.Drawing.Point(257, 153);
+            this.ProcessMaturityComboBoxEd.Location = new System.Drawing.Point(230, 153);
             this.ProcessMaturityComboBoxEd.Name = "ProcessMaturityComboBoxEd";
-            this.ProcessMaturityComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.ProcessMaturityComboBoxEd.Size = new System.Drawing.Size(113, 21);
             this.ProcessMaturityComboBoxEd.TabIndex = 16;
             // 
             // label22
             // 
-            this.label22.Location = new System.Drawing.Point(72, 117);
+            this.label22.Location = new System.Drawing.Point(45, 117);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(179, 30);
             this.label22.TabIndex = 13;
@@ -1273,14 +1333,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.TeamCohesionComboBoxEd.Location = new System.Drawing.Point(257, 123);
+            this.TeamCohesionComboBoxEd.Location = new System.Drawing.Point(230, 123);
             this.TeamCohesionComboBoxEd.Name = "TeamCohesionComboBoxEd";
-            this.TeamCohesionComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.TeamCohesionComboBoxEd.Size = new System.Drawing.Size(113, 21);
             this.TeamCohesionComboBoxEd.TabIndex = 14;
             // 
             // label23
             // 
-            this.label23.Location = new System.Drawing.Point(65, 88);
+            this.label23.Location = new System.Drawing.Point(38, 88);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(186, 30);
             this.label23.TabIndex = 11;
@@ -1300,14 +1360,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.ArchitectureAndRiskResolutionComboBoxEd.Location = new System.Drawing.Point(257, 93);
+            this.ArchitectureAndRiskResolutionComboBoxEd.Location = new System.Drawing.Point(230, 93);
             this.ArchitectureAndRiskResolutionComboBoxEd.Name = "ArchitectureAndRiskResolutionComboBoxEd";
-            this.ArchitectureAndRiskResolutionComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.ArchitectureAndRiskResolutionComboBoxEd.Size = new System.Drawing.Size(113, 21);
             this.ArchitectureAndRiskResolutionComboBoxEd.TabIndex = 12;
             // 
             // label21
             // 
-            this.label21.Location = new System.Drawing.Point(72, 58);
+            this.label21.Location = new System.Drawing.Point(45, 58);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(179, 30);
             this.label21.TabIndex = 9;
@@ -1327,14 +1387,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.DevelopmentFlexibilityComboBoxEd.Location = new System.Drawing.Point(257, 64);
+            this.DevelopmentFlexibilityComboBoxEd.Location = new System.Drawing.Point(230, 64);
             this.DevelopmentFlexibilityComboBoxEd.Name = "DevelopmentFlexibilityComboBoxEd";
-            this.DevelopmentFlexibilityComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.DevelopmentFlexibilityComboBoxEd.Size = new System.Drawing.Size(113, 21);
             this.DevelopmentFlexibilityComboBoxEd.TabIndex = 10;
             // 
             // label20
             // 
-            this.label20.Location = new System.Drawing.Point(72, 29);
+            this.label20.Location = new System.Drawing.Point(45, 29);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(179, 30);
             this.label20.TabIndex = 2;
@@ -1354,9 +1414,9 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.PrecedentednessComboBoxEd.Location = new System.Drawing.Point(257, 35);
+            this.PrecedentednessComboBoxEd.Location = new System.Drawing.Point(230, 35);
             this.PrecedentednessComboBoxEd.Name = "PrecedentednessComboBoxEd";
-            this.PrecedentednessComboBoxEd.Size = new System.Drawing.Size(86, 21);
+            this.PrecedentednessComboBoxEd.Size = new System.Drawing.Size(113, 21);
             this.PrecedentednessComboBoxEd.TabIndex = 8;
             // 
             // label19
@@ -1453,14 +1513,24 @@
             this.panel12.Controls.Add(this.label61);
             this.panel12.Controls.Add(this.UseOfSoftwareToolsComboBoxPa);
             this.panel12.Controls.Add(this.label62);
-            this.panel12.Location = new System.Drawing.Point(337, 246);
+            this.panel12.Location = new System.Drawing.Point(337, 264);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(409, 121);
+            this.panel12.Size = new System.Drawing.Size(409, 103);
             this.panel12.TabIndex = 6;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label73.Location = new System.Drawing.Point(295, 6);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(58, 13);
+            this.label73.TabIndex = 13;
+            this.label73.Text = "Уровень";
             // 
             // label49
             // 
-            this.label49.Location = new System.Drawing.Point(22, 92);
+            this.label49.Location = new System.Drawing.Point(19, 81);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(212, 15);
             this.label49.TabIndex = 11;
@@ -1479,14 +1549,14 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.RequiredDevelopmentScheduleComboBoxPa.Location = new System.Drawing.Point(240, 90);
+            this.RequiredDevelopmentScheduleComboBoxPa.Location = new System.Drawing.Point(237, 76);
             this.RequiredDevelopmentScheduleComboBoxPa.Name = "RequiredDevelopmentScheduleComboBoxPa";
-            this.RequiredDevelopmentScheduleComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.RequiredDevelopmentScheduleComboBoxPa.Size = new System.Drawing.Size(164, 21);
             this.RequiredDevelopmentScheduleComboBoxPa.TabIndex = 12;
             // 
             // label56
             // 
-            this.label56.Location = new System.Drawing.Point(58, 54);
+            this.label56.Location = new System.Drawing.Point(55, 46);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(176, 30);
             this.label56.TabIndex = 9;
@@ -1506,14 +1576,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.MultisiteDevelopmentComboBoxPa.Location = new System.Drawing.Point(240, 60);
+            this.MultisiteDevelopmentComboBoxPa.Location = new System.Drawing.Point(237, 49);
             this.MultisiteDevelopmentComboBoxPa.Name = "MultisiteDevelopmentComboBoxPa";
-            this.MultisiteDevelopmentComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.MultisiteDevelopmentComboBoxPa.Size = new System.Drawing.Size(164, 21);
             this.MultisiteDevelopmentComboBoxPa.TabIndex = 10;
             // 
             // label61
             // 
-            this.label61.Location = new System.Drawing.Point(39, 24);
+            this.label61.Location = new System.Drawing.Point(36, 19);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(195, 30);
             this.label61.TabIndex = 2;
@@ -1532,16 +1602,16 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.UseOfSoftwareToolsComboBoxPa.Location = new System.Drawing.Point(240, 30);
+            this.UseOfSoftwareToolsComboBoxPa.Location = new System.Drawing.Point(237, 22);
             this.UseOfSoftwareToolsComboBoxPa.Name = "UseOfSoftwareToolsComboBoxPa";
-            this.UseOfSoftwareToolsComboBoxPa.Size = new System.Drawing.Size(161, 21);
+            this.UseOfSoftwareToolsComboBoxPa.Size = new System.Drawing.Size(164, 21);
             this.UseOfSoftwareToolsComboBoxPa.TabIndex = 8;
             // 
             // label62
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label62.Location = new System.Drawing.Point(6, 6);
+            this.label62.Location = new System.Drawing.Point(6, 3);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(127, 13);
             this.label62.TabIndex = 1;
@@ -1558,14 +1628,24 @@
             this.panel11.Controls.Add(this.label59);
             this.panel11.Controls.Add(this.ExecutionTimeConstraintComboBoxPa);
             this.panel11.Controls.Add(this.label60);
-            this.panel11.Location = new System.Drawing.Point(337, 132);
+            this.panel11.Location = new System.Drawing.Point(337, 165);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(409, 108);
+            this.panel11.Size = new System.Drawing.Size(409, 96);
             this.panel11.TabIndex = 5;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label72.Location = new System.Drawing.Point(292, 4);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(58, 13);
+            this.label72.TabIndex = 13;
+            this.label72.Text = "Уровень";
             // 
             // label57
             // 
-            this.label57.Location = new System.Drawing.Point(48, 77);
+            this.label57.Location = new System.Drawing.Point(45, 73);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(186, 15);
             this.label57.TabIndex = 11;
@@ -1583,14 +1663,14 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.PlatformVolatilityComboBoxPa.Location = new System.Drawing.Point(240, 75);
+            this.PlatformVolatilityComboBoxPa.Location = new System.Drawing.Point(237, 71);
             this.PlatformVolatilityComboBoxPa.Name = "PlatformVolatilityComboBoxPa";
             this.PlatformVolatilityComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.PlatformVolatilityComboBoxPa.TabIndex = 12;
             // 
             // label58
             // 
-            this.label58.Location = new System.Drawing.Point(55, 52);
+            this.label58.Location = new System.Drawing.Point(52, 48);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(179, 15);
             this.label58.TabIndex = 9;
@@ -1608,14 +1688,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.MainStorageConstraintComboBoxPa.Location = new System.Drawing.Point(240, 50);
+            this.MainStorageConstraintComboBoxPa.Location = new System.Drawing.Point(237, 46);
             this.MainStorageConstraintComboBoxPa.Name = "MainStorageConstraintComboBoxPa";
             this.MainStorageConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.MainStorageConstraintComboBoxPa.TabIndex = 10;
             // 
             // label59
             // 
-            this.label59.Location = new System.Drawing.Point(39, 27);
+            this.label59.Location = new System.Drawing.Point(36, 23);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(195, 15);
             this.label59.TabIndex = 2;
@@ -1633,7 +1713,7 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.ExecutionTimeConstraintComboBoxPa.Location = new System.Drawing.Point(240, 25);
+            this.ExecutionTimeConstraintComboBoxPa.Location = new System.Drawing.Point(237, 21);
             this.ExecutionTimeConstraintComboBoxPa.Name = "ExecutionTimeConstraintComboBoxPa";
             this.ExecutionTimeConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.ExecutionTimeConstraintComboBoxPa.TabIndex = 8;
@@ -1642,7 +1722,7 @@
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label60.Location = new System.Drawing.Point(6, 6);
+            this.label60.Location = new System.Drawing.Point(3, 2);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(147, 13);
             this.label60.TabIndex = 1;
@@ -1668,9 +1748,19 @@
             this.panel10.Size = new System.Drawing.Size(328, 162);
             this.panel10.TabIndex = 4;
             // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label70.Location = new System.Drawing.Point(243, 6);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(58, 13);
+            this.label70.TabIndex = 25;
+            this.label70.Text = "Уровень";
+            // 
             // label50
             // 
-            this.label50.Location = new System.Drawing.Point(31, 125);
+            this.label50.Location = new System.Drawing.Point(4, 125);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(206, 29);
             this.label50.TabIndex = 23;
@@ -1689,14 +1779,14 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Location = new System.Drawing.Point(241, 130);
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Location = new System.Drawing.Point(216, 130);
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Name = "DocumentationMatchToLifeCycleNeedsComboBoxPa";
-            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.TabIndex = 24;
             // 
             // label51
             // 
-            this.label51.Location = new System.Drawing.Point(34, 95);
+            this.label51.Location = new System.Drawing.Point(7, 95);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(203, 27);
             this.label51.TabIndex = 21;
@@ -1715,14 +1805,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.RequiredReusabilityComboBoxPa.Location = new System.Drawing.Point(241, 99);
+            this.RequiredReusabilityComboBoxPa.Location = new System.Drawing.Point(216, 99);
             this.RequiredReusabilityComboBoxPa.Name = "RequiredReusabilityComboBoxPa";
-            this.RequiredReusabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.RequiredReusabilityComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.RequiredReusabilityComboBoxPa.TabIndex = 22;
             // 
             // label52
             // 
-            this.label52.Location = new System.Drawing.Point(102, 76);
+            this.label52.Location = new System.Drawing.Point(75, 76);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(135, 15);
             this.label52.TabIndex = 19;
@@ -1742,14 +1832,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.SoftwareProductComplexityComboBoxPa.Location = new System.Drawing.Point(241, 74);
+            this.SoftwareProductComplexityComboBoxPa.Location = new System.Drawing.Point(216, 74);
             this.SoftwareProductComplexityComboBoxPa.Name = "SoftwareProductComplexityComboBoxPa";
-            this.SoftwareProductComplexityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.SoftwareProductComplexityComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.SoftwareProductComplexityComboBoxPa.TabIndex = 20;
             // 
             // label53
             // 
-            this.label53.Location = new System.Drawing.Point(114, 51);
+            this.label53.Location = new System.Drawing.Point(87, 51);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(123, 15);
             this.label53.TabIndex = 17;
@@ -1767,14 +1857,14 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.DatabaseSizeComboBoxPa.Location = new System.Drawing.Point(241, 49);
+            this.DatabaseSizeComboBoxPa.Location = new System.Drawing.Point(216, 49);
             this.DatabaseSizeComboBoxPa.Name = "DatabaseSizeComboBoxPa";
-            this.DatabaseSizeComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.DatabaseSizeComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.DatabaseSizeComboBoxPa.TabIndex = 18;
             // 
             // label54
             // 
-            this.label54.Location = new System.Drawing.Point(34, 26);
+            this.label54.Location = new System.Drawing.Point(7, 26);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(203, 15);
             this.label54.TabIndex = 15;
@@ -1800,9 +1890,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.RequiredSoftwareRelabilityComboBoxPa.Location = new System.Drawing.Point(241, 24);
+            this.RequiredSoftwareRelabilityComboBoxPa.Location = new System.Drawing.Point(216, 24);
             this.RequiredSoftwareRelabilityComboBoxPa.Name = "RequiredSoftwareRelabilityComboBoxPa";
-            this.RequiredSoftwareRelabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.RequiredSoftwareRelabilityComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.RequiredSoftwareRelabilityComboBoxPa.TabIndex = 16;
             // 
             // label55
@@ -1832,16 +1922,26 @@
             this.panel9.Controls.Add(this.label46);
             this.panel9.Controls.Add(this.AnalystCapabilityComboBoxPa);
             this.panel9.Controls.Add(this.label42);
-            this.panel9.Location = new System.Drawing.Point(337, 6);
+            this.panel9.Location = new System.Drawing.Point(6, 52);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(409, 120);
+            this.panel9.Size = new System.Drawing.Size(328, 188);
             this.panel9.TabIndex = 3;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label71.Location = new System.Drawing.Point(175, 4);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(58, 13);
+            this.label71.TabIndex = 27;
+            this.label71.Text = "Уровень";
             // 
             // label48
             // 
-            this.label48.Location = new System.Drawing.Point(193, 82);
+            this.label48.Location = new System.Drawing.Point(6, 148);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(122, 31);
+            this.label48.Size = new System.Drawing.Size(204, 27);
             this.label48.TabIndex = 25;
             this.label48.Text = "Опыт использования языка/инструментов";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1858,16 +1958,16 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.LanguageAndToolExperienceComboBoxPa.Location = new System.Drawing.Point(321, 88);
+            this.LanguageAndToolExperienceComboBoxPa.Location = new System.Drawing.Point(216, 152);
             this.LanguageAndToolExperienceComboBoxPa.Name = "LanguageAndToolExperienceComboBoxPa";
-            this.LanguageAndToolExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.LanguageAndToolExperienceComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.LanguageAndToolExperienceComboBoxPa.TabIndex = 26;
             // 
             // label47
             // 
-            this.label47.Location = new System.Drawing.Point(203, 53);
+            this.label47.Location = new System.Drawing.Point(39, 131);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(112, 30);
+            this.label47.Size = new System.Drawing.Size(171, 17);
             this.label47.TabIndex = 23;
             this.label47.Text = "Опыт работы с платформой";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1884,16 +1984,16 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.PlatformExperienceComboBoxPa.Location = new System.Drawing.Point(321, 59);
+            this.PlatformExperienceComboBoxPa.Location = new System.Drawing.Point(216, 127);
             this.PlatformExperienceComboBoxPa.Name = "PlatformExperienceComboBoxPa";
-            this.PlatformExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.PlatformExperienceComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.PlatformExperienceComboBoxPa.TabIndex = 24;
             // 
             // label43
             // 
-            this.label43.Location = new System.Drawing.Point(203, 24);
+            this.label43.Location = new System.Drawing.Point(9, 98);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(112, 30);
+            this.label43.Size = new System.Drawing.Size(201, 30);
             this.label43.TabIndex = 21;
             this.label43.Text = "Продолжительность работы персонала";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1910,16 +2010,16 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.PersonnelCapabilityComboBoxPa.Location = new System.Drawing.Point(321, 30);
+            this.PersonnelCapabilityComboBoxPa.Location = new System.Drawing.Point(216, 102);
             this.PersonnelCapabilityComboBoxPa.Name = "PersonnelCapabilityComboBoxPa";
-            this.PersonnelCapabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.PersonnelCapabilityComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.PersonnelCapabilityComboBoxPa.TabIndex = 22;
             // 
             // label44
             // 
-            this.label44.Location = new System.Drawing.Point(5, 83);
+            this.label44.Location = new System.Drawing.Point(52, 78);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(94, 30);
+            this.label44.Size = new System.Drawing.Size(158, 17);
             this.label44.TabIndex = 19;
             this.label44.Text = "Возможности программиста";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1936,16 +2036,16 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.ProgrammerCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 88);
+            this.ProgrammerCapabilityComboBoxPa.Location = new System.Drawing.Point(216, 77);
             this.ProgrammerCapabilityComboBoxPa.Name = "ProgrammerCapabilityComboBoxPa";
-            this.ProgrammerCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
+            this.ProgrammerCapabilityComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.ProgrammerCapabilityComboBoxPa.TabIndex = 20;
             // 
             // label45
             // 
-            this.label45.Location = new System.Drawing.Point(2, 53);
+            this.label45.Location = new System.Drawing.Point(38, 52);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(97, 30);
+            this.label45.Size = new System.Drawing.Size(172, 18);
             this.label45.TabIndex = 17;
             this.label45.Text = "Опыт разработки приложений";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1962,16 +2062,16 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.ApplicationExperienceComboBoxPa.Location = new System.Drawing.Point(105, 59);
+            this.ApplicationExperienceComboBoxPa.Location = new System.Drawing.Point(216, 52);
             this.ApplicationExperienceComboBoxPa.Name = "ApplicationExperienceComboBoxPa";
-            this.ApplicationExperienceComboBoxPa.Size = new System.Drawing.Size(82, 21);
+            this.ApplicationExperienceComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.ApplicationExperienceComboBoxPa.TabIndex = 18;
             // 
             // label46
             // 
             this.label46.Location = new System.Drawing.Point(19, 24);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(80, 30);
+            this.label46.Size = new System.Drawing.Size(191, 22);
             this.label46.TabIndex = 15;
             this.label46.Text = "Возможности аналитика";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1988,9 +2088,9 @@
             "Средний",
             "Высокий",
             "Очень высокий"});
-            this.AnalystCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 30);
+            this.AnalystCapabilityComboBoxPa.Location = new System.Drawing.Point(216, 27);
             this.AnalystCapabilityComboBoxPa.Name = "AnalystCapabilityComboBoxPa";
-            this.AnalystCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
+            this.AnalystCapabilityComboBoxPa.Size = new System.Drawing.Size(105, 21);
             this.AnalystCapabilityComboBoxPa.TabIndex = 16;
             // 
             // label42
@@ -2018,14 +2118,24 @@
             this.panel8.Controls.Add(this.label40);
             this.panel8.Controls.Add(this.PrecedentednessComboBoxPa);
             this.panel8.Controls.Add(this.label41);
-            this.panel8.Location = new System.Drawing.Point(6, 76);
+            this.panel8.Location = new System.Drawing.Point(337, 6);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(328, 164);
+            this.panel8.Size = new System.Drawing.Size(409, 157);
             this.panel8.TabIndex = 2;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label69.Location = new System.Drawing.Point(245, 8);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(58, 13);
+            this.label69.TabIndex = 17;
+            this.label69.Text = "Уровень";
             // 
             // label36
             // 
-            this.label36.Location = new System.Drawing.Point(58, 137);
+            this.label36.Location = new System.Drawing.Point(52, 127);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(179, 15);
             this.label36.TabIndex = 15;
@@ -2045,14 +2155,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.ProcessMaturityComboBoxPa.Location = new System.Drawing.Point(241, 135);
+            this.ProcessMaturityComboBoxPa.Location = new System.Drawing.Point(237, 125);
             this.ProcessMaturityComboBoxPa.Name = "ProcessMaturityComboBoxPa";
-            this.ProcessMaturityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.ProcessMaturityComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.ProcessMaturityComboBoxPa.TabIndex = 16;
             // 
             // label37
             // 
-            this.label37.Location = new System.Drawing.Point(58, 112);
+            this.label37.Location = new System.Drawing.Point(52, 102);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(179, 15);
             this.label37.TabIndex = 13;
@@ -2072,14 +2182,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.TeamCohesionComboBoxPa.Location = new System.Drawing.Point(241, 110);
+            this.TeamCohesionComboBoxPa.Location = new System.Drawing.Point(237, 100);
             this.TeamCohesionComboBoxPa.Name = "TeamCohesionComboBoxPa";
-            this.TeamCohesionComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.TeamCohesionComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.TeamCohesionComboBoxPa.TabIndex = 14;
             // 
             // label38
             // 
-            this.label38.Location = new System.Drawing.Point(51, 87);
+            this.label38.Location = new System.Drawing.Point(45, 77);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(186, 15);
             this.label38.TabIndex = 11;
@@ -2099,14 +2209,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.ArchitectureAndRiskResolutionComboBoxPa.Location = new System.Drawing.Point(241, 85);
+            this.ArchitectureAndRiskResolutionComboBoxPa.Location = new System.Drawing.Point(237, 75);
             this.ArchitectureAndRiskResolutionComboBoxPa.Name = "ArchitectureAndRiskResolutionComboBoxPa";
-            this.ArchitectureAndRiskResolutionComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.ArchitectureAndRiskResolutionComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.ArchitectureAndRiskResolutionComboBoxPa.TabIndex = 12;
             // 
             // label39
             // 
-            this.label39.Location = new System.Drawing.Point(58, 62);
+            this.label39.Location = new System.Drawing.Point(52, 52);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(179, 15);
             this.label39.TabIndex = 9;
@@ -2126,14 +2236,14 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.DevelopmentFlexibilityComboBoxPa.Location = new System.Drawing.Point(241, 60);
+            this.DevelopmentFlexibilityComboBoxPa.Location = new System.Drawing.Point(237, 50);
             this.DevelopmentFlexibilityComboBoxPa.Name = "DevelopmentFlexibilityComboBoxPa";
-            this.DevelopmentFlexibilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.DevelopmentFlexibilityComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.DevelopmentFlexibilityComboBoxPa.TabIndex = 10;
             // 
             // label40
             // 
-            this.label40.Location = new System.Drawing.Point(58, 29);
+            this.label40.Location = new System.Drawing.Point(52, 19);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(179, 30);
             this.label40.TabIndex = 2;
@@ -2153,16 +2263,16 @@
             "Высокий",
             "Очень высокий",
             "Критический"});
-            this.PrecedentednessComboBoxPa.Location = new System.Drawing.Point(241, 35);
+            this.PrecedentednessComboBoxPa.Location = new System.Drawing.Point(237, 25);
             this.PrecedentednessComboBoxPa.Name = "PrecedentednessComboBoxPa";
-            this.PrecedentednessComboBoxPa.Size = new System.Drawing.Size(80, 21);
+            this.PrecedentednessComboBoxPa.Size = new System.Drawing.Size(161, 21);
             this.PrecedentednessComboBoxPa.TabIndex = 8;
             // 
             // label41
             // 
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label41.Location = new System.Drawing.Point(6, 6);
+            this.label41.Location = new System.Drawing.Point(8, 1);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(125, 13);
             this.label41.TabIndex = 1;
@@ -2177,13 +2287,13 @@
             this.panel7.Controls.Add(this.label35);
             this.panel7.Location = new System.Drawing.Point(6, 6);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(328, 64);
+            this.panel7.Size = new System.Drawing.Size(328, 44);
             this.panel7.TabIndex = 1;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(81, 37);
+            this.label33.Location = new System.Drawing.Point(77, 22);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(72, 13);
             this.label33.TabIndex = 8;
@@ -2192,7 +2302,7 @@
             // 
             // label34
             // 
-            this.label34.Location = new System.Drawing.Point(243, 37);
+            this.label34.Location = new System.Drawing.Point(243, 25);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(73, 13);
             this.label34.TabIndex = 9;
@@ -2201,7 +2311,7 @@
             // 
             // SizeTextPa
             // 
-            this.SizeTextPa.Location = new System.Drawing.Point(159, 34);
+            this.SizeTextPa.Location = new System.Drawing.Point(155, 19);
             this.SizeTextPa.Name = "SizeTextPa";
             this.SizeTextPa.Size = new System.Drawing.Size(78, 20);
             this.SizeTextPa.TabIndex = 7;
@@ -2210,121 +2320,11 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label35.Location = new System.Drawing.Point(6, 6);
+            this.label35.Location = new System.Drawing.Point(2, 3);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(118, 13);
             this.label35.TabIndex = 0;
             this.label35.Text = "Базовые атрибуты";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label63.Location = new System.Drawing.Point(225, 9);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(58, 13);
-            this.label63.TabIndex = 10;
-            this.label63.Text = "Уровень";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label64.Location = new System.Drawing.Point(225, 24);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(58, 13);
-            this.label64.TabIndex = 15;
-            this.label64.Text = "Уровень";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label65.Location = new System.Drawing.Point(324, 6);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(58, 13);
-            this.label65.TabIndex = 14;
-            this.label65.Text = "Уровень";
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label66.Location = new System.Drawing.Point(324, 12);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(58, 13);
-            this.label66.TabIndex = 11;
-            this.label66.Text = "Уровень";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label67.Location = new System.Drawing.Point(271, 15);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(58, 13);
-            this.label67.TabIndex = 17;
-            this.label67.Text = "Уровень";
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label68.Location = new System.Drawing.Point(286, 14);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(58, 13);
-            this.label68.TabIndex = 31;
-            this.label68.Text = "Уровень";
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label69.Location = new System.Drawing.Point(252, 18);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(58, 13);
-            this.label69.TabIndex = 17;
-            this.label69.Text = "Уровень";
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label70.Location = new System.Drawing.Point(253, 6);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(58, 13);
-            this.label70.TabIndex = 25;
-            this.label70.Text = "Уровень";
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label71.Location = new System.Drawing.Point(333, 13);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(58, 13);
-            this.label71.TabIndex = 27;
-            this.label71.Text = "Уровень";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label72.Location = new System.Drawing.Point(295, 8);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(58, 13);
-            this.label72.TabIndex = 13;
-            this.label72.Text = "Уровень";
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label73.Location = new System.Drawing.Point(295, 14);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(58, 13);
-            this.label73.TabIndex = 13;
-            this.label73.Text = "Уровень";
             // 
             // COCOMOCalculator
             // 
