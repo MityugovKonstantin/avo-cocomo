@@ -1522,7 +1522,7 @@
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label73.Location = new System.Drawing.Point(295, 6);
+            this.label73.Location = new System.Drawing.Point(292, 6);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(58, 13);
             this.label73.TabIndex = 13;
@@ -1637,7 +1637,7 @@
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label72.Location = new System.Drawing.Point(292, 4);
+            this.label72.Location = new System.Drawing.Point(292, 5);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(58, 13);
             this.label72.TabIndex = 13;
@@ -1931,7 +1931,7 @@
             // 
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label71.Location = new System.Drawing.Point(175, 4);
+            this.label71.Location = new System.Drawing.Point(243, 11);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(58, 13);
             this.label71.TabIndex = 27;
@@ -2127,7 +2127,7 @@
             // 
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label69.Location = new System.Drawing.Point(245, 8);
+            this.label69.Location = new System.Drawing.Point(292, 9);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(58, 13);
             this.label69.TabIndex = 17;
