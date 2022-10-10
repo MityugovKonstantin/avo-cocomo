@@ -113,7 +113,7 @@ namespace COCOMOCalculator.BL.Services
         private static Dictionary<TEnum, float> FillSubArray<TEnum>(float?[] parsedCoefs)
         {
             var dicnionary = new Dictionary<TEnum, float>();
-            for (int i = 1; i <= parsedCoefs.Length - 1; i++)
+            for (int i = 1; i <= parsedCoefs.Length; i++)
             {
                 var coefficent = parsedCoefs[i - 1];
                 if (coefficent != null)

@@ -218,13 +218,13 @@ namespace COCOMOCalculator
         {
             switch (type)
             {
-                case "Common":
+                case "Распространённый":
                     return ProjectType.Common;
 
-                case "Semi-independent":
+                case "Полунезависимый":
                     return ProjectType.SemiIndependent;
 
-                case "Built-in":
+                case "Встроенный":
                     return ProjectType.BuiltIn;
 
                 default:
@@ -236,22 +236,22 @@ namespace COCOMOCalculator
         {
             switch (type)
             {
-                case "Very low":
+                case "Очень низкий":
                     return RatingType.VeryLow;
 
-                case "Low":
+                case "Низкий":
                     return RatingType.Low;
 
-                case "Normal":
+                case "Средний":
                     return RatingType.Normal;
 
-                case "High":
+                case "Высокий":
                     return RatingType.High;
 
-                case "Very high":
+                case "Очень высокий":
                     return RatingType.VeryHigh;
 
-                case "Critical":
+                case "Критический":
                     return RatingType.Critical;
 
                 default:
@@ -263,22 +263,22 @@ namespace COCOMOCalculator
         {
             switch (factor)
             {
-                case "Very low":
+                case "Очень низкий":
                     return ScaleFactor.VeryLow;
 
-                case "Low":
+                case "Низкий":
                     return ScaleFactor.Low;
 
-                case "Nominal":
+                case "Средний":
                     return ScaleFactor.Nominal;
 
-                case "High":
+                case "Высокий":
                     return ScaleFactor.High;
 
-                case "Very high":
+                case "Очень высокий":
                     return ScaleFactor.VeryHigh;
 
-                case "Extra high":
+                case "Критический":
                     return ScaleFactor.ExtraHigh;
 
                 default:
@@ -290,25 +290,25 @@ namespace COCOMOCalculator
         {
             switch (level)
             {
-                case "Extra low":
+                case "Критически низкий":
                     return EarlyDesignEffortMultiplier.ExtraLow;
 
-                case "Very low":
+                case "Очень низкий":
                     return EarlyDesignEffortMultiplier.VeryLow;
 
-                case "Low":
+                case "Низкий":
                     return EarlyDesignEffortMultiplier.Low;
 
-                case "Nominal":
+                case "Средний":
                     return EarlyDesignEffortMultiplier.Nominal;
 
-                case "High":
+                case "Высокий":
                     return EarlyDesignEffortMultiplier.High;
 
-                case "Very high":
+                case "Очень высокий":
                     return EarlyDesignEffortMultiplier.VeryHigh;
 
-                case "Extra high":
+                case "Критически высокий":
                     return EarlyDesignEffortMultiplier.ExtraHigh;
 
                 default:
@@ -320,22 +320,22 @@ namespace COCOMOCalculator
         {
             switch (level)
             {
-                case "Very low":
+                case "Очень низкий":
                     return PostArchitectureEffortMultiplier.VeryLow;
 
-                case "Low":
+                case "Низкий":
                     return PostArchitectureEffortMultiplier.Low;
 
-                case "Nominal":
+                case "Средний":
                     return PostArchitectureEffortMultiplier.Nominal;
 
-                case "High":
+                case "Высокий":
                     return PostArchitectureEffortMultiplier.High;
 
-                case "Very high":
+                case "Очень высокий":
                     return PostArchitectureEffortMultiplier.VeryHigh;
 
-                case "Extra high":
+                case "Критический":
                     return PostArchitectureEffortMultiplier.ExtraHigh;
 
                 default:

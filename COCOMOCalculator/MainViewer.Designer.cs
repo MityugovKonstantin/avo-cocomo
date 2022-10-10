@@ -295,9 +295,9 @@
             this.ProjectTypeComboBoxB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProjectTypeComboBoxB.FormattingEnabled = true;
             this.ProjectTypeComboBoxB.Items.AddRange(new object[] {
-            "Common",
-            "Semi-independent",
-            "Built-in"});
+            "Распространённый",
+            "Полунезависимый",
+            "Встроенный"});
             this.ProjectTypeComboBoxB.Location = new System.Drawing.Point(169, 59);
             this.ProjectTypeComboBoxB.Name = "ProjectTypeComboBoxB";
             this.ProjectTypeComboBoxB.Size = new System.Drawing.Size(487, 21);
@@ -374,11 +374,11 @@
             this.RequiredDevelopmentScheduleComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredDevelopmentScheduleComboBoxI.FormattingEnabled = true;
             this.RequiredDevelopmentScheduleComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.RequiredDevelopmentScheduleComboBoxI.Location = new System.Drawing.Point(297, 77);
             this.RequiredDevelopmentScheduleComboBoxI.Name = "RequiredDevelopmentScheduleComboBoxI";
             this.RequiredDevelopmentScheduleComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -391,11 +391,11 @@
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.FormattingEnabled = true;
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Location = new System.Drawing.Point(297, 55);
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Name = "ApplicationOfSoftwareEngineeringMethodsComboBoxI";
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -408,11 +408,11 @@
             this.UseOfSoftwareToolsComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.UseOfSoftwareToolsComboBoxI.FormattingEnabled = true;
             this.UseOfSoftwareToolsComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.UseOfSoftwareToolsComboBoxI.Location = new System.Drawing.Point(297, 33);
             this.UseOfSoftwareToolsComboBoxI.Name = "UseOfSoftwareToolsComboBoxI";
             this.UseOfSoftwareToolsComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -487,10 +487,10 @@
             this.ProgrammingLanguageExperienceComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProgrammingLanguageExperienceComboBoxI.FormattingEnabled = true;
             this.ProgrammingLanguageExperienceComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий"});
             this.ProgrammingLanguageExperienceComboBoxI.Location = new System.Drawing.Point(297, 113);
             this.ProgrammingLanguageExperienceComboBoxI.Name = "ProgrammingLanguageExperienceComboBoxI";
             this.ProgrammingLanguageExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -503,10 +503,10 @@
             this.VirtualMachineExperienceComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VirtualMachineExperienceComboBoxI.FormattingEnabled = true;
             this.VirtualMachineExperienceComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий"});
             this.VirtualMachineExperienceComboBoxI.Location = new System.Drawing.Point(297, 91);
             this.VirtualMachineExperienceComboBoxI.Name = "VirtualMachineExperienceComboBoxI";
             this.VirtualMachineExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -539,11 +539,11 @@
             this.ApplicationExperienceComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ApplicationExperienceComboBoxI.FormattingEnabled = true;
             this.ApplicationExperienceComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.ApplicationExperienceComboBoxI.Location = new System.Drawing.Point(297, 69);
             this.ApplicationExperienceComboBoxI.Name = "ApplicationExperienceComboBoxI";
             this.ApplicationExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -556,11 +556,11 @@
             this.SoftwareEngineerCapabilityComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SoftwareEngineerCapabilityComboBoxI.FormattingEnabled = true;
             this.SoftwareEngineerCapabilityComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.SoftwareEngineerCapabilityComboBoxI.Location = new System.Drawing.Point(297, 47);
             this.SoftwareEngineerCapabilityComboBoxI.Name = "SoftwareEngineerCapabilityComboBoxI";
             this.SoftwareEngineerCapabilityComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -573,11 +573,11 @@
             this.AnalystCapabilityComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.AnalystCapabilityComboBoxI.FormattingEnabled = true;
             this.AnalystCapabilityComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.AnalystCapabilityComboBoxI.Location = new System.Drawing.Point(297, 25);
             this.AnalystCapabilityComboBoxI.Name = "AnalystCapabilityComboBoxI";
             this.AnalystCapabilityComboBoxI.Size = new System.Drawing.Size(109, 21);
@@ -659,9 +659,9 @@
             this.ProjectTypeComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProjectTypeComboBoxI.FormattingEnabled = true;
             this.ProjectTypeComboBoxI.Items.AddRange(new object[] {
-            "Common",
-            "Semi-independent",
-            "Built-in"});
+            "Распространённый",
+            "Полунезависимый",
+            "Встроенный"});
             this.ProjectTypeComboBoxI.Location = new System.Drawing.Point(392, 32);
             this.ProjectTypeComboBoxI.Name = "ProjectTypeComboBoxI";
             this.ProjectTypeComboBoxI.Size = new System.Drawing.Size(334, 21);
@@ -727,10 +727,10 @@
             this.ReuiredTurnaboutTimeComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ReuiredTurnaboutTimeComboBoxI.FormattingEnabled = true;
             this.ReuiredTurnaboutTimeComboBoxI.Items.AddRange(new object[] {
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.ReuiredTurnaboutTimeComboBoxI.Location = new System.Drawing.Point(205, 118);
             this.ReuiredTurnaboutTimeComboBoxI.Name = "ReuiredTurnaboutTimeComboBoxI";
             this.ReuiredTurnaboutTimeComboBoxI.Size = new System.Drawing.Size(98, 21);
@@ -753,10 +753,10 @@
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.FormattingEnabled = true;
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Items.AddRange(new object[] {
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Location = new System.Drawing.Point(205, 92);
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Name = "VolatilityOfTheVirtualMachineEnvironmentComboBoxI";
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI.Size = new System.Drawing.Size(98, 21);
@@ -769,10 +769,10 @@
             this.MemoryConstraintsComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MemoryConstraintsComboBoxI.FormattingEnabled = true;
             this.MemoryConstraintsComboBoxI.Items.AddRange(new object[] {
-            "Normal",
-            "High",
-            "Very high",
-            "Critical"});
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.MemoryConstraintsComboBoxI.Location = new System.Drawing.Point(205, 66);
             this.MemoryConstraintsComboBoxI.Name = "MemoryConstraintsComboBoxI";
             this.MemoryConstraintsComboBoxI.Size = new System.Drawing.Size(98, 21);
@@ -785,10 +785,10 @@
             this.RunTimePerformanceConstraintsComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RunTimePerformanceConstraintsComboBoxI.FormattingEnabled = true;
             this.RunTimePerformanceConstraintsComboBoxI.Items.AddRange(new object[] {
-            "Normal",
-            "High",
-            "Very high",
-            "Critical"});
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.RunTimePerformanceConstraintsComboBoxI.Location = new System.Drawing.Point(205, 40);
             this.RunTimePerformanceConstraintsComboBoxI.Name = "RunTimePerformanceConstraintsComboBoxI";
             this.RunTimePerformanceConstraintsComboBoxI.Size = new System.Drawing.Size(98, 21);
@@ -859,12 +859,12 @@
             this.ComplexityOfTheProductComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComplexityOfTheProductComboBoxI.FormattingEnabled = true;
             this.ComplexityOfTheProductComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high",
-            "Critical"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.ComplexityOfTheProductComboBoxI.Location = new System.Drawing.Point(206, 80);
             this.ComplexityOfTheProductComboBoxI.Name = "ComplexityOfTheProductComboBoxI";
             this.ComplexityOfTheProductComboBoxI.Size = new System.Drawing.Size(97, 21);
@@ -877,11 +877,11 @@
             this.SizeOfApplicationDatabaseComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SizeOfApplicationDatabaseComboBoxI.FormattingEnabled = true;
             this.SizeOfApplicationDatabaseComboBoxI.Items.AddRange(new object[] {
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
-            this.SizeOfApplicationDatabaseComboBoxI.Location = new System.Drawing.Point(206, 55);
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
+            this.SizeOfApplicationDatabaseComboBoxI.Location = new System.Drawing.Point(206, 53);
             this.SizeOfApplicationDatabaseComboBoxI.Name = "SizeOfApplicationDatabaseComboBoxI";
             this.SizeOfApplicationDatabaseComboBoxI.Size = new System.Drawing.Size(97, 21);
             this.SizeOfApplicationDatabaseComboBoxI.TabIndex = 8;
@@ -893,12 +893,12 @@
             this.RequiredSoftwareRelabilityComboBoxI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredSoftwareRelabilityComboBoxI.FormattingEnabled = true;
             this.RequiredSoftwareRelabilityComboBoxI.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Normal",
-            "High",
-            "Very high"});
-            this.RequiredSoftwareRelabilityComboBoxI.Location = new System.Drawing.Point(206, 30);
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
+            this.RequiredSoftwareRelabilityComboBoxI.Location = new System.Drawing.Point(205, 25);
             this.RequiredSoftwareRelabilityComboBoxI.Name = "RequiredSoftwareRelabilityComboBoxI";
             this.RequiredSoftwareRelabilityComboBoxI.Size = new System.Drawing.Size(97, 21);
             this.RequiredSoftwareRelabilityComboBoxI.TabIndex = 7;
@@ -916,7 +916,7 @@
             // SADLabel
             // 
             this.SADLabel.AutoSize = true;
-            this.SADLabel.Location = new System.Drawing.Point(70, 33);
+            this.SADLabel.Location = new System.Drawing.Point(70, 56);
             this.SADLabel.Name = "SADLabel";
             this.SADLabel.Size = new System.Drawing.Size(130, 13);
             this.SADLabel.TabIndex = 2;
@@ -926,7 +926,7 @@
             // RSRLabel
             // 
             this.RSRLabel.AutoSize = true;
-            this.RSRLabel.Location = new System.Drawing.Point(54, 58);
+            this.RSRLabel.Location = new System.Drawing.Point(55, 28);
             this.RSRLabel.Name = "RSRLabel";
             this.RSRLabel.Size = new System.Drawing.Size(146, 13);
             this.RSRLabel.TabIndex = 1;
@@ -1005,10 +1005,10 @@
             this.RequiredDevelopmentScheduleComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredDevelopmentScheduleComboBoxEd.FormattingEnabled = true;
             this.RequiredDevelopmentScheduleComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий"});
             this.RequiredDevelopmentScheduleComboBoxEd.Location = new System.Drawing.Point(257, 211);
             this.RequiredDevelopmentScheduleComboBoxEd.Name = "RequiredDevelopmentScheduleComboBoxEd";
             this.RequiredDevelopmentScheduleComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1030,13 +1030,13 @@
             this.FacilitiesComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.FacilitiesComboBoxEd.FormattingEnabled = true;
             this.FacilitiesComboBoxEd.Items.AddRange(new object[] {
-            "Extra low",
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Критически низкий",
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критически высокий"});
             this.FacilitiesComboBoxEd.Location = new System.Drawing.Point(257, 181);
             this.FacilitiesComboBoxEd.Name = "FacilitiesComboBoxEd";
             this.FacilitiesComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1058,11 +1058,11 @@
             this.PlatformDifficultyComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PlatformDifficultyComboBoxEd.FormattingEnabled = true;
             this.PlatformDifficultyComboBoxEd.Items.AddRange(new object[] {
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критически высокий"});
             this.PlatformDifficultyComboBoxEd.Location = new System.Drawing.Point(257, 151);
             this.PlatformDifficultyComboBoxEd.Name = "PlatformDifficultyComboBoxEd";
             this.PlatformDifficultyComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1084,11 +1084,11 @@
             this.DevelopedForReusabilityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DevelopedForReusabilityComboBoxEd.FormattingEnabled = true;
             this.DevelopedForReusabilityComboBoxEd.Items.AddRange(new object[] {
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критически высокий"});
             this.DevelopedForReusabilityComboBoxEd.Location = new System.Drawing.Point(257, 121);
             this.DevelopedForReusabilityComboBoxEd.Name = "DevelopedForReusabilityComboBoxEd";
             this.DevelopedForReusabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1110,13 +1110,13 @@
             this.ProductReabilityAndComplexityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProductReabilityAndComplexityComboBoxEd.FormattingEnabled = true;
             this.ProductReabilityAndComplexityComboBoxEd.Items.AddRange(new object[] {
-            "Extra low",
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Критически низкий",
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критически высокий"});
             this.ProductReabilityAndComplexityComboBoxEd.Location = new System.Drawing.Point(257, 91);
             this.ProductReabilityAndComplexityComboBoxEd.Name = "ProductReabilityAndComplexityComboBoxEd";
             this.ProductReabilityAndComplexityComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1138,13 +1138,13 @@
             this.PersonnelExperienceComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PersonnelExperienceComboBoxEd.FormattingEnabled = true;
             this.PersonnelExperienceComboBoxEd.Items.AddRange(new object[] {
-            "Extra low",
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Критически низкий",
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критически высокий"});
             this.PersonnelExperienceComboBoxEd.Location = new System.Drawing.Point(257, 62);
             this.PersonnelExperienceComboBoxEd.Name = "PersonnelExperienceComboBoxEd";
             this.PersonnelExperienceComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1166,13 +1166,13 @@
             this.PersonnelCapabilityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PersonnelCapabilityComboBoxEd.FormattingEnabled = true;
             this.PersonnelCapabilityComboBoxEd.Items.AddRange(new object[] {
-            "Extra low",
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Критически низкий",
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критически высокий"});
             this.PersonnelCapabilityComboBoxEd.Location = new System.Drawing.Point(257, 33);
             this.PersonnelCapabilityComboBoxEd.Name = "PersonnelCapabilityComboBoxEd";
             this.PersonnelCapabilityComboBoxEd.Size = new System.Drawing.Size(117, 21);
@@ -1223,12 +1223,12 @@
             this.ProcessMaturityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProcessMaturityComboBoxEd.FormattingEnabled = true;
             this.ProcessMaturityComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.ProcessMaturityComboBoxEd.Location = new System.Drawing.Point(257, 153);
             this.ProcessMaturityComboBoxEd.Name = "ProcessMaturityComboBoxEd";
             this.ProcessMaturityComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1250,12 +1250,12 @@
             this.TeamCohesionComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.TeamCohesionComboBoxEd.FormattingEnabled = true;
             this.TeamCohesionComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.TeamCohesionComboBoxEd.Location = new System.Drawing.Point(257, 123);
             this.TeamCohesionComboBoxEd.Name = "TeamCohesionComboBoxEd";
             this.TeamCohesionComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1277,12 +1277,12 @@
             this.ArchitectureAndRiskResolutionComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ArchitectureAndRiskResolutionComboBoxEd.FormattingEnabled = true;
             this.ArchitectureAndRiskResolutionComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.ArchitectureAndRiskResolutionComboBoxEd.Location = new System.Drawing.Point(257, 93);
             this.ArchitectureAndRiskResolutionComboBoxEd.Name = "ArchitectureAndRiskResolutionComboBoxEd";
             this.ArchitectureAndRiskResolutionComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1304,12 +1304,12 @@
             this.DevelopmentFlexibilityComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DevelopmentFlexibilityComboBoxEd.FormattingEnabled = true;
             this.DevelopmentFlexibilityComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.DevelopmentFlexibilityComboBoxEd.Location = new System.Drawing.Point(257, 64);
             this.DevelopmentFlexibilityComboBoxEd.Name = "DevelopmentFlexibilityComboBoxEd";
             this.DevelopmentFlexibilityComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1331,12 +1331,12 @@
             this.PrecedentednessComboBoxEd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PrecedentednessComboBoxEd.FormattingEnabled = true;
             this.PrecedentednessComboBoxEd.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.PrecedentednessComboBoxEd.Location = new System.Drawing.Point(257, 35);
             this.PrecedentednessComboBoxEd.Name = "PrecedentednessComboBoxEd";
             this.PrecedentednessComboBoxEd.Size = new System.Drawing.Size(86, 21);
@@ -1456,11 +1456,11 @@
             this.RequiredDevelopmentScheduleComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredDevelopmentScheduleComboBoxPa.FormattingEnabled = true;
             this.RequiredDevelopmentScheduleComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.RequiredDevelopmentScheduleComboBoxPa.Location = new System.Drawing.Point(240, 90);
             this.RequiredDevelopmentScheduleComboBoxPa.Name = "RequiredDevelopmentScheduleComboBoxPa";
             this.RequiredDevelopmentScheduleComboBoxPa.Size = new System.Drawing.Size(161, 21);
@@ -1482,12 +1482,12 @@
             this.MultisiteDevelopmentComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MultisiteDevelopmentComboBoxPa.FormattingEnabled = true;
             this.MultisiteDevelopmentComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.MultisiteDevelopmentComboBoxPa.Location = new System.Drawing.Point(240, 60);
             this.MultisiteDevelopmentComboBoxPa.Name = "MultisiteDevelopmentComboBoxPa";
             this.MultisiteDevelopmentComboBoxPa.Size = new System.Drawing.Size(161, 21);
@@ -1509,11 +1509,11 @@
             this.UseOfSoftwareToolsComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.UseOfSoftwareToolsComboBoxPa.FormattingEnabled = true;
             this.UseOfSoftwareToolsComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.UseOfSoftwareToolsComboBoxPa.Location = new System.Drawing.Point(240, 30);
             this.UseOfSoftwareToolsComboBoxPa.Name = "UseOfSoftwareToolsComboBoxPa";
             this.UseOfSoftwareToolsComboBoxPa.Size = new System.Drawing.Size(161, 21);
@@ -1560,10 +1560,10 @@
             this.PlatformVolatilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PlatformVolatilityComboBoxPa.FormattingEnabled = true;
             this.PlatformVolatilityComboBoxPa.Items.AddRange(new object[] {
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.PlatformVolatilityComboBoxPa.Location = new System.Drawing.Point(240, 75);
             this.PlatformVolatilityComboBoxPa.Name = "PlatformVolatilityComboBoxPa";
             this.PlatformVolatilityComboBoxPa.Size = new System.Drawing.Size(161, 21);
@@ -1585,10 +1585,10 @@
             this.MainStorageConstraintComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MainStorageConstraintComboBoxPa.FormattingEnabled = true;
             this.MainStorageConstraintComboBoxPa.Items.AddRange(new object[] {
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.MainStorageConstraintComboBoxPa.Location = new System.Drawing.Point(240, 50);
             this.MainStorageConstraintComboBoxPa.Name = "MainStorageConstraintComboBoxPa";
             this.MainStorageConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
@@ -1610,10 +1610,10 @@
             this.ExecutionTimeConstraintComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ExecutionTimeConstraintComboBoxPa.FormattingEnabled = true;
             this.ExecutionTimeConstraintComboBoxPa.Items.AddRange(new object[] {
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.ExecutionTimeConstraintComboBoxPa.Location = new System.Drawing.Point(240, 25);
             this.ExecutionTimeConstraintComboBoxPa.Name = "ExecutionTimeConstraintComboBoxPa";
             this.ExecutionTimeConstraintComboBoxPa.Size = new System.Drawing.Size(161, 21);
@@ -1664,11 +1664,11 @@
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.FormattingEnabled = true;
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Location = new System.Drawing.Point(241, 130);
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Name = "DocumentationMatchToLifeCycleNeedsComboBoxPa";
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1690,11 +1690,11 @@
             this.RequiredReusabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredReusabilityComboBoxPa.FormattingEnabled = true;
             this.RequiredReusabilityComboBoxPa.Items.AddRange(new object[] {
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.RequiredReusabilityComboBoxPa.Location = new System.Drawing.Point(241, 99);
             this.RequiredReusabilityComboBoxPa.Name = "RequiredReusabilityComboBoxPa";
             this.RequiredReusabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1716,12 +1716,12 @@
             this.SoftwareProductComplexityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SoftwareProductComplexityComboBoxPa.FormattingEnabled = true;
             this.SoftwareProductComplexityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.SoftwareProductComplexityComboBoxPa.Location = new System.Drawing.Point(241, 74);
             this.SoftwareProductComplexityComboBoxPa.Name = "SoftwareProductComplexityComboBoxPa";
             this.SoftwareProductComplexityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1743,10 +1743,10 @@
             this.DatabaseSizeComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DatabaseSizeComboBoxPa.FormattingEnabled = true;
             this.DatabaseSizeComboBoxPa.Items.AddRange(new object[] {
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.DatabaseSizeComboBoxPa.Location = new System.Drawing.Point(241, 49);
             this.DatabaseSizeComboBoxPa.Name = "DatabaseSizeComboBoxPa";
             this.DatabaseSizeComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1775,11 +1775,11 @@
             this.RequiredSoftwareRelabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RequiredSoftwareRelabilityComboBoxPa.FormattingEnabled = true;
             this.RequiredSoftwareRelabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.RequiredSoftwareRelabilityComboBoxPa.Location = new System.Drawing.Point(241, 24);
             this.RequiredSoftwareRelabilityComboBoxPa.Name = "RequiredSoftwareRelabilityComboBoxPa";
             this.RequiredSoftwareRelabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1832,11 +1832,11 @@
             this.LanguageAndToolExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.LanguageAndToolExperienceComboBoxPa.FormattingEnabled = true;
             this.LanguageAndToolExperienceComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.LanguageAndToolExperienceComboBoxPa.Location = new System.Drawing.Point(321, 88);
             this.LanguageAndToolExperienceComboBoxPa.Name = "LanguageAndToolExperienceComboBoxPa";
             this.LanguageAndToolExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1858,11 +1858,11 @@
             this.PlatformExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PlatformExperienceComboBoxPa.FormattingEnabled = true;
             this.PlatformExperienceComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.PlatformExperienceComboBoxPa.Location = new System.Drawing.Point(321, 59);
             this.PlatformExperienceComboBoxPa.Name = "PlatformExperienceComboBoxPa";
             this.PlatformExperienceComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1884,11 +1884,11 @@
             this.PersonnelCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PersonnelCapabilityComboBoxPa.FormattingEnabled = true;
             this.PersonnelCapabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.PersonnelCapabilityComboBoxPa.Location = new System.Drawing.Point(321, 30);
             this.PersonnelCapabilityComboBoxPa.Name = "PersonnelCapabilityComboBoxPa";
             this.PersonnelCapabilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -1910,11 +1910,11 @@
             this.ProgrammerCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProgrammerCapabilityComboBoxPa.FormattingEnabled = true;
             this.ProgrammerCapabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.ProgrammerCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 88);
             this.ProgrammerCapabilityComboBoxPa.Name = "ProgrammerCapabilityComboBoxPa";
             this.ProgrammerCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
@@ -1936,11 +1936,11 @@
             this.ApplicationExperienceComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ApplicationExperienceComboBoxPa.FormattingEnabled = true;
             this.ApplicationExperienceComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.ApplicationExperienceComboBoxPa.Location = new System.Drawing.Point(105, 59);
             this.ApplicationExperienceComboBoxPa.Name = "ApplicationExperienceComboBoxPa";
             this.ApplicationExperienceComboBoxPa.Size = new System.Drawing.Size(82, 21);
@@ -1962,11 +1962,11 @@
             this.AnalystCapabilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.AnalystCapabilityComboBoxPa.FormattingEnabled = true;
             this.AnalystCapabilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий"});
             this.AnalystCapabilityComboBoxPa.Location = new System.Drawing.Point(105, 30);
             this.AnalystCapabilityComboBoxPa.Name = "AnalystCapabilityComboBoxPa";
             this.AnalystCapabilityComboBoxPa.Size = new System.Drawing.Size(82, 21);
@@ -2017,12 +2017,12 @@
             this.ProcessMaturityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProcessMaturityComboBoxPa.FormattingEnabled = true;
             this.ProcessMaturityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.ProcessMaturityComboBoxPa.Location = new System.Drawing.Point(241, 135);
             this.ProcessMaturityComboBoxPa.Name = "ProcessMaturityComboBoxPa";
             this.ProcessMaturityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -2044,12 +2044,12 @@
             this.TeamCohesionComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.TeamCohesionComboBoxPa.FormattingEnabled = true;
             this.TeamCohesionComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.TeamCohesionComboBoxPa.Location = new System.Drawing.Point(241, 110);
             this.TeamCohesionComboBoxPa.Name = "TeamCohesionComboBoxPa";
             this.TeamCohesionComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -2071,12 +2071,12 @@
             this.ArchitectureAndRiskResolutionComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ArchitectureAndRiskResolutionComboBoxPa.FormattingEnabled = true;
             this.ArchitectureAndRiskResolutionComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.ArchitectureAndRiskResolutionComboBoxPa.Location = new System.Drawing.Point(241, 85);
             this.ArchitectureAndRiskResolutionComboBoxPa.Name = "ArchitectureAndRiskResolutionComboBoxPa";
             this.ArchitectureAndRiskResolutionComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -2098,12 +2098,12 @@
             this.DevelopmentFlexibilityComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DevelopmentFlexibilityComboBoxPa.FormattingEnabled = true;
             this.DevelopmentFlexibilityComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.DevelopmentFlexibilityComboBoxPa.Location = new System.Drawing.Point(241, 60);
             this.DevelopmentFlexibilityComboBoxPa.Name = "DevelopmentFlexibilityComboBoxPa";
             this.DevelopmentFlexibilityComboBoxPa.Size = new System.Drawing.Size(80, 21);
@@ -2125,12 +2125,12 @@
             this.PrecedentednessComboBoxPa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PrecedentednessComboBoxPa.FormattingEnabled = true;
             this.PrecedentednessComboBoxPa.Items.AddRange(new object[] {
-            "Very low",
-            "Low",
-            "Nominal",
-            "High",
-            "Very high",
-            "Extra high"});
+            "Очень низкий",
+            "Низкий",
+            "Средний",
+            "Высокий",
+            "Очень высокий",
+            "Критический"});
             this.PrecedentednessComboBoxPa.Location = new System.Drawing.Point(241, 35);
             this.PrecedentednessComboBoxPa.Name = "PrecedentednessComboBoxPa";
             this.PrecedentednessComboBoxPa.Size = new System.Drawing.Size(80, 21);
