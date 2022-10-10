@@ -184,6 +184,17 @@
             this.label35 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.BasicCocomoTabPage.SuspendLayout();
             this.CalculatePanel.SuspendLayout();
@@ -222,7 +233,7 @@
             this.ProgramScopeLabel.Name = "ProgramScopeLabel";
             this.ProgramScopeLabel.Size = new System.Drawing.Size(107, 13);
             this.ProgramScopeLabel.TabIndex = 1;
-            this.ProgramScopeLabel.Text = "Объём прогарммы:";
+            this.ProgramScopeLabel.Text = "Объём программы:";
             this.ProgramScopeLabel.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // TheProjectTypeLabel
@@ -284,9 +295,9 @@
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label16.Location = new System.Drawing.Point(6, 6);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(124, 13);
+            this.label16.Size = new System.Drawing.Size(118, 13);
             this.label16.TabIndex = 6;
-            this.label16.Text = "Базовые аттрибуты";
+            this.label16.Text = "Базовые атрибуты";
             // 
             // ProjectTypeComboBoxB
             // 
@@ -355,6 +366,7 @@
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label66);
             this.panel4.Controls.Add(this.RequiredDevelopmentScheduleComboBoxI);
             this.panel4.Controls.Add(this.ApplicationOfSoftwareEngineeringMethodsComboBoxI);
             this.panel4.Controls.Add(this.UseOfSoftwareToolsComboBoxI);
@@ -455,15 +467,16 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.Location = new System.Drawing.Point(6, 6);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(121, 13);
+            this.label12.Size = new System.Drawing.Size(115, 13);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Аттрибуты проекта";
+            this.label12.Text = "Атрибуты проекта";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel3
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label65);
             this.panel3.Controls.Add(this.ProgrammingLanguageExperienceComboBoxI);
             this.panel3.Controls.Add(this.VirtualMachineExperienceComboBoxI);
             this.panel3.Controls.Add(this.label7);
@@ -706,6 +719,7 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label64);
             this.panel1.Controls.Add(this.ReuiredTurnaboutTimeComboBoxI);
             this.panel1.Controls.Add(this.RTTLabel);
             this.panel1.Controls.Add(this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI);
@@ -831,15 +845,16 @@
             this.HAPanelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.HAPanelName.Location = new System.Drawing.Point(6, 6);
             this.HAPanelName.Name = "HAPanelName";
-            this.HAPanelName.Size = new System.Drawing.Size(228, 13);
+            this.HAPanelName.Size = new System.Drawing.Size(222, 13);
             this.HAPanelName.TabIndex = 0;
-            this.HAPanelName.Text = "Аттрибуты аппаратного обеспечения";
+            this.HAPanelName.Text = "Атрибуты аппаратного обеспечения";
             this.HAPanelName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ProductAttributesPanel
             // 
             this.ProductAttributesPanel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.ProductAttributesPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProductAttributesPanel.Controls.Add(this.label63);
             this.ProductAttributesPanel.Controls.Add(this.ComplexityOfTheProductComboBoxI);
             this.ProductAttributesPanel.Controls.Add(this.SizeOfApplicationDatabaseComboBoxI);
             this.ProductAttributesPanel.Controls.Add(this.RequiredSoftwareRelabilityComboBoxI);
@@ -969,6 +984,7 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.label68);
             this.panel6.Controls.Add(this.label31);
             this.panel6.Controls.Add(this.RequiredDevelopmentScheduleComboBoxEd);
             this.panel6.Controls.Add(this.label32);
@@ -1191,6 +1207,7 @@
             // panel
             // 
             this.panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel.Controls.Add(this.label67);
             this.panel.Controls.Add(this.label24);
             this.panel.Controls.Add(this.ProcessMaturityComboBoxEd);
             this.panel.Controls.Add(this.label22);
@@ -1428,6 +1445,7 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.label73);
             this.panel12.Controls.Add(this.label49);
             this.panel12.Controls.Add(this.RequiredDevelopmentScheduleComboBoxPa);
             this.panel12.Controls.Add(this.label56);
@@ -1532,6 +1550,7 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.label72);
             this.panel11.Controls.Add(this.label57);
             this.panel11.Controls.Add(this.PlatformVolatilityComboBoxPa);
             this.panel11.Controls.Add(this.label58);
@@ -1632,6 +1651,7 @@
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.label70);
             this.panel10.Controls.Add(this.label50);
             this.panel10.Controls.Add(this.DocumentationMatchToLifeCycleNeedsComboBoxPa);
             this.panel10.Controls.Add(this.label51);
@@ -1798,6 +1818,7 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.label71);
             this.panel9.Controls.Add(this.label48);
             this.panel9.Controls.Add(this.LanguageAndToolExperienceComboBoxPa);
             this.panel9.Controls.Add(this.label47);
@@ -1985,6 +2006,7 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.label69);
             this.panel8.Controls.Add(this.label36);
             this.panel8.Controls.Add(this.ProcessMaturityComboBoxPa);
             this.panel8.Controls.Add(this.label37);
@@ -2194,6 +2216,116 @@
             this.label35.TabIndex = 0;
             this.label35.Text = "Базовые атрибуты";
             // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label63.Location = new System.Drawing.Point(225, 9);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(58, 13);
+            this.label63.TabIndex = 10;
+            this.label63.Text = "Уровень";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label64.Location = new System.Drawing.Point(225, 24);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(58, 13);
+            this.label64.TabIndex = 15;
+            this.label64.Text = "Уровень";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label65.Location = new System.Drawing.Point(324, 6);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(58, 13);
+            this.label65.TabIndex = 14;
+            this.label65.Text = "Уровень";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label66.Location = new System.Drawing.Point(324, 12);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(58, 13);
+            this.label66.TabIndex = 11;
+            this.label66.Text = "Уровень";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label67.Location = new System.Drawing.Point(271, 15);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(58, 13);
+            this.label67.TabIndex = 17;
+            this.label67.Text = "Уровень";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label68.Location = new System.Drawing.Point(286, 14);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(58, 13);
+            this.label68.TabIndex = 31;
+            this.label68.Text = "Уровень";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label69.Location = new System.Drawing.Point(252, 18);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(58, 13);
+            this.label69.TabIndex = 17;
+            this.label69.Text = "Уровень";
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label70.Location = new System.Drawing.Point(253, 6);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(58, 13);
+            this.label70.TabIndex = 25;
+            this.label70.Text = "Уровень";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label71.Location = new System.Drawing.Point(333, 13);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(58, 13);
+            this.label71.TabIndex = 27;
+            this.label71.Text = "Уровень";
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label72.Location = new System.Drawing.Point(295, 8);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(58, 13);
+            this.label72.TabIndex = 13;
+            this.label72.Text = "Уровень";
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label73.Location = new System.Drawing.Point(295, 14);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(58, 13);
+            this.label73.TabIndex = 13;
+            this.label73.Text = "Уровень";
+            // 
             // COCOMOCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2399,6 +2531,17 @@
         private System.Windows.Forms.ComboBox UseOfSoftwareToolsComboBoxPa;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Button CalculatePa;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label69;
     }
 }
 
