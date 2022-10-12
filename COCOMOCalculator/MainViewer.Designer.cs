@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(COCOMOCalculator));
-            this.SizeTextB = new System.Windows.Forms.TextBox();
             this.ProgramScopeLabel = new System.Windows.Forms.Label();
             this.TheProjectTypeLabel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -69,7 +68,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.SizeTextI = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label64 = new System.Windows.Forms.Label();
             this.ReuiredTurnaboutTimeComboBoxI = new System.Windows.Forms.ComboBox();
@@ -125,7 +123,6 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.SizeTextEd = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.PostArchitectureCocomoII = new System.Windows.Forms.TabPage();
             this.CalculatePa = new System.Windows.Forms.Button();
@@ -191,7 +188,6 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.SizeTextPa = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
@@ -215,25 +211,21 @@
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextI)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextEd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextPa)).BeginInit();
+            this.panel13.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // SizeTextB
-            // 
-            this.SizeTextB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SizeTextB.Location = new System.Drawing.Point(169, 33);
-            this.SizeTextB.Name = "SizeTextB";
-            this.SizeTextB.Size = new System.Drawing.Size(486, 20);
-            this.SizeTextB.TabIndex = 0;
             // 
             // ProgramScopeLabel
             // 
             this.ProgramScopeLabel.AutoSize = true;
-            this.ProgramScopeLabel.Location = new System.Drawing.Point(56, 36);
+            this.ProgramScopeLabel.Location = new System.Drawing.Point(91, 36);
             this.ProgramScopeLabel.Name = "ProgramScopeLabel";
-            this.ProgramScopeLabel.Size = new System.Drawing.Size(107, 13);
+            this.ProgramScopeLabel.Size = new System.Drawing.Size(72, 13);
             this.ProgramScopeLabel.TabIndex = 1;
-            this.ProgramScopeLabel.Text = "Объём программы:";
+            this.ProgramScopeLabel.Text = "Объём кода:";
             this.ProgramScopeLabel.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // TheProjectTypeLabel
@@ -257,7 +249,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(760, 437);
+            this.tabControl1.Size = new System.Drawing.Size(760, 440);
             this.tabControl1.TabIndex = 3;
             // 
             // BasicCocomoTabPage
@@ -268,7 +260,7 @@
             this.BasicCocomoTabPage.Location = new System.Drawing.Point(4, 22);
             this.BasicCocomoTabPage.Name = "BasicCocomoTabPage";
             this.BasicCocomoTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.BasicCocomoTabPage.Size = new System.Drawing.Size(752, 411);
+            this.BasicCocomoTabPage.Size = new System.Drawing.Size(752, 414);
             this.BasicCocomoTabPage.TabIndex = 0;
             this.BasicCocomoTabPage.Text = "Basic COCOMO";
             this.BasicCocomoTabPage.UseVisualStyleBackColor = true;
@@ -278,9 +270,9 @@
             this.CalculatePanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CalculatePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CalculatePanel.Controls.Add(this.SizeTextB);
             this.CalculatePanel.Controls.Add(this.label16);
             this.CalculatePanel.Controls.Add(this.ProgramScopeLabel);
-            this.CalculatePanel.Controls.Add(this.SizeTextB);
             this.CalculatePanel.Controls.Add(this.ProjectTypeComboBoxB);
             this.CalculatePanel.Controls.Add(this.TheProjectTypeLabel);
             this.CalculatePanel.Controls.Add(this.ProgrammScopeType);
@@ -344,7 +336,7 @@
             this.IntermediateCocomoTabPage.Location = new System.Drawing.Point(4, 22);
             this.IntermediateCocomoTabPage.Name = "IntermediateCocomoTabPage";
             this.IntermediateCocomoTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.IntermediateCocomoTabPage.Size = new System.Drawing.Size(752, 411);
+            this.IntermediateCocomoTabPage.Size = new System.Drawing.Size(752, 414);
             this.IntermediateCocomoTabPage.TabIndex = 1;
             this.IntermediateCocomoTabPage.Text = "Intermediate COCOMO";
             this.IntermediateCocomoTabPage.UseVisualStyleBackColor = true;
@@ -354,10 +346,10 @@
             this.CalculateI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CalculateI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.CalculateI.Location = new System.Drawing.Point(6, 344);
+            this.CalculateI.Location = new System.Drawing.Point(2, 347);
             this.CalculateI.Margin = new System.Windows.Forms.Padding(2);
             this.CalculateI.Name = "CalculateI";
-            this.CalculateI.Size = new System.Drawing.Size(740, 62);
+            this.CalculateI.Size = new System.Drawing.Size(744, 62);
             this.CalculateI.TabIndex = 12;
             this.CalculateI.Text = "Посчитать";
             this.CalculateI.UseVisualStyleBackColor = true;
@@ -374,9 +366,9 @@
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label12);
-            this.panel4.Location = new System.Drawing.Point(326, 228);
+            this.panel4.Location = new System.Drawing.Point(322, 231);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(420, 111);
+            this.panel4.Size = new System.Drawing.Size(424, 111);
             this.panel4.TabIndex = 11;
             // 
             // label66
@@ -498,9 +490,9 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(326, 78);
+            this.panel3.Location = new System.Drawing.Point(322, 81);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(420, 144);
+            this.panel3.Size = new System.Drawing.Size(424, 144);
             this.panel3.TabIndex = 10;
             // 
             // label65
@@ -663,12 +655,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.SystemColors.Window;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.SizeTextI);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.ProjectTypeComboBoxI);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.SizeTextI);
             this.panel2.Location = new System.Drawing.Point(6, 7);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(740, 65);
@@ -728,13 +720,6 @@
             this.label2.Text = "тысяч строк кода.";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SizeTextI
-            // 
-            this.SizeTextI.Location = new System.Drawing.Point(133, 32);
-            this.SizeTextI.Name = "SizeTextI";
-            this.SizeTextI.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextI.TabIndex = 4;
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -749,7 +734,7 @@
             this.panel1.Controls.Add(this.MCLabel);
             this.panel1.Controls.Add(this.RTPSLabel);
             this.panel1.Controls.Add(this.HAPanelName);
-            this.panel1.Location = new System.Drawing.Point(6, 192);
+            this.panel1.Location = new System.Drawing.Point(2, 195);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(315, 147);
             this.panel1.TabIndex = 1;
@@ -892,7 +877,7 @@
             this.ProductAttributesPanel.Controls.Add(this.SADLabel);
             this.ProductAttributesPanel.Controls.Add(this.RSRLabel);
             this.ProductAttributesPanel.Controls.Add(this.PAPanelName);
-            this.ProductAttributesPanel.Location = new System.Drawing.Point(6, 78);
+            this.ProductAttributesPanel.Location = new System.Drawing.Point(2, 81);
             this.ProductAttributesPanel.Name = "ProductAttributesPanel";
             this.ProductAttributesPanel.Size = new System.Drawing.Size(315, 108);
             this.ProductAttributesPanel.TabIndex = 0;
@@ -1007,7 +992,7 @@
             this.EarlyDesignCocomoII.Controls.Add(this.panel5);
             this.EarlyDesignCocomoII.Location = new System.Drawing.Point(4, 22);
             this.EarlyDesignCocomoII.Name = "EarlyDesignCocomoII";
-            this.EarlyDesignCocomoII.Size = new System.Drawing.Size(752, 411);
+            this.EarlyDesignCocomoII.Size = new System.Drawing.Size(752, 414);
             this.EarlyDesignCocomoII.TabIndex = 2;
             this.EarlyDesignCocomoII.Text = "COCOMO II (Early Design)";
             this.EarlyDesignCocomoII.UseVisualStyleBackColor = true;
@@ -1432,9 +1417,9 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.SizeTextEd);
             this.panel5.Controls.Add(this.label17);
             this.panel5.Controls.Add(this.label18);
-            this.panel5.Controls.Add(this.SizeTextEd);
             this.panel5.Controls.Add(this.label15);
             this.panel5.Location = new System.Drawing.Point(6, 6);
             this.panel5.Name = "panel5";
@@ -1460,13 +1445,6 @@
             this.label18.Text = "тысяч строк кода.";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SizeTextEd
-            // 
-            this.SizeTextEd.Location = new System.Drawing.Point(185, 31);
-            this.SizeTextEd.Name = "SizeTextEd";
-            this.SizeTextEd.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextEd.TabIndex = 7;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -1488,7 +1466,7 @@
             this.PostArchitectureCocomoII.Controls.Add(this.panel7);
             this.PostArchitectureCocomoII.Location = new System.Drawing.Point(4, 22);
             this.PostArchitectureCocomoII.Name = "PostArchitectureCocomoII";
-            this.PostArchitectureCocomoII.Size = new System.Drawing.Size(752, 411);
+            this.PostArchitectureCocomoII.Size = new System.Drawing.Size(752, 414);
             this.PostArchitectureCocomoII.TabIndex = 3;
             this.PostArchitectureCocomoII.Text = "COCOMO II (Post Architecture)";
             this.PostArchitectureCocomoII.UseVisualStyleBackColor = true;
@@ -2281,9 +2259,9 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.SizeTextPa);
             this.panel7.Controls.Add(this.label33);
             this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.SizeTextPa);
             this.panel7.Controls.Add(this.label35);
             this.panel7.Location = new System.Drawing.Point(6, 6);
             this.panel7.Name = "panel7";
@@ -2330,7 +2308,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ClientSize = new System.Drawing.Size(784, 490);
+            this.Controls.Add(this.panel13);
+            this.Controls.Add(this.CopyResultButton);
+            this.Controls.Add(this.SupportButton);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "COCOMOCalculator";
@@ -2370,13 +2351,17 @@
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextI)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextEd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextPa)).EndInit();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox SizeTextB;
         private System.Windows.Forms.Label ProgramScopeLabel;
         private System.Windows.Forms.Label TheProjectTypeLabel;
         private System.Windows.Forms.TabControl tabControl1;
@@ -2404,7 +2389,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox SizeTextI;
         private System.Windows.Forms.ComboBox ComplexityOfTheProductComboBoxI;
         private System.Windows.Forms.ComboBox SizeOfApplicationDatabaseComboBoxI;
         private System.Windows.Forms.ComboBox RequiredSoftwareRelabilityComboBoxI;
@@ -2444,7 +2428,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox SizeTextEd;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox ProcessMaturityComboBoxEd;
@@ -2474,7 +2457,6 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox SizeTextPa;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label36;
@@ -2542,6 +2524,15 @@
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Button SupportButton;
+        private System.Windows.Forms.NumericUpDown SizeTextB;
+        private System.Windows.Forms.NumericUpDown SizeTextI;
+        private System.Windows.Forms.NumericUpDown SizeTextEd;
+        private System.Windows.Forms.NumericUpDown SizeTextPa;
+        private System.Windows.Forms.Label ResultLabel;
+        private System.Windows.Forms.Button CopyResultButton;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Label label74;
     }
 }
 
