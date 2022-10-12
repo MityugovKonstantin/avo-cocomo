@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(COCOMOCalculator));
-            this.SizeTextB = new System.Windows.Forms.TextBox();
             this.ProgramScopeLabel = new System.Windows.Forms.Label();
             this.TheProjectTypeLabel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -42,6 +41,7 @@
             this.IntermediateCocomoTabPage = new System.Windows.Forms.TabPage();
             this.CalculateI = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label66 = new System.Windows.Forms.Label();
             this.RequiredDevelopmentScheduleComboBoxI = new System.Windows.Forms.ComboBox();
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI = new System.Windows.Forms.ComboBox();
             this.UseOfSoftwareToolsComboBoxI = new System.Windows.Forms.ComboBox();
@@ -50,6 +50,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label65 = new System.Windows.Forms.Label();
             this.ProgrammingLanguageExperienceComboBoxI = new System.Windows.Forms.ComboBox();
             this.VirtualMachineExperienceComboBoxI = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -67,8 +68,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.SizeTextI = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label64 = new System.Windows.Forms.Label();
             this.ReuiredTurnaboutTimeComboBoxI = new System.Windows.Forms.ComboBox();
             this.RTTLabel = new System.Windows.Forms.Label();
             this.VolatilityOfTheVirtualMachineEnvironmentComboBoxI = new System.Windows.Forms.ComboBox();
@@ -79,6 +80,7 @@
             this.RTPSLabel = new System.Windows.Forms.Label();
             this.HAPanelName = new System.Windows.Forms.Label();
             this.ProductAttributesPanel = new System.Windows.Forms.Panel();
+            this.label63 = new System.Windows.Forms.Label();
             this.ComplexityOfTheProductComboBoxI = new System.Windows.Forms.ComboBox();
             this.SizeOfApplicationDatabaseComboBoxI = new System.Windows.Forms.ComboBox();
             this.RequiredSoftwareRelabilityComboBoxI = new System.Windows.Forms.ComboBox();
@@ -89,6 +91,7 @@
             this.EarlyDesignCocomoII = new System.Windows.Forms.TabPage();
             this.CalculateEd = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label68 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.RequiredDevelopmentScheduleComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label32 = new System.Windows.Forms.Label();
@@ -105,6 +108,7 @@
             this.PersonnelCapabilityComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label25 = new System.Windows.Forms.Label();
             this.panel = new System.Windows.Forms.Panel();
+            this.label67 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.ProcessMaturityComboBoxEd = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
@@ -119,11 +123,11 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.SizeTextEd = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.PostArchitectureCocomoII = new System.Windows.Forms.TabPage();
             this.CalculatePa = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.label73 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.RequiredDevelopmentScheduleComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label56 = new System.Windows.Forms.Label();
@@ -132,6 +136,7 @@
             this.UseOfSoftwareToolsComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label62 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label72 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.PlatformVolatilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label58 = new System.Windows.Forms.Label();
@@ -140,6 +145,7 @@
             this.ExecutionTimeConstraintComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label60 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label70 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.DocumentationMatchToLifeCycleNeedsComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label51 = new System.Windows.Forms.Label();
@@ -152,6 +158,7 @@
             this.RequiredSoftwareRelabilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label55 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label71 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.LanguageAndToolExperienceComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label47 = new System.Windows.Forms.Label();
@@ -166,6 +173,7 @@
             this.AnalystCapabilityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label42 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label69 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.ProcessMaturityComboBoxPa = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
@@ -180,21 +188,18 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.SizeTextPa = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.folderBrowserDialog2 = new System.Windows.Forms.FolderBrowserDialog();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
+            this.SupportButton = new System.Windows.Forms.Button();
+            this.SizeTextB = new System.Windows.Forms.NumericUpDown();
+            this.SizeTextI = new System.Windows.Forms.NumericUpDown();
+            this.SizeTextEd = new System.Windows.Forms.NumericUpDown();
+            this.SizeTextPa = new System.Windows.Forms.NumericUpDown();
+            this.ResultLabel = new System.Windows.Forms.Label();
+            this.CopyResultButton = new System.Windows.Forms.Button();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label74 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.BasicCocomoTabPage.SuspendLayout();
             this.CalculatePanel.SuspendLayout();
@@ -215,25 +220,21 @@
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextI)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextEd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextPa)).BeginInit();
+            this.panel13.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // SizeTextB
-            // 
-            this.SizeTextB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SizeTextB.Location = new System.Drawing.Point(169, 33);
-            this.SizeTextB.Name = "SizeTextB";
-            this.SizeTextB.Size = new System.Drawing.Size(486, 20);
-            this.SizeTextB.TabIndex = 0;
             // 
             // ProgramScopeLabel
             // 
             this.ProgramScopeLabel.AutoSize = true;
-            this.ProgramScopeLabel.Location = new System.Drawing.Point(56, 36);
+            this.ProgramScopeLabel.Location = new System.Drawing.Point(91, 36);
             this.ProgramScopeLabel.Name = "ProgramScopeLabel";
-            this.ProgramScopeLabel.Size = new System.Drawing.Size(107, 13);
+            this.ProgramScopeLabel.Size = new System.Drawing.Size(72, 13);
             this.ProgramScopeLabel.TabIndex = 1;
-            this.ProgramScopeLabel.Text = "Объём программы:";
+            this.ProgramScopeLabel.Text = "Объём кода:";
             this.ProgramScopeLabel.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // TheProjectTypeLabel
@@ -257,7 +258,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(760, 437);
+            this.tabControl1.Size = new System.Drawing.Size(760, 440);
             this.tabControl1.TabIndex = 3;
             // 
             // BasicCocomoTabPage
@@ -268,7 +269,7 @@
             this.BasicCocomoTabPage.Location = new System.Drawing.Point(4, 22);
             this.BasicCocomoTabPage.Name = "BasicCocomoTabPage";
             this.BasicCocomoTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.BasicCocomoTabPage.Size = new System.Drawing.Size(752, 411);
+            this.BasicCocomoTabPage.Size = new System.Drawing.Size(752, 414);
             this.BasicCocomoTabPage.TabIndex = 0;
             this.BasicCocomoTabPage.Text = "Basic COCOMO";
             this.BasicCocomoTabPage.UseVisualStyleBackColor = true;
@@ -278,9 +279,9 @@
             this.CalculatePanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CalculatePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CalculatePanel.Controls.Add(this.SizeTextB);
             this.CalculatePanel.Controls.Add(this.label16);
             this.CalculatePanel.Controls.Add(this.ProgramScopeLabel);
-            this.CalculatePanel.Controls.Add(this.SizeTextB);
             this.CalculatePanel.Controls.Add(this.ProjectTypeComboBoxB);
             this.CalculatePanel.Controls.Add(this.TheProjectTypeLabel);
             this.CalculatePanel.Controls.Add(this.ProgrammScopeType);
@@ -344,7 +345,7 @@
             this.IntermediateCocomoTabPage.Location = new System.Drawing.Point(4, 22);
             this.IntermediateCocomoTabPage.Name = "IntermediateCocomoTabPage";
             this.IntermediateCocomoTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.IntermediateCocomoTabPage.Size = new System.Drawing.Size(752, 411);
+            this.IntermediateCocomoTabPage.Size = new System.Drawing.Size(752, 414);
             this.IntermediateCocomoTabPage.TabIndex = 1;
             this.IntermediateCocomoTabPage.Text = "Intermediate COCOMO";
             this.IntermediateCocomoTabPage.UseVisualStyleBackColor = true;
@@ -354,10 +355,10 @@
             this.CalculateI.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CalculateI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.CalculateI.Location = new System.Drawing.Point(6, 344);
+            this.CalculateI.Location = new System.Drawing.Point(2, 347);
             this.CalculateI.Margin = new System.Windows.Forms.Padding(2);
             this.CalculateI.Name = "CalculateI";
-            this.CalculateI.Size = new System.Drawing.Size(740, 62);
+            this.CalculateI.Size = new System.Drawing.Size(744, 62);
             this.CalculateI.TabIndex = 12;
             this.CalculateI.Text = "Посчитать";
             this.CalculateI.UseVisualStyleBackColor = true;
@@ -374,10 +375,20 @@
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label12);
-            this.panel4.Location = new System.Drawing.Point(326, 228);
+            this.panel4.Location = new System.Drawing.Point(322, 231);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(420, 111);
+            this.panel4.Size = new System.Drawing.Size(424, 111);
             this.panel4.TabIndex = 11;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label66.Location = new System.Drawing.Point(324, 12);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(58, 13);
+            this.label66.TabIndex = 11;
+            this.label66.Text = "Уровень";
             // 
             // RequiredDevelopmentScheduleComboBoxI
             // 
@@ -393,7 +404,7 @@
             "Очень высокий"});
             this.RequiredDevelopmentScheduleComboBoxI.Location = new System.Drawing.Point(297, 77);
             this.RequiredDevelopmentScheduleComboBoxI.Name = "RequiredDevelopmentScheduleComboBoxI";
-            this.RequiredDevelopmentScheduleComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.RequiredDevelopmentScheduleComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.RequiredDevelopmentScheduleComboBoxI.TabIndex = 9;
             // 
             // ApplicationOfSoftwareEngineeringMethodsComboBoxI
@@ -410,7 +421,7 @@
             "Очень высокий"});
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Location = new System.Drawing.Point(297, 55);
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Name = "ApplicationOfSoftwareEngineeringMethodsComboBoxI";
-            this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.ApplicationOfSoftwareEngineeringMethodsComboBoxI.TabIndex = 8;
             // 
             // UseOfSoftwareToolsComboBoxI
@@ -427,7 +438,7 @@
             "Очень высокий"});
             this.UseOfSoftwareToolsComboBoxI.Location = new System.Drawing.Point(297, 33);
             this.UseOfSoftwareToolsComboBoxI.Name = "UseOfSoftwareToolsComboBoxI";
-            this.UseOfSoftwareToolsComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.UseOfSoftwareToolsComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.UseOfSoftwareToolsComboBoxI.TabIndex = 7;
             // 
             // label9
@@ -488,10 +499,20 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(326, 78);
+            this.panel3.Location = new System.Drawing.Point(322, 81);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(420, 144);
+            this.panel3.Size = new System.Drawing.Size(424, 144);
             this.panel3.TabIndex = 10;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label65.Location = new System.Drawing.Point(324, 6);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(58, 13);
+            this.label65.TabIndex = 14;
+            this.label65.Text = "Уровень";
             // 
             // ProgrammingLanguageExperienceComboBoxI
             // 
@@ -506,7 +527,7 @@
             "Высокий"});
             this.ProgrammingLanguageExperienceComboBoxI.Location = new System.Drawing.Point(297, 113);
             this.ProgrammingLanguageExperienceComboBoxI.Name = "ProgrammingLanguageExperienceComboBoxI";
-            this.ProgrammingLanguageExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.ProgrammingLanguageExperienceComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.ProgrammingLanguageExperienceComboBoxI.TabIndex = 13;
             // 
             // VirtualMachineExperienceComboBoxI
@@ -522,7 +543,7 @@
             "Высокий"});
             this.VirtualMachineExperienceComboBoxI.Location = new System.Drawing.Point(297, 91);
             this.VirtualMachineExperienceComboBoxI.Name = "VirtualMachineExperienceComboBoxI";
-            this.VirtualMachineExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.VirtualMachineExperienceComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.VirtualMachineExperienceComboBoxI.TabIndex = 12;
             // 
             // label7
@@ -559,7 +580,7 @@
             "Очень высокий"});
             this.ApplicationExperienceComboBoxI.Location = new System.Drawing.Point(297, 69);
             this.ApplicationExperienceComboBoxI.Name = "ApplicationExperienceComboBoxI";
-            this.ApplicationExperienceComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.ApplicationExperienceComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.ApplicationExperienceComboBoxI.TabIndex = 9;
             // 
             // SoftwareEngineerCapabilityComboBoxI
@@ -576,7 +597,7 @@
             "Очень высокий"});
             this.SoftwareEngineerCapabilityComboBoxI.Location = new System.Drawing.Point(297, 47);
             this.SoftwareEngineerCapabilityComboBoxI.Name = "SoftwareEngineerCapabilityComboBoxI";
-            this.SoftwareEngineerCapabilityComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.SoftwareEngineerCapabilityComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.SoftwareEngineerCapabilityComboBoxI.TabIndex = 8;
             // 
             // AnalystCapabilityComboBoxI
@@ -593,7 +614,7 @@
             "Очень высокий"});
             this.AnalystCapabilityComboBoxI.Location = new System.Drawing.Point(297, 25);
             this.AnalystCapabilityComboBoxI.Name = "AnalystCapabilityComboBoxI";
-            this.AnalystCapabilityComboBoxI.Size = new System.Drawing.Size(109, 21);
+            this.AnalystCapabilityComboBoxI.Size = new System.Drawing.Size(113, 21);
             this.AnalystCapabilityComboBoxI.TabIndex = 7;
             // 
             // label3
@@ -643,12 +664,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.SystemColors.Window;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.SizeTextI);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.ProjectTypeComboBoxI);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.SizeTextI);
             this.panel2.Location = new System.Drawing.Point(6, 7);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(740, 65);
@@ -708,13 +729,6 @@
             this.label2.Text = "тысяч строк кода.";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SizeTextI
-            // 
-            this.SizeTextI.Location = new System.Drawing.Point(133, 32);
-            this.SizeTextI.Name = "SizeTextI";
-            this.SizeTextI.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextI.TabIndex = 4;
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -729,10 +743,20 @@
             this.panel1.Controls.Add(this.MCLabel);
             this.panel1.Controls.Add(this.RTPSLabel);
             this.panel1.Controls.Add(this.HAPanelName);
-            this.panel1.Location = new System.Drawing.Point(6, 192);
+            this.panel1.Location = new System.Drawing.Point(2, 195);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(315, 147);
             this.panel1.TabIndex = 1;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label64.Location = new System.Drawing.Point(225, 24);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(58, 13);
+            this.label64.TabIndex = 15;
+            this.label64.Text = "Уровень";
             // 
             // ReuiredTurnaboutTimeComboBoxI
             // 
@@ -862,10 +886,20 @@
             this.ProductAttributesPanel.Controls.Add(this.SADLabel);
             this.ProductAttributesPanel.Controls.Add(this.RSRLabel);
             this.ProductAttributesPanel.Controls.Add(this.PAPanelName);
-            this.ProductAttributesPanel.Location = new System.Drawing.Point(6, 78);
+            this.ProductAttributesPanel.Location = new System.Drawing.Point(2, 81);
             this.ProductAttributesPanel.Name = "ProductAttributesPanel";
             this.ProductAttributesPanel.Size = new System.Drawing.Size(315, 108);
             this.ProductAttributesPanel.TabIndex = 0;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label63.Location = new System.Drawing.Point(225, 9);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(58, 13);
+            this.label63.TabIndex = 10;
+            this.label63.Text = "Уровень";
             // 
             // ComplexityOfTheProductComboBoxI
             // 
@@ -967,7 +1001,7 @@
             this.EarlyDesignCocomoII.Controls.Add(this.panel5);
             this.EarlyDesignCocomoII.Location = new System.Drawing.Point(4, 22);
             this.EarlyDesignCocomoII.Name = "EarlyDesignCocomoII";
-            this.EarlyDesignCocomoII.Size = new System.Drawing.Size(752, 411);
+            this.EarlyDesignCocomoII.Size = new System.Drawing.Size(752, 414);
             this.EarlyDesignCocomoII.TabIndex = 2;
             this.EarlyDesignCocomoII.Text = "COCOMO II (Early Design)";
             this.EarlyDesignCocomoII.UseVisualStyleBackColor = true;
@@ -1004,6 +1038,16 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(384, 255);
             this.panel6.TabIndex = 17;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label68.Location = new System.Drawing.Point(286, 14);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(58, 13);
+            this.label68.TabIndex = 31;
+            this.label68.Text = "Уровень";
             // 
             // label31
             // 
@@ -1224,6 +1268,16 @@
             this.panel.Size = new System.Drawing.Size(353, 185);
             this.panel.TabIndex = 1;
             // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label67.Location = new System.Drawing.Point(271, 15);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(58, 13);
+            this.label67.TabIndex = 17;
+            this.label67.Text = "Уровень";
+            // 
             // label24
             // 
             this.label24.Location = new System.Drawing.Point(72, 147);
@@ -1372,9 +1426,9 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.SizeTextEd);
             this.panel5.Controls.Add(this.label17);
             this.panel5.Controls.Add(this.label18);
-            this.panel5.Controls.Add(this.SizeTextEd);
             this.panel5.Controls.Add(this.label15);
             this.panel5.Location = new System.Drawing.Point(6, 6);
             this.panel5.Name = "panel5";
@@ -1400,13 +1454,6 @@
             this.label18.Text = "тысяч строк кода.";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SizeTextEd
-            // 
-            this.SizeTextEd.Location = new System.Drawing.Point(185, 31);
-            this.SizeTextEd.Name = "SizeTextEd";
-            this.SizeTextEd.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextEd.TabIndex = 7;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -1428,7 +1475,7 @@
             this.PostArchitectureCocomoII.Controls.Add(this.panel7);
             this.PostArchitectureCocomoII.Location = new System.Drawing.Point(4, 22);
             this.PostArchitectureCocomoII.Name = "PostArchitectureCocomoII";
-            this.PostArchitectureCocomoII.Size = new System.Drawing.Size(752, 411);
+            this.PostArchitectureCocomoII.Size = new System.Drawing.Size(752, 414);
             this.PostArchitectureCocomoII.TabIndex = 3;
             this.PostArchitectureCocomoII.Text = "COCOMO II (Post Architecture)";
             this.PostArchitectureCocomoII.UseVisualStyleBackColor = true;
@@ -1457,6 +1504,16 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(409, 121);
             this.panel12.TabIndex = 6;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label73.Location = new System.Drawing.Point(295, 14);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(58, 13);
+            this.label73.TabIndex = 13;
+            this.label73.Text = "Уровень";
             // 
             // label49
             // 
@@ -1563,6 +1620,16 @@
             this.panel11.Size = new System.Drawing.Size(409, 108);
             this.panel11.TabIndex = 5;
             // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label72.Location = new System.Drawing.Point(295, 8);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(58, 13);
+            this.label72.TabIndex = 13;
+            this.label72.Text = "Уровень";
+            // 
             // label57
             // 
             this.label57.Location = new System.Drawing.Point(48, 77);
@@ -1667,6 +1734,16 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(328, 162);
             this.panel10.TabIndex = 4;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label70.Location = new System.Drawing.Point(253, 6);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(58, 13);
+            this.label70.TabIndex = 25;
+            this.label70.Text = "Уровень";
             // 
             // label50
             // 
@@ -1836,6 +1913,16 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(409, 120);
             this.panel9.TabIndex = 3;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label71.Location = new System.Drawing.Point(333, 13);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(58, 13);
+            this.label71.TabIndex = 27;
+            this.label71.Text = "Уровень";
             // 
             // label48
             // 
@@ -2023,6 +2110,16 @@
             this.panel8.Size = new System.Drawing.Size(328, 164);
             this.panel8.TabIndex = 2;
             // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label69.Location = new System.Drawing.Point(252, 18);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(58, 13);
+            this.label69.TabIndex = 17;
+            this.label69.Text = "Уровень";
+            // 
             // label36
             // 
             this.label36.Location = new System.Drawing.Point(58, 137);
@@ -2171,9 +2268,9 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.SizeTextPa);
             this.panel7.Controls.Add(this.label33);
             this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.SizeTextPa);
             this.panel7.Controls.Add(this.label35);
             this.panel7.Location = new System.Drawing.Point(6, 6);
             this.panel7.Name = "panel7";
@@ -2199,13 +2296,6 @@
             this.label34.Text = "тысяч строк кода.";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SizeTextPa
-            // 
-            this.SizeTextPa.Location = new System.Drawing.Point(159, 34);
-            this.SizeTextPa.Name = "SizeTextPa";
-            this.SizeTextPa.Size = new System.Drawing.Size(78, 20);
-            this.SizeTextPa.TabIndex = 7;
-            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -2216,121 +2306,149 @@
             this.label35.TabIndex = 0;
             this.label35.Text = "Базовые атрибуты";
             // 
-            // label63
+            // SupportButton
             // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label63.Location = new System.Drawing.Point(225, 9);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(58, 13);
-            this.label63.TabIndex = 10;
-            this.label63.Text = "Уровень";
+            this.SupportButton.Location = new System.Drawing.Point(738, 454);
+            this.SupportButton.Name = "SupportButton";
+            this.SupportButton.Size = new System.Drawing.Size(30, 30);
+            this.SupportButton.TabIndex = 7;
+            this.SupportButton.Text = "?";
+            this.SupportButton.UseVisualStyleBackColor = true;
+            this.SupportButton.Click += new System.EventHandler(this.SupportButton_Click);
             // 
-            // label64
+            // SizeTextB
             // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label64.Location = new System.Drawing.Point(225, 24);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(58, 13);
-            this.label64.TabIndex = 15;
-            this.label64.Text = "Уровень";
+            this.SizeTextB.Location = new System.Drawing.Point(169, 34);
+            this.SizeTextB.Maximum = new decimal(new int[] {
+            -1981284352,
+            -1966660860,
+            0,
+            0});
+            this.SizeTextB.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.SizeTextB.Name = "SizeTextB";
+            this.SizeTextB.Size = new System.Drawing.Size(486, 20);
+            this.SizeTextB.TabIndex = 8;
+            this.SizeTextB.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // label65
+            // SizeTextI
             // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label65.Location = new System.Drawing.Point(324, 6);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(58, 13);
-            this.label65.TabIndex = 14;
-            this.label65.Text = "Уровень";
+            this.SizeTextI.Location = new System.Drawing.Point(133, 32);
+            this.SizeTextI.Maximum = new decimal(new int[] {
+            -1486618624,
+            232830643,
+            0,
+            0});
+            this.SizeTextI.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.SizeTextI.Name = "SizeTextI";
+            this.SizeTextI.Size = new System.Drawing.Size(78, 20);
+            this.SizeTextI.TabIndex = 10;
+            this.SizeTextI.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // label66
+            // SizeTextEd
             // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label66.Location = new System.Drawing.Point(324, 12);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(58, 13);
-            this.label66.TabIndex = 11;
-            this.label66.Text = "Уровень";
+            this.SizeTextEd.Location = new System.Drawing.Point(185, 32);
+            this.SizeTextEd.Maximum = new decimal(new int[] {
+            -1486618624,
+            232830643,
+            0,
+            0});
+            this.SizeTextEd.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.SizeTextEd.Name = "SizeTextEd";
+            this.SizeTextEd.Size = new System.Drawing.Size(78, 20);
+            this.SizeTextEd.TabIndex = 11;
+            this.SizeTextEd.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // label67
+            // SizeTextPa
             // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label67.Location = new System.Drawing.Point(271, 15);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(58, 13);
-            this.label67.TabIndex = 17;
-            this.label67.Text = "Уровень";
+            this.SizeTextPa.Location = new System.Drawing.Point(159, 35);
+            this.SizeTextPa.Maximum = new decimal(new int[] {
+            -1486618624,
+            232830643,
+            0,
+            0});
+            this.SizeTextPa.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.SizeTextPa.Name = "SizeTextPa";
+            this.SizeTextPa.Size = new System.Drawing.Size(78, 20);
+            this.SizeTextPa.TabIndex = 12;
+            this.SizeTextPa.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // label68
+            // ResultLabel
             // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label68.Location = new System.Drawing.Point(286, 14);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(58, 13);
-            this.label68.TabIndex = 31;
-            this.label68.Text = "Уровень";
+            this.ResultLabel.AutoSize = true;
+            this.ResultLabel.Location = new System.Drawing.Point(82, 8);
+            this.ResultLabel.Name = "ResultLabel";
+            this.ResultLabel.Size = new System.Drawing.Size(0, 13);
+            this.ResultLabel.TabIndex = 8;
             // 
-            // label69
+            // CopyResultButton
             // 
-            this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label69.Location = new System.Drawing.Point(252, 18);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(58, 13);
-            this.label69.TabIndex = 17;
-            this.label69.Text = "Уровень";
+            this.CopyResultButton.Location = new System.Drawing.Point(575, 454);
+            this.CopyResultButton.Name = "CopyResultButton";
+            this.CopyResultButton.Size = new System.Drawing.Size(148, 30);
+            this.CopyResultButton.TabIndex = 9;
+            this.CopyResultButton.Text = "Скопировать результат";
+            this.CopyResultButton.UseVisualStyleBackColor = true;
             // 
-            // label70
+            // panel13
             // 
-            this.label70.AutoSize = true;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label70.Location = new System.Drawing.Point(253, 6);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(58, 13);
-            this.label70.TabIndex = 25;
-            this.label70.Text = "Уровень";
+            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel13.Controls.Add(this.label74);
+            this.panel13.Controls.Add(this.ResultLabel);
+            this.panel13.Location = new System.Drawing.Point(16, 454);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(553, 30);
+            this.panel13.TabIndex = 10;
             // 
-            // label71
+            // label74
             // 
-            this.label71.AutoSize = true;
-            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label71.Location = new System.Drawing.Point(333, 13);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(58, 13);
-            this.label71.TabIndex = 27;
-            this.label71.Text = "Уровень";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label72.Location = new System.Drawing.Point(295, 8);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(58, 13);
-            this.label72.TabIndex = 13;
-            this.label72.Text = "Уровень";
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label73.Location = new System.Drawing.Point(295, 14);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(58, 13);
-            this.label73.TabIndex = 13;
-            this.label73.Text = "Уровень";
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label74.Location = new System.Drawing.Point(8, 8);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(72, 13);
+            this.label74.TabIndex = 9;
+            this.label74.Text = "Результат:";
             // 
             // COCOMOCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ClientSize = new System.Drawing.Size(784, 490);
+            this.Controls.Add(this.panel13);
+            this.Controls.Add(this.CopyResultButton);
+            this.Controls.Add(this.SupportButton);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "COCOMOCalculator";
@@ -2370,13 +2488,17 @@
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextI)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextEd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SizeTextPa)).EndInit();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox SizeTextB;
         private System.Windows.Forms.Label ProgramScopeLabel;
         private System.Windows.Forms.Label TheProjectTypeLabel;
         private System.Windows.Forms.TabControl tabControl1;
@@ -2404,7 +2526,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox SizeTextI;
         private System.Windows.Forms.ComboBox ComplexityOfTheProductComboBoxI;
         private System.Windows.Forms.ComboBox SizeOfApplicationDatabaseComboBoxI;
         private System.Windows.Forms.ComboBox RequiredSoftwareRelabilityComboBoxI;
@@ -2444,7 +2565,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox SizeTextEd;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox ProcessMaturityComboBoxEd;
@@ -2474,7 +2594,6 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox SizeTextPa;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label36;
@@ -2542,6 +2661,15 @@
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Button SupportButton;
+        private System.Windows.Forms.NumericUpDown SizeTextB;
+        private System.Windows.Forms.NumericUpDown SizeTextI;
+        private System.Windows.Forms.NumericUpDown SizeTextEd;
+        private System.Windows.Forms.NumericUpDown SizeTextPa;
+        private System.Windows.Forms.Label ResultLabel;
+        private System.Windows.Forms.Button CopyResultButton;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Label label74;
     }
 }
 
